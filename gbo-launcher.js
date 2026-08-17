@@ -1,8 +1,8 @@
 (async () => {
-  const VERSION = "GBO-LAUNCHER-2.3.0";
+  const VERSION = "GBO-LAUNCHER-2.4.0";
   const REPOSITORY_ID = 1337389940;
   const BRANCH = "main";
-  const COLLECTOR_PATHS = ["gbo/collector.js", "collector.js"];
+  const COLLECTOR_PATHS = ["gbo/collector.js"];
   const STATUS_ID = "gbo-refresh-status";
 
   if (!/\.baseball\.cbssports\.com$/i.test(location.hostname)) {
