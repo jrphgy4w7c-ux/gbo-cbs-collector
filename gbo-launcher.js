@@ -1,5 +1,5 @@
 (async () => {
-  const VERSION = "GBO-LAUNCHER-2.2.0";
+  const VERSION = "GBO-LAUNCHER-2.3.0";
   const REPOSITORY_ID = 1337389940;
   const BRANCH = "main";
   const COLLECTOR_PATHS = ["gbo/collector.js", "collector.js"];
@@ -41,7 +41,7 @@
     }
     const box = ensureStatusBox();
     box.textContent = message;
-    box.style.background = tone === "success" ? "#14532d" : tone === "error" ? "#7f1d1d" : "#1f2937";
+    box.style.background = tone === "success" ? "#14532d" : tone === "warning" ? "#92400e" : tone === "error" ? "#7f1d1d" : "#1f2937";
     box.style.display = "block";
     return box;
   }
@@ -106,9 +106,15 @@
     showStatus("GBO Refresh: collecting live CBS data… keep this tab open.");
     console.log(`${VERSION}: running collector from ${selectedPath}`);
     const run = (0, eval)(source);
-    if (run && typeof run.then === "function") await run;
+    const outcome = run && typeof run.then === "function" ? await run : run;
 
-    finishStatus("✓ GBO Refresh complete — snapshot downloaded.", "success", 6000);
+    if (outcome?.source_health?.transactions?.complete === false) {
+      finishStatus("⚠ GBO Refresh downloaded, but transaction history is incomplete. Upload the JSON; do not treat this run as fully GREEN.", "warning", 12000);
+    } else if (Array.isArray(outcome?.errors) && outcome.errors.length) {
+      finishStatus("⚠ GBO Refresh downloaded with collector errors. Upload the JSON for review.", "warning", 12000);
+    } else {
+      finishStatus("✓ GBO Refresh complete — snapshot downloaded.", "success", 6000);
+    }
   } catch (error) {
     console.error(`${VERSION}:`, error);
     finishStatus("GBO Refresh failed — no snapshot downloaded.", "error", 10000);
