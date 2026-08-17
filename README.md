@@ -1,25 +1,35 @@
-# Grant Front Office collector infrastructure
+# Grant Front Office
 
-Private-use data-acquisition infrastructure for Grant Baseball Operations (GBO) and Grant Football Operations (GFO). The repository is being evolved toward a sport-neutral front-office layout while preserving the currently working production paths until migration is validated.
+Shared private-use acquisition infrastructure for Grant Baseball Operations (GBO) and Grant Football Operations (GFO).
 
-## GBO CBS collector
+## Layout
 
-- `collector.js` — current production CBS collector.
-- `gbo-launcher.js` — stable loader layer. It resolves repository files through immutable GitHub repository ID `1337389940`, so repository renames do not require changing the browser bookmarklet.
-- `bookmarklet.txt` — permanent GBO Refresh bookmarklet. It loads only `gbo-launcher.js`; future collector-path changes are absorbed by the launcher.
-- `manifest.json` — launcher/collector contract and current versions.
+- `gbo/` — canonical GBO/CBS acquisition code.
+- `gfo/` — canonical GFO/Sleeper acquisition, normalization, validation and provenance code.
+- `.github/workflows/` — thin orchestration only.
+- `gbo-launcher.js` — stable GBO browser-loader layer, intentionally kept at a fixed root path because the permanent browser bookmarklet resolves it through immutable repository ID `1337389940`.
+- `bookmarklet.txt` — permanent GBO Refresh bookmarklet.
+- `manifest.json` — GBO launcher/collector contract and migration state.
 
-The GBO collector runs only inside Grant's already-authenticated CBS Fantasy Baseball browser session and downloads a sanitized JSON snapshot locally. This repository contains no CBS username, password, session cookie, access token, league password, or snapshot data.
+## GBO
+
+`gbo/collector.js` is the canonical CBS collector. It runs only inside Grant's already-authenticated CBS Fantasy Baseball browser session and downloads a sanitized JSON snapshot locally. During the current migration, legacy root `collector.js` remains only as a rollback path; it should be retired after post-migration browser validation.
 
 ## GFO
 
 - `gfo/collector.py` — canonical Sleeper normalization, validation, transaction-provenance and snapshot-diff collector.
-- `.github/workflows/gfo-refresh.yml` — thin scheduled orchestration layer.
+- `.github/workflows/gfo-refresh.yml` — scheduled/dispatch orchestration layer.
 
-## Architecture rule
+## Architecture contracts
 
-Protect working behavior during refactors. Proposed replacements must meet or exceed the existing system's correctness, completeness, provenance, continuity, reliability and recoverability before the older path is retired.
+- Protect requirements, not implementations.
+- One owner per responsibility.
+- Prefer consolidation over accretion.
+- Treat live authoritative platform evidence as current-state authority; durable databases are organizational history.
+- A replacement must meet or exceed the known-good system for correctness, completeness, provenance, continuity, reliability and recoverability before promotion.
+- Keep rollback paths during migration, then retire them after successful validation rather than retaining permanent duplicate implementations.
+- After a material refactor reaches GREEN, prefer stability and normal-run evidence over further churn.
 
 ## Security
 
-Collectors are read-only. Credentials remain inside the authenticated source-platform session where applicable and are not persisted in repository artifacts.
+Collectors are read-only. CBS credentials remain inside the authenticated browser session and are not persisted. Repository artifacts must not contain source-platform passwords, session cookies, access tokens, or private snapshot data.
