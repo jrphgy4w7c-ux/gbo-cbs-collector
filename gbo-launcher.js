@@ -1,8 +1,8 @@
 (async () => {
-  const VERSION = "GBO-LAUNCHER-2.4.0";
+  const VERSION = "GBO-LAUNCHER-2.4.1";
   const REPOSITORY_ID = 1337389940;
   const BRANCH = "main";
-  const COLLECTOR_PATHS = ["gbo/collector.js"];
+  const COLLECTOR_PATH = "gbo/collector.js";
   const STATUS_ID = "gbo-refresh-status";
 
   if (!/\.baseball\.cbssports\.com$/i.test(location.hostname)) {
@@ -81,30 +81,13 @@
   try {
     if (!window.CBSi?.token) throw new Error("CBS authentication token not found. Make sure you are logged in.");
 
-    let source = null;
-    let selectedPath = null;
-    let lastError = null;
-
-    for (let i = 0; i < COLLECTOR_PATHS.length; i++) {
-      const path = COLLECTOR_PATHS[i];
-      try {
-        showStatus(i === 0 ? "GBO Refresh: loading collector…" : "GBO Refresh: trying safe fallback…");
-        console.log(`${VERSION}: loading GBO collector from immutable repository ID ${REPOSITORY_ID}: ${path}`);
-        const candidate = await loadRepositoryFile(path);
-        if (!candidate.includes("GBO-CBS-")) throw new Error(`Unexpected collector content at ${path}`);
-        source = candidate;
-        selectedPath = path;
-        break;
-      } catch (error) {
-        lastError = error;
-        console.warn(`${VERSION}: collector path failed: ${path}`, error);
-      }
-    }
-
-    if (!source) throw lastError || new Error("No GBO collector path could be loaded.");
+    showStatus("GBO Refresh: loading collector…");
+    console.log(`${VERSION}: loading GBO collector from immutable repository ID ${REPOSITORY_ID}: ${COLLECTOR_PATH}`);
+    const source = await loadRepositoryFile(COLLECTOR_PATH);
+    if (!source.includes("GBO-CBS-")) throw new Error(`Unexpected collector content at ${COLLECTOR_PATH}`);
 
     showStatus("GBO Refresh: collecting live CBS data… keep this tab open.");
-    console.log(`${VERSION}: running collector from ${selectedPath}`);
+    console.log(`${VERSION}: running collector from ${COLLECTOR_PATH}`);
     const run = (0, eval)(source);
     const outcome = run && typeof run.then === "function" ? await run : run;
 
