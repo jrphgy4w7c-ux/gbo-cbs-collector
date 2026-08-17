@@ -1,5 +1,5 @@
 (async () => {
-  const VERSION = "GBO-CBS-1.2.0";
+  const VERSION = "GBO-CBS-1.2.1";
   const GBO_TEAM_ID = "3";
   const startedAt = new Date();
   const leagueOrigin = location.origin;
@@ -163,10 +163,30 @@
     return { max_page: maxPage, max_start_row: maxStart, discovered_start_rows: [...starts].sort((a, b) => a - b) };
   }
 
+  async function fetchTransactionPage(startRow, maxAttempts = 3) {
+    let lastResult = null;
+    let lastError = null;
+    for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+      const result = await fetchLeagueDocument(`/transactions?start_row=${startRow}`, false);
+      lastResult = result;
+      if (result.ok) {
+        const table = findTransactionTable(result.document);
+        if (table) return { result, table, attempts: attempt };
+        lastError = "transaction table not found";
+      } else {
+        lastError = result.error || "transaction page fetch failed";
+      }
+      if (attempt < maxAttempts) await new Promise(resolve => setTimeout(resolve, 250 * attempt));
+    }
+    warnings.push(`transactions start_row=${startRow}: ${lastError} after ${maxAttempts} attempts`);
+    return { result: lastResult || { ok: false, error: lastError }, table: null, attempts: maxAttempts };
+  }
+
   async function collectTransactions() {
     const PAGE_SIZE = 30, MAX_PAGES = 100;
-    const first = await fetchLeagueDocument("/transactions?start_row=1");
-    if (!first.ok) return { ok: false, complete: false, stop_reason: "first_page_fetch_error", headers: [], rows: [], unique_transaction_rows: 0, pages_read: 0, pages_expected: null, pages: [] };
+    const firstPage = await fetchTransactionPage(1);
+    const first = firstPage.result;
+    if (!first?.ok || !firstPage.table) return { ok: false, complete: false, stop_reason: "first_page_fetch_error", headers: [], rows: [], unique_transaction_rows: 0, pages_read: 0, pages_expected: null, pages: [] };
     const pageInfo = deriveTransactionPageCount(first.document);
     const expectedPages = Math.min(pageInfo.max_page, MAX_PAGES);
     if (pageInfo.max_page > MAX_PAGES) warnings.push(`transactions: discovered ${pageInfo.max_page} pages; capped at ${MAX_PAGES}`);
@@ -174,10 +194,11 @@
     let headers = [], complete = true;
     for (let page = 1; page <= expectedPages; page++) {
       const startRow = 1 + (page - 1) * PAGE_SIZE;
-      const result = page === 1 ? first : await fetchLeagueDocument(`/transactions?start_row=${startRow}`);
-      if (!result.ok) { complete = false; pages.push({ page, start_row: startRow, ok: false, error: result.error }); continue; }
-      const table = findTransactionTable(result.document);
-      if (!table) { complete = false; pages.push({ page, start_row: startRow, ok: true, table_found: false }); continue; }
+      const fetched = page === 1 ? firstPage : await fetchTransactionPage(startRow);
+      const result = fetched.result;
+      if (!result?.ok) { complete = false; pages.push({ page, start_row: startRow, ok: false, table_found: false, attempts: fetched.attempts, error: result?.error || "fetch failed" }); continue; }
+      const table = fetched.table;
+      if (!table) { complete = false; pages.push({ page, start_row: startRow, ok: true, table_found: false, attempts: fetched.attempts }); continue; }
       if (!headers.length) headers = table.headers;
       const dataRows = table.rows.filter(isTransactionDataRow);
       let newRows = 0;
@@ -185,10 +206,10 @@
         const key = JSON.stringify(row);
         if (!seen.has(key)) { seen.add(key); allRows.push(row); newRows++; }
       }
-      pages.push({ page, start_row: startRow, ok: true, table_found: true, data_rows_found: dataRows.length, new_unique_rows: newRows });
+      pages.push({ page, start_row: startRow, ok: true, table_found: true, attempts: fetched.attempts, data_rows_found: dataRows.length, new_unique_rows: newRows });
     }
     if (pageInfo.max_page > MAX_PAGES) complete = false;
-    return { ok: true, headers, rows: allRows, unique_transaction_rows: allRows.length, pages_read: pages.filter(p => p.ok).length, pages_expected: pageInfo.max_page, complete, stop_reason: complete ? "all_discovered_pages_read" : "incomplete_page_set", pagination: pageInfo, pages };
+    return { ok: true, headers, rows: allRows, unique_transaction_rows: allRows.length, pages_read: pages.filter(p => p.ok && p.table_found).length, pages_expected: pageInfo.max_page, complete, stop_reason: complete ? "all_discovered_pages_read" : "incomplete_page_set", pagination: pageInfo, pages };
   }
 
   const rosterUrl = "https://api.cbssports.com/fantasy/league/rosters?version=3.0&team_id=all&response_format=JSON&access_token=" + encodeURIComponent(secret);
@@ -297,4 +318,12 @@
   console.log("WAIVER REPORT DATA:", !!waiverReport.data_present);
   console.log("WARNINGS:", warnings.length);
   if (warnings.length) console.log("SAFE WARNINGS:", warnings);
+
+  return {
+    filename,
+    source_health: snapshot.source_health,
+    validation: snapshot.validation,
+    warnings: [...warnings],
+    errors: [...errors]
+  };
 })();
