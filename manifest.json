@@ -1,7 +1,7 @@
 {
   "front_office_repository": "grant-front-office",
   "repository_id": 1337389940,
-  "launcher_version": "GBO-LAUNCHER-2.4.0",
+  "launcher_version": "GBO-LAUNCHER-2.4.1",
   "launcher_path": "gbo-launcher.js",
   "collector_version": "GBO-CBS-1.2.1",
   "collector_path": "gbo/collector.js",
@@ -17,6 +17,6 @@
   },
   "migration_status": "complete",
   "validated_at": "2026-08-17T20:21:36Z",
-  "updated_at": "2026-08-17T20:24:00Z",
-  "notes": "Permanent bookmarklet resolves the stable GBO launcher through immutable GitHub repository ID 1337389940. Canonical GBO acquisition code is gbo/collector.js. Post-rename browser validation succeeded with GBO-CBS-1.2.1: 24/24 transaction pages complete, 535 unique transaction rows, and zero collector warnings/errors. The legacy root collector rollback path has been retired."
+  "updated_at": "2026-08-17T20:44:00Z",
+  "notes": "Permanent bookmarklet resolves the stable GBO launcher through immutable GitHub repository ID 1337389940. Canonical GBO acquisition code is gbo/collector.js. Post-rename browser validation succeeded with GBO-CBS-1.2.1: 24/24 transaction pages complete, 535 unique transaction rows, and zero collector warnings/errors. The legacy root collector rollback path has been retired. Launcher 2.4.1 removes the obsolete single-item fallback loop and loads the canonical collector directly without changing collection, status, lock, or health-check behavior."
 }
