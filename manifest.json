@@ -1,7 +1,9 @@
 {
-  "launcher_version": 1,
+  "launcher_version": "GBO-LAUNCHER-2.0.0",
+  "repository_id": 1337389940,
+  "launcher_path": "gbo-launcher.js",
   "collector_version": "GBO-CBS-1.2.0",
   "collector_path": "collector.js",
-  "updated_at": "2026-08-17T16:34:00Z",
-  "notes": "Permanent bookmarklet loads the current collector from collector.js. Future collector updates should replace collector.js without changing bookmarklet.txt."
+  "updated_at": "2026-08-17T19:36:00Z",
+  "notes": "Permanent bookmarklet resolves the live GBO launcher through the immutable GitHub repository ID. Repository renames and collector-path moves should be absorbed by gbo-launcher.js without requiring another bookmarklet change."
 }
