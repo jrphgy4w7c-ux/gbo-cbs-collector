@@ -1,11 +1,10 @@
 {
   "front_office_repository": "grant-front-office",
   "repository_id": 1337389940,
-  "launcher_version": "GBO-LAUNCHER-2.3.0",
+  "launcher_version": "GBO-LAUNCHER-2.4.0",
   "launcher_path": "gbo-launcher.js",
   "collector_version": "GBO-CBS-1.2.1",
   "collector_path": "gbo/collector.js",
-  "rollback_collector_path": "collector.js",
   "launcher_feedback": {
     "visible_status": true,
     "duplicate_run_lock": true,
@@ -16,6 +15,8 @@
     "bounded_page_retries": 3,
     "pages_read_requires_table": true
   },
-  "updated_at": "2026-08-17T20:18:00Z",
-  "notes": "Permanent bookmarklet resolves the live GBO launcher through immutable GitHub repository ID 1337389940. Collector v1.2.1 retries transient CBS transaction-page responses up to three times and counts a page as read only when the transaction table is present. Launcher v2.3.0 distinguishes a fully healthy download from a partial transaction-history run. The legacy root collector remains rollback-only pending one clean browser validation of v1.2.1."
+  "migration_status": "complete",
+  "validated_at": "2026-08-17T20:21:36Z",
+  "updated_at": "2026-08-17T20:24:00Z",
+  "notes": "Permanent bookmarklet resolves the stable GBO launcher through immutable GitHub repository ID 1337389940. Canonical GBO acquisition code is gbo/collector.js. Post-rename browser validation succeeded with GBO-CBS-1.2.1: 24/24 transaction pages complete, 535 unique transaction rows, and zero collector warnings/errors. The legacy root collector rollback path has been retired."
 }
