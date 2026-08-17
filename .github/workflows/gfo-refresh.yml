@@ -13,6 +13,10 @@ permissions:
   contents: read
   actions: read
 
+concurrency:
+  group: gfo-refresh-provenance
+  cancel-in-progress: true
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
