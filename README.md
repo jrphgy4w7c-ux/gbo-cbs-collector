@@ -13,7 +13,7 @@ Shared private-use acquisition infrastructure for Grant Baseball Operations (GBO
 
 ## GBO
 
-`gbo/collector.js` is the canonical CBS collector. It runs only inside Grant's already-authenticated CBS Fantasy Baseball browser session and downloads a sanitized JSON snapshot locally. During the current migration, legacy root `collector.js` remains only as a rollback path; it should be retired after post-migration browser validation.
+`gbo/collector.js` is the canonical CBS collector. It runs only inside Grant's already-authenticated CBS Fantasy Baseball browser session and downloads a sanitized JSON snapshot locally. The permanent bookmarklet resolves the root launcher by immutable repository ID, so repository renames do not require replacing the browser button. The launcher provides visible progress feedback, prevents duplicate simultaneous runs and warns when transaction history is incomplete.
 
 ## GFO
 
