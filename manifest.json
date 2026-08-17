@@ -1,11 +1,16 @@
 {
   "front_office_repository": "grant-front-office",
   "repository_id": 1337389940,
-  "launcher_version": "GBO-LAUNCHER-2.1.0",
+  "launcher_version": "GBO-LAUNCHER-2.2.0",
   "launcher_path": "gbo-launcher.js",
   "collector_version": "GBO-CBS-1.2.0",
   "collector_path": "gbo/collector.js",
   "rollback_collector_path": "collector.js",
-  "updated_at": "2026-08-17T19:48:00Z",
-  "notes": "Permanent bookmarklet resolves the live GBO launcher through immutable GitHub repository ID 1337389940. The launcher now prefers the canonical gbo/collector.js path and temporarily falls back to the legacy root collector.js until post-migration browser validation is complete."
+  "launcher_feedback": {
+    "visible_status": true,
+    "duplicate_run_lock": true,
+    "keep_tab_open_message": true
+  },
+  "updated_at": "2026-08-17T19:56:00Z",
+  "notes": "Permanent bookmarklet resolves the live GBO launcher through immutable GitHub repository ID 1337389940. Launcher v2.2.0 adds immediate on-page progress feedback and prevents duplicate simultaneous refreshes. It prefers canonical gbo/collector.js and temporarily falls back to legacy root collector.js until post-migration browser validation is complete."
 }
