@@ -1,0 +1,159 @@
+name: GFO Refresh Provenance
+
+on:
+  push:
+    paths:
+      - .github/workflows/gfo-refresh.yml
+  workflow_dispatch:
+  schedule:
+    - cron: '30 10 * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Fetch and validate Sleeper state
+        shell: python
+        run: |
+          import json, sys, time, urllib.request
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          LEAGUE = "1315882920837128192"
+          GRANT = "340645503257550848"
+          BASE = "https://api.sleeper.app/v1"
+          out = Path("gfo_refresh")
+          out.mkdir(exist_ok=True)
+
+          def get(url, attempts=4):
+              err = None
+              for i in range(attempts):
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent":"GFO-Refresh-GitHub/1.0"})
+                      with urllib.request.urlopen(req, timeout=25) as r:
+                          return json.loads(r.read().decode("utf-8")), {"ok": True, "status": r.status, "attempts": i+1, "url": url}
+                  except Exception as e:
+                      err = f"{type(e).__name__}: {e}"
+                      if i < attempts - 1:
+                          time.sleep(1.5 * (2 ** i))
+              return None, {"ok": False, "status": None, "attempts": attempts, "url": url, "error": err}
+
+          urls = {
+              "league": f"{BASE}/league/{LEAGUE}",
+              "rosters": f"{BASE}/league/{LEAGUE}/rosters",
+              "users": f"{BASE}/league/{LEAGUE}/users",
+              "traded_picks": f"{BASE}/league/{LEAGUE}/traded_picks",
+          }
+          manifest = {"collected_at": datetime.now(timezone.utc).isoformat(), "transport":"github_actions_https", "core":{}, "transactions":{}}
+          data = {}
+          for k,u in urls.items():
+              data[k], manifest["core"][k] = get(u)
+
+          failed_core = [k for k,v in manifest["core"].items() if not v["ok"]]
+          if failed_core:
+              manifest["core_status"] = "PARTIAL"
+              manifest["provenance_status"] = "UNKNOWN"
+              Path("gfo_refresh/manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True))
+              print(json.dumps(manifest, indent=2))
+              sys.exit(2)
+
+          league = data["league"]
+          rosters = data["rosters"]
+          users = data["users"]
+          expected = int(league.get("total_rosters") or league.get("settings",{}).get("num_teams") or 0)
+          issues = []
+          if len(rosters) != expected:
+              issues.append({"code":"ROSTER_COUNT","expected":expected,"actual":len(rosters)})
+          user_ids = {str(u.get("user_id")) for u in users}
+          owners = {}
+          grant_rosters = []
+          for r in rosters:
+              rid = int(r["roster_id"])
+              oid = str(r.get("owner_id"))
+              if oid not in user_ids:
+                  issues.append({"code":"OWNER_MAPPING","roster_id":rid,"owner_id":oid})
+              if oid == GRANT:
+                  grant_rosters.append(rid)
+              pset = {str(x) for x in (r.get("players") or [])}
+              reserve = {str(x) for x in (r.get("reserve") or [])}
+              taxi = {str(x) for x in (r.get("taxi") or [])}
+              if not reserve.issubset(pset):
+                  issues.append({"code":"RESERVE_NOT_OWNED","roster_id":rid})
+              if not taxi.issubset(pset):
+                  issues.append({"code":"TAXI_NOT_OWNED","roster_id":rid})
+              for pid in pset:
+                  if pid in owners and owners[pid] != rid:
+                      issues.append({"code":"DUPLICATE_OWNERSHIP","player_id":pid,"rosters":[owners[pid],rid]})
+                  owners[pid] = rid
+          if len(grant_rosters) != 1:
+              issues.append({"code":"GRANT_ROSTER_MAPPING","matches":grant_rosters})
+
+          all_tx = {}
+          failed_rounds = []
+          round_counts = {}
+          for rnd in range(0,19):
+              url = f"{BASE}/league/{LEAGUE}/transactions/{rnd}"
+              txs, meta = get(url)
+              manifest["transactions"][str(rnd)] = meta
+              if not meta["ok"]:
+                  failed_rounds.append(rnd)
+                  continue
+              if not isinstance(txs, list):
+                  issues.append({"code":"TX_NOT_LIST","round":rnd})
+                  continue
+              round_counts[str(rnd)] = len(txs)
+              for tx in txs:
+                  tid = str(tx.get("transaction_id"))
+                  if tid and tid != "None":
+                      all_tx[tid] = tx
+
+          manifest["validation_issues"] = issues
+          manifest["failed_transaction_rounds"] = failed_rounds
+          manifest["round_counts"] = round_counts
+          manifest["unique_transactions"] = len(all_tx)
+          manifest["core_status"] = "GREEN" if not issues else "PARTIAL"
+          manifest["provenance_status"] = "GREEN" if not failed_rounds else "PARTIAL"
+
+          grant = next((r for r in rosters if str(r.get("owner_id")) == GRANT), None)
+          if grant:
+              budget = int(league.get("settings",{}).get("waiver_budget") or 0)
+              used = int(grant.get("settings",{}).get("waiver_budget_used") or 0)
+              manifest["grant"] = {
+                  "roster_id": grant.get("roster_id"),
+                  "players": len(grant.get("players") or []),
+                  "reserve": len(grant.get("reserve") or []),
+                  "taxi": len(grant.get("taxi") or []),
+                  "faab_used": used,
+                  "faab_remaining": budget-used,
+                  "waiver_position": grant.get("settings",{}).get("waiver_position"),
+              }
+
+          Path("gfo_refresh/manifest.json").write_text(json.dumps(manifest, indent=2, sort_keys=True))
+          Path("gfo_refresh/transactions.json").write_text(json.dumps(sorted(all_tx.values(), key=lambda x:(int(x.get("created") or 0), str(x.get("transaction_id")))), indent=2, sort_keys=True))
+          Path("gfo_refresh/rosters.json").write_text(json.dumps(rosters, indent=2, sort_keys=True))
+          Path("gfo_refresh/traded_picks.json").write_text(json.dumps(data["traded_picks"], indent=2, sort_keys=True))
+
+          print(json.dumps({
+              "core_status": manifest["core_status"],
+              "provenance_status": manifest["provenance_status"],
+              "failed_rounds": failed_rounds,
+              "unique_transactions": len(all_tx),
+              "grant": manifest.get("grant"),
+              "issues": issues,
+          }, indent=2))
+
+          if issues or failed_rounds:
+              sys.exit(3)
+
+      - name: Upload GFO Refresh artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gfo-refresh-provenance
+          path: gfo_refresh/
+          if-no-files-found: error
+          retention-days: 30
