@@ -1,0 +1,7 @@
+{
+  "launcher_version": 1,
+  "collector_version": "GBO-CBS-1.2.0",
+  "collector_path": "collector.js",
+  "updated_at": "2026-08-17T16:34:00Z",
+  "notes": "Permanent bookmarklet loads the current collector from collector.js. Future collector updates should replace collector.js without changing bookmarklet.txt."
+}
