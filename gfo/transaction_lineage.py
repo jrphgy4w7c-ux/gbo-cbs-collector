@@ -88,6 +88,7 @@ def build(snapshot, txs, players, labels):
     transfer_out = 0
     unresolved = set()
     ledger = []
+    paid_claims = []
 
     for t in sorted(txs, key=lambda x: (int(x.get("status_updated") or x.get("created") or 0), str(x.get("transaction_id")))):
         if t.get("status") != "complete":
@@ -129,6 +130,16 @@ def build(snapshot, txs, players, labels):
         for row in adds + drops:
             if not row["resolved"]:
                 unresolved.add(row["player_id"])
+
+        if spend > 0:
+            paid_claims.append({
+                "transaction_id": str(t.get("transaction_id")),
+                "effective_at_ms": int(t.get("status_updated") or t.get("created") or 0),
+                "amount": spend,
+                "adds": adds,
+                "drops": drops,
+                "faab_balance_after": balance,
+            })
 
         # Also resolve every player moved in a Grant trade, not just Grant's side, so the
         # transaction remains understandable without reopening the raw league ledger.
@@ -185,6 +196,7 @@ def build(snapshot, txs, players, labels):
         "grant_roster": labels.get(grant_id, {"roster_id":grant_id}),
         "starting_faab": starting_budget,
         "paid_claim_spend": paid_claim_spend,
+        "paid_claims": paid_claims,
         "faab_transfer_in": transfer_in,
         "faab_transfer_out": transfer_out,
         "sleeper_faab_used": state_used,
@@ -211,6 +223,7 @@ def self_test():
     assert out["transactions"][0]["grant_adds"][0]["name"] == "Added Player"
     assert out["transactions"][0]["grant_drops"][0]["name"] == "Dropped Player"
     assert out["transactions"][0]["grant_faab_balance_after"] == 183
+    assert out["paid_claims"][0]["adds"][0]["name"] == "Added Player"
     print("PASS transaction_lineage")
     return 0
 
@@ -236,6 +249,7 @@ def main():
         "transaction_lineage_status":out["status"],
         "transactions":out["transaction_count"],
         "paid_claim_spend":out["paid_claim_spend"],
+        "paid_claims":len(out["paid_claims"]),
         "sleeper_faab_used":out["sleeper_faab_used"],
         "issues":out["issues"],
     }, indent=2))
