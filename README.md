@@ -28,11 +28,18 @@ Validated snapshots are reconciled and promoted under `gbo/current/`; compact fr
 
 Authority is domain-specific rather than one universal ranking.
 
-- For platform-recorded facts — ownership, roster placement, completed transactions, FAAB/budget, salaries/cap where supplied, and draft-pick movement — the newest successful authoritative platform-derived state controls at its recorded timestamp.
+- For platform-recorded facts — ownership, roster placement, completed transactions, FAAB/budget, salaries/cap where supplied, and draft-pick movement — the newest successful authoritative platform-derived state controls for the effective time it actually describes.
 - Grant's direct statements are authoritative for intent, strategy, preferences, decision rationale, corrections to non-platform context, and facts the platform cannot encode. They always outrank assistant prose.
 - Prior assistant prose is analysis/history-of-conversation only; it can identify something to verify but cannot authenticate a roster or transaction fact by repetition.
-- When authoritative sources conflict, quarantine and reconcile the conflict. Do not silently overwrite one source with another.
-- Persistence, freshness and authority are separate properties. A durable file can be stale; a live platform state can be current without preserving rationale; conversational context can be useful without being evidence.
+- When sources appear to conflict, align their temporal and semantic scope before calling them contradictory. A later transaction cannot retroactively change what was true earlier, and a correction aimed at an invented historical claim must not be broadened into a denial of a later real event.
+- When authoritative sources truly conflict after scope alignment, quarantine and reconcile the conflict. Do not silently overwrite one source with another.
+- Persistence, freshness, authority and temporal scope are separate properties. A durable file can be stale; a live platform state can be current without preserving rationale; conversational context can be useful without being evidence.
+
+## Temporal-scope contract
+
+Interpret every stateful/historical claim as: **fact + provenance/authority + effective timestamp or interval + semantic context**. Reconciliation should compare like periods with like periods rather than flattening history into a timeless yes/no assertion.
+
+This rule is shared across sports. In GFO, a player added later in the day cannot prove he was already rostered earlier. In GBO, a later add/drop/IL/activation cannot be used to rewrite the roster state that existed before that transaction. Direct corrections must be attached to the historical claim they actually correct.
 
 ## Architecture contracts
 
