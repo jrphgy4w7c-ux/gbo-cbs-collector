@@ -27,6 +27,17 @@ A production GFO Refresh is fully GREEN only when:
 
 The collector currently sweeps Sleeper transaction rounds 0–18 and uses the prior successful canonical snapshot when available. A GREEN run publishes `latest_transaction_lineage.json` so settled transaction history is directly retrievable with player names, raw IDs, roster identities, adds/drops, trades/picks, FAAB spend/transfers, and running balance.
 
+## Published-state retrieval
+
+Successful production runs publish the newest canonical GREEN state to branch `gfo-green`. Routine reconciliation should read that branch directly rather than depending on workflow-run discovery:
+
+1. `gfo/current/latest_manifest.json` — collection timestamp, core/provenance status and source health.
+2. `gfo/current/latest_diff.json` — changes since the prior successful canonical snapshot.
+3. `gfo/current/latest_snapshot.json` — current roster ownership, reserve/taxi, FAAB/waiver state, league settings and future-pick ledger.
+4. `gfo/current/latest_transaction_lineage.json` — human-readable settled Grant transaction history with authoritative player identities.
+
+Workflow-run inspection is diagnostic: use it when the published state is stale, missing, PARTIAL or unexpectedly fails to advance. A retrievable published GREEN state is the normal state-consumption interface.
+
 ## State-lineage invariant
 
 Current state and its settled provenance are different responsibilities and both must survive reconciliation. Superseded values remain historical evidence but must not re-enter the active issue list unless newer authoritative evidence contradicts the settled state. Deterministic counters such as FAAB must be reconstructable from a compact event ledger and checked against current platform state on every production refresh.
@@ -34,6 +45,10 @@ Current state and its settled provenance are different responsibilities and both
 ## Identity invariant
 
 Front Office reconciliation must never infer a transaction's player identity from memory or surrounding prose when the platform supplies an authoritative player ID. Raw Sleeper IDs remain provenance; the normalized ledger resolves them through Sleeper's player map before the transaction is treated as human-readable settled history.
+
+## Authority-conflict invariant
+
+Authority is domain-specific, not a single universal ranking. For facts recorded by Sleeper — ownership, roster placement, completed transactions, FAAB and pick movement — the newest successful authoritative platform-derived evidence controls. Grant's direct statements are authoritative for intent, strategy, preferences, rationale and context not encoded by the platform, and they always outrank assistant prose. When Grant's recollection conflicts with platform evidence about a platform-recorded fact, surface and reconcile the conflict rather than silently overwriting either source. Prior assistant prose is never evidence.
 
 ## Design rule
 
