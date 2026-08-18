@@ -1,6 +1,7 @@
 (() => {
   const REQUEST = "GBO_PUBLISH_SNAPSHOT";
   const RESPONSE = "GBO_PUBLISH_RESULT";
+  document.documentElement?.setAttribute("data-gbo-publish-bridge", "ready");
 
   window.addEventListener("message", async event => {
     if (event.source !== window || event.data?.type !== REQUEST) return;
