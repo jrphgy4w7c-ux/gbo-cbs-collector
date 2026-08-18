@@ -70,7 +70,18 @@ jobs:
           if-no-files-found: error
           retention-days: 30
 
-      - name: Publish GREEN marker
+      - name: Publish retrievable GREEN state
         if: success()
         shell: bash
-        run: git push --force origin HEAD:refs/heads/gfo-green
+        run: |
+          rm -rf gfo/current
+          mkdir -p gfo/current
+          cp gfo_refresh/latest_snapshot.json gfo/current/
+          cp gfo_refresh/latest_transactions.json gfo/current/
+          cp gfo_refresh/latest_diff.json gfo/current/
+          cp gfo_refresh/latest_manifest.json gfo/current/
+          git config user.name "GFO Refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f gfo/current
+          git commit -m "Publish canonical GFO GREEN state [skip ci]"
+          git push --force origin HEAD:refs/heads/gfo-green
