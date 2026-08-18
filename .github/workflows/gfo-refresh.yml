@@ -5,12 +5,14 @@ on:
   schedule:
     - cron: '30 10 * * *'
   push:
+    branches:
+      - main
     paths:
       - gfo/collector.py
       - .github/workflows/gfo-refresh.yml
 
 permissions:
-  contents: read
+  contents: write
   actions: read
 
 concurrency:
@@ -67,3 +69,8 @@ jobs:
           path: gfo_refresh/
           if-no-files-found: error
           retention-days: 30
+
+      - name: Publish GREEN marker
+        if: success()
+        shell: bash
+        run: git push --force origin HEAD:refs/heads/gfo-green
