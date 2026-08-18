@@ -1,0 +1,2909 @@
+{
+  "count": 250,
+  "players": [
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "DJ Neal",
+      "on_waivers": 1,
+      "player_id": "2837283",
+      "position": "RF",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "DJ Peters",
+      "on_waivers": 1,
+      "player_id": "2507365",
+      "position": "CF",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "DJ Stewart",
+      "on_waivers": 1,
+      "player_id": "2184469",
+      "position": "RF",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "DL Hall",
+      "on_waivers": 1,
+      "player_id": "2835075",
+      "position": "RP",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "DaShawn Keirsey",
+      "on_waivers": 1,
+      "player_id": "2932845",
+      "position": "RF",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dace Kime",
+      "on_waivers": 1,
+      "player_id": "2117056",
+      "position": "SP",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dahian Santos",
+      "on_waivers": 1,
+      "player_id": "29077595",
+      "position": "RP",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dairon Blanco",
+      "on_waivers": 1,
+      "player_id": "3158299",
+      "position": "LF",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daison Acosta",
+      "on_waivers": 1,
+      "player_id": "26615429",
+      "position": "RP",
+      "pro_team": "SD"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daiverson Gutierrez",
+      "on_waivers": 1,
+      "player_id": "29644247",
+      "position": "C",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daiwer Castellanos",
+      "on_waivers": 1,
+      "player_id": "28846846",
+      "position": "CF",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dakody Clemmer",
+      "on_waivers": 1,
+      "player_id": "3158078",
+      "position": "RP",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dakota Donovan",
+      "on_waivers": 1,
+      "player_id": "28837788",
+      "position": "RP",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dakota Harris",
+      "on_waivers": 1,
+      "player_id": "29676048",
+      "position": "SS",
+      "pro_team": "STL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dakota Hawkins",
+      "on_waivers": 1,
+      "player_id": "29676663",
+      "position": "RP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dakota Hudson",
+      "on_waivers": 1,
+      "player_id": "2453421",
+      "position": "SP",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dakota Jordan",
+      "on_waivers": 1,
+      "player_id": "29644529",
+      "position": "CF",
+      "pro_team": "SF"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dalbert Siri",
+      "on_waivers": 1,
+      "player_id": "2825960",
+      "position": "RP",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dale Burdick",
+      "on_waivers": 1,
+      "player_id": "2804216",
+      "position": "2B",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dale Stanavich",
+      "on_waivers": 1,
+      "player_id": "29672334",
+      "position": "RP",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dallas Keuchel",
+      "on_waivers": 1,
+      "player_id": "1979965",
+      "position": "SP",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Guthrie",
+      "on_waivers": 1,
+      "player_id": "2836950",
+      "position": "LF",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Kelly",
+      "on_waivers": 1,
+      "player_id": "2227207",
+      "position": "1B",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Moats",
+      "on_waivers": 1,
+      "player_id": "3086103",
+      "position": "RP",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Pence",
+      "on_waivers": 1,
+      "player_id": "50041357",
+      "position": "SP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Roach",
+      "on_waivers": 1,
+      "player_id": "29077090",
+      "position": "RP",
+      "pro_team": "STL"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Rogers",
+      "on_waivers": 1,
+      "player_id": "29295992",
+      "position": "SP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Rushing",
+      "on_waivers": 1,
+      "player_id": "29075514",
+      "position": "C",
+      "pro_team": "LAD"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Shuffield",
+      "on_waivers": 1,
+      "player_id": "29085631",
+      "position": "SS",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dalton Stambaugh",
+      "on_waivers": 1,
+      "player_id": "29084571",
+      "position": "RP",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dalvinson Reyes",
+      "on_waivers": 1,
+      "player_id": "29660661",
+      "position": "SP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dalvy Rosario",
+      "on_waivers": 1,
+      "player_id": "2931036",
+      "position": "3B",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Damek Tomscha",
+      "on_waivers": 1,
+      "player_id": "2921563",
+      "position": "1B",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dameury Pena",
+      "on_waivers": 1,
+      "player_id": "29662386",
+      "position": "2B",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Damiano Palmegiani",
+      "on_waivers": 1,
+      "player_id": "28846860",
+      "position": "1B",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Damion Carroll",
+      "on_waivers": 1,
+      "player_id": "2171699",
+      "position": "RP",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Damon Dues",
+      "on_waivers": 1,
+      "player_id": "29085157",
+      "position": "SS",
+      "pro_team": "SF"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Damon Keith",
+      "on_waivers": 1,
+      "player_id": "29086583",
+      "position": "RF",
+      "pro_team": "LAD"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dan Altavilla",
+      "on_waivers": 1,
+      "player_id": "2169865",
+      "position": "RP",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dan Black",
+      "on_waivers": 1,
+      "player_id": "2119559",
+      "position": "1B",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dan Fiorito",
+      "on_waivers": 1,
+      "player_id": "2170497",
+      "position": "3B",
+      "pro_team": "NYY"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dan Gamache",
+      "on_waivers": 1,
+      "player_id": "2119767",
+      "position": "3B",
+      "pro_team": "ATH"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dan Hammer",
+      "on_waivers": 1,
+      "player_id": "29342396",
+      "position": "RP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dan Rizzie",
+      "on_waivers": 1,
+      "player_id": "3094751",
+      "position": "C",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dan Rohlfing",
+      "on_waivers": 1,
+      "player_id": "1803823",
+      "position": "C",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dan Swain",
+      "on_waivers": 1,
+      "player_id": "2837583",
+      "position": "CF",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dane Acker",
+      "on_waivers": 1,
+      "player_id": "29077340",
+      "position": "RP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dane Dunning",
+      "on_waivers": 1,
+      "player_id": "2250614",
+      "position": "RP",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dane Hutcheon",
+      "on_waivers": 1,
+      "player_id": "3103753",
+      "position": "SS",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dane Myers",
+      "on_waivers": 1,
+      "player_id": "2837277",
+      "position": "CF",
+      "pro_team": "CIN"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dangelo Sarmiento",
+      "on_waivers": 1,
+      "player_id": "29684917",
+      "position": "2B",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Amaral",
+      "on_waivers": 1,
+      "player_id": "2932597",
+      "position": "LF",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Arribas",
+      "on_waivers": 1,
+      "player_id": "2731202",
+      "position": "3B",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Bard",
+      "on_waivers": 1,
+      "player_id": "1662777",
+      "position": "RP",
+      "pro_team": "COL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Bies",
+      "on_waivers": 1,
+      "player_id": "2932280",
+      "position": "RP",
+      "pro_team": "NYY"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Bravo",
+      "on_waivers": 1,
+      "player_id": "2228082",
+      "position": "2B",
+      "pro_team": "SD"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Brito",
+      "on_waivers": 1,
+      "player_id": "2507346",
+      "position": "2B",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Brown",
+      "on_waivers": 1,
+      "player_id": "2915604",
+      "position": "RP",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Cabrera",
+      "on_waivers": 1,
+      "player_id": "2836683",
+      "position": "RF",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Camarena",
+      "on_waivers": 1,
+      "player_id": "2693898",
+      "position": "RP",
+      "pro_team": "SD"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Castano",
+      "on_waivers": 1,
+      "player_id": "3157099",
+      "position": "RP",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Cope",
+      "on_waivers": 1,
+      "player_id": "29089074",
+      "position": "C",
+      "pro_team": "COL"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Dickinson",
+      "on_waivers": 1,
+      "player_id": "50041202",
+      "position": "SS",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Duarte",
+      "on_waivers": 1,
+      "player_id": "3152767",
+      "position": "RP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Eagen",
+      "on_waivers": 1,
+      "player_id": "29644426",
+      "position": "SP",
+      "pro_team": "STL"
+    },
+    {
+      "eligible_positions": [
+        "SP",
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Espino",
+      "on_waivers": 1,
+      "player_id": "3117921",
+      "position": "SP",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Flames",
+      "on_waivers": 1,
+      "player_id": "50044064",
+      "position": "SS",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Gibson",
+      "on_waivers": 1,
+      "player_id": "2218316",
+      "position": "RP",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Gonzalez",
+      "on_waivers": 1,
+      "player_id": "2915586",
+      "position": "RP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Guilarte",
+      "on_waivers": 1,
+      "player_id": "28847203",
+      "position": "2B",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Harper",
+      "on_waivers": 1,
+      "player_id": "29354502",
+      "position": "RP",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Hernandez",
+      "on_waivers": 1,
+      "player_id": "50042273",
+      "position": "C",
+      "pro_team": "WAS"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Hudson",
+      "on_waivers": 1,
+      "player_id": "1697836",
+      "position": "RP",
+      "pro_team": "LAD"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Johnson",
+      "on_waivers": 1,
+      "player_id": "2910617",
+      "position": "RF",
+      "pro_team": "HOU"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Juarez",
+      "on_waivers": 1,
+      "player_id": "29342291",
+      "position": "RP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Lloyd",
+      "on_waivers": 1,
+      "player_id": "50044070",
+      "position": "RP",
+      "pro_team": "BAL"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Lockhart",
+      "on_waivers": 1,
+      "player_id": "1963328",
+      "position": "3B",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Lynch IV",
+      "on_waivers": 1,
+      "player_id": "2931989",
+      "position": "RP",
+      "pro_team": "KC"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Marte",
+      "on_waivers": 1,
+      "player_id": "28846857",
+      "position": "CF",
+      "pro_team": "WAS"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Martinez",
+      "on_waivers": 1,
+      "player_id": "29342431",
+      "position": "RP",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Mateo",
+      "on_waivers": 1,
+      "player_id": "29091599",
+      "position": "CF",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel McGrath",
+      "on_waivers": 1,
+      "player_id": "2915536",
+      "position": "RP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Mengden",
+      "on_waivers": 1,
+      "player_id": "2170126",
+      "position": "RP",
+      "pro_team": "KC"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Missaki",
+      "on_waivers": 1,
+      "player_id": "29683094",
+      "position": "RP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Montano",
+      "on_waivers": 1,
+      "player_id": "2768557",
+      "position": "RF",
+      "pro_team": "COL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Montesino",
+      "on_waivers": 1,
+      "player_id": "26912513",
+      "position": "LF",
+      "pro_team": "SD"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Nunez",
+      "on_waivers": 1,
+      "player_id": "29675841",
+      "position": "RP",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Ozoria",
+      "on_waivers": 1,
+      "player_id": "2829092",
+      "position": "SS",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Palka",
+      "on_waivers": 1,
+      "player_id": "2171296",
+      "position": "1B",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Paolini",
+      "on_waivers": 1,
+      "player_id": "2120049",
+      "position": "2B",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Pierce",
+      "on_waivers": 1,
+      "player_id": "50009344",
+      "position": "SS",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Pinero",
+      "on_waivers": 1,
+      "player_id": "2794534",
+      "position": "SS",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Procopio",
+      "on_waivers": 1,
+      "player_id": "2837361",
+      "position": "RP",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Robert",
+      "on_waivers": 1,
+      "player_id": "2837406",
+      "position": "RP",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Salters",
+      "on_waivers": 1,
+      "player_id": "2792293",
+      "position": "C",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "3B",
+        "SS",
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Schneemann",
+      "on_waivers": 1,
+      "player_id": "3107152",
+      "position": "2B",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Spingola",
+      "on_waivers": 1,
+      "player_id": "2920674",
+      "position": "LF",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Suero",
+      "on_waivers": 1,
+      "player_id": "2228501",
+      "position": "CF",
+      "pro_team": "COL"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Susac",
+      "on_waivers": 1,
+      "player_id": "28920022",
+      "position": "C",
+      "pro_team": "SF"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Sweet",
+      "on_waivers": 1,
+      "player_id": "3103546",
+      "position": "CF",
+      "pro_team": "CIN"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Tillman",
+      "on_waivers": 1,
+      "player_id": "1937338",
+      "position": "RP",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Tillo",
+      "on_waivers": 1,
+      "player_id": "2837604",
+      "position": "SP",
+      "pro_team": "SF"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Torres",
+      "on_waivers": 1,
+      "player_id": "2170026",
+      "position": "C",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Vazquez",
+      "on_waivers": 1,
+      "player_id": "26643922",
+      "position": "SS",
+      "pro_team": "KC"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Vellojin",
+      "on_waivers": 1,
+      "player_id": "26912428",
+      "position": "C",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daniel Vogelbach",
+      "on_waivers": 1,
+      "player_id": "2028783",
+      "position": "DH",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Danis Correa",
+      "on_waivers": 1,
+      "player_id": "2828993",
+      "position": "RP",
+      "pro_team": "ATH"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Bethea",
+      "on_waivers": 1,
+      "player_id": "2804017",
+      "position": "C",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Black",
+      "on_waivers": 1,
+      "player_id": "1960255",
+      "position": "SS",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Coulombe",
+      "on_waivers": 1,
+      "player_id": "2120231",
+      "position": "RP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny De Andrade",
+      "on_waivers": 1,
+      "player_id": "26643927",
+      "position": "3B",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Diaz",
+      "on_waivers": 1,
+      "player_id": "3077707",
+      "position": "3B",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Diekroeger",
+      "on_waivers": 1,
+      "player_id": "2171862",
+      "position": "3B",
+      "pro_team": "STL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Dopico",
+      "on_waivers": 1,
+      "player_id": "3107128",
+      "position": "RP",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Duffy",
+      "on_waivers": 1,
+      "player_id": "1708185",
+      "position": "SP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Edgeworth",
+      "on_waivers": 1,
+      "player_id": "2836837",
+      "position": "3B",
+      "pro_team": "COL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Gonzalez",
+      "on_waivers": 1,
+      "player_id": "29692380",
+      "position": "RF",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Gutierrez",
+      "on_waivers": 1,
+      "player_id": "1735904",
+      "position": "SP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Hayes",
+      "on_waivers": 1,
+      "player_id": "2170288",
+      "position": "1B",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Jansen",
+      "on_waivers": 1,
+      "player_id": "2216808",
+      "position": "C",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Lantigua",
+      "on_waivers": 1,
+      "player_id": "2868319",
+      "position": "LF",
+      "pro_team": "CIN"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Mars",
+      "on_waivers": 1,
+      "player_id": "2225245",
+      "position": "CF",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Mendick",
+      "on_waivers": 1,
+      "player_id": "2824375",
+      "position": "3B",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Oh",
+      "on_waivers": 1,
+      "player_id": "2223645",
+      "position": "LF",
+      "pro_team": "ATH"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Rosenbaum",
+      "on_waivers": 1,
+      "player_id": "1982198",
+      "position": "SP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Serretti",
+      "on_waivers": 1,
+      "player_id": "29085925",
+      "position": "3B",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Watson",
+      "on_waivers": 1,
+      "player_id": "29087590",
+      "position": "RP",
+      "pro_team": "NYY"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Wirchansky",
+      "on_waivers": 1,
+      "player_id": "29677770",
+      "position": "SP",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danny Woodrow",
+      "on_waivers": 1,
+      "player_id": "3083189",
+      "position": "RF",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Danny Young",
+      "on_waivers": 1,
+      "player_id": "3157973",
+      "position": "RP",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danry Vasquez",
+      "on_waivers": 1,
+      "player_id": "1957443",
+      "position": "RF",
+      "pro_team": "HOU"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dante Bichette",
+      "on_waivers": 1,
+      "player_id": "1910544",
+      "position": "3B",
+      "pro_team": "NYY"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dante Nori",
+      "on_waivers": 1,
+      "player_id": "29426062",
+      "position": "CF",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danuerys De La Cruz",
+      "on_waivers": 1,
+      "player_id": "28843166",
+      "position": "C",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dany Jimenez",
+      "on_waivers": 1,
+      "player_id": "2823561",
+      "position": "RP",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danyer Cueva",
+      "on_waivers": 1,
+      "player_id": "29077596",
+      "position": "2B",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Danyer Sanabria",
+      "on_waivers": 1,
+      "player_id": "28847206",
+      "position": "LF",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "3B",
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darell Hernaiz",
+      "on_waivers": 1,
+      "player_id": "3158552",
+      "position": "SS",
+      "pro_team": "ATH"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darell Morel",
+      "on_waivers": 1,
+      "player_id": "50042257",
+      "position": "SS",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darick Hall",
+      "on_waivers": 1,
+      "player_id": "2910602",
+      "position": "1B",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dariel Gomez",
+      "on_waivers": 1,
+      "player_id": "2822995",
+      "position": "1B",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dariel Lopez",
+      "on_waivers": 1,
+      "player_id": "28841665",
+      "position": "3B",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Darin Gillies",
+      "on_waivers": 1,
+      "player_id": "2794805",
+      "position": "RP",
+      "pro_team": "BOS"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Darin Gorski",
+      "on_waivers": 1,
+      "player_id": "1956426",
+      "position": "SP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darin Ruf",
+      "on_waivers": 1,
+      "player_id": "1812895",
+      "position": "DH",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dario Beltre",
+      "on_waivers": 1,
+      "player_id": "3094346",
+      "position": "RP",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dario Gardea",
+      "on_waivers": 1,
+      "player_id": "29084586",
+      "position": "RP",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dario Laverde",
+      "on_waivers": 1,
+      "player_id": "29321971",
+      "position": "C",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dario Pizzano",
+      "on_waivers": 1,
+      "player_id": "2119292",
+      "position": "LF",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darius Day",
+      "on_waivers": 1,
+      "player_id": "2227180",
+      "position": "CF",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darius Hill",
+      "on_waivers": 1,
+      "player_id": "28837127",
+      "position": "LF",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Darius Vines",
+      "on_waivers": 1,
+      "player_id": "2837641",
+      "position": "SP",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darlin Moquete",
+      "on_waivers": 1,
+      "player_id": "28851010",
+      "position": "RF",
+      "pro_team": "STL"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Darlin Saladin",
+      "on_waivers": 1,
+      "player_id": "29660496",
+      "position": "SP",
+      "pro_team": "STL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darlyn De Leon",
+      "on_waivers": 1,
+      "player_id": "50044621",
+      "position": "CF",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darnell Sweeney",
+      "on_waivers": 1,
+      "player_id": "2048790",
+      "position": "2B",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Darrell Thompson",
+      "on_waivers": 1,
+      "player_id": "29091595",
+      "position": "RP",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darren Baker",
+      "on_waivers": 1,
+      "player_id": "2836563",
+      "position": "2B",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Darren Bowen",
+      "on_waivers": 1,
+      "player_id": "50044005",
+      "position": "RP",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Darren McCaughan",
+      "on_waivers": 1,
+      "player_id": "2837195",
+      "position": "RP",
+      "pro_team": "CIN"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darrien Miller",
+      "on_waivers": 1,
+      "player_id": "29345797",
+      "position": "C",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Darryl Collins",
+      "on_waivers": 1,
+      "player_id": "26913034",
+      "position": "LF",
+      "pro_team": "KC"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Darwinzon Hernandez",
+      "on_waivers": 1,
+      "player_id": "2823320",
+      "position": "RP",
+      "pro_team": "BAL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dasan Brown",
+      "on_waivers": 1,
+      "player_id": "26615372",
+      "position": "CF",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dasan Hill",
+      "on_waivers": 1,
+      "player_id": "29644475",
+      "position": "SP",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dashyll Tejeda",
+      "on_waivers": 1,
+      "player_id": "50043900",
+      "position": "RF",
+      "pro_team": "WAS"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daulton Jefferies",
+      "on_waivers": 1,
+      "player_id": "2453278",
+      "position": "RP",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daulton Varsho",
+      "on_waivers": 1,
+      "player_id": "2837630",
+      "position": "CF",
+      "pro_team": "HOU"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dauri Fernandez",
+      "on_waivers": 1,
+      "player_id": "29692360",
+      "position": "SS",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dauri Lorenzo",
+      "on_waivers": 1,
+      "player_id": "26912509",
+      "position": "2B",
+      "pro_team": "HOU"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dauri Moreta",
+      "on_waivers": 1,
+      "player_id": "2824544",
+      "position": "RP",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dauris Valdez",
+      "on_waivers": 1,
+      "player_id": "2826366",
+      "position": "RP",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daury Torrez",
+      "on_waivers": 1,
+      "player_id": "2739965",
+      "position": "RP",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Daury Vasquez",
+      "on_waivers": 1,
+      "player_id": "50041366",
+      "position": "SP",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Davian Garcia",
+      "on_waivers": 1,
+      "player_id": "50043983",
+      "position": "SP",
+      "pro_team": "WAS"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Armendariz",
+      "on_waivers": 1,
+      "player_id": "2171337",
+      "position": "LF",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Banuelos",
+      "on_waivers": 1,
+      "player_id": "2836568",
+      "position": "DH",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Berg",
+      "on_waivers": 1,
+      "player_id": "2731620",
+      "position": "RP",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Bote",
+      "on_waivers": 1,
+      "player_id": "2226658",
+      "position": "3B",
+      "pro_team": "LAD"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Buchanan",
+      "on_waivers": 1,
+      "player_id": "2118123",
+      "position": "RP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Calabrese",
+      "on_waivers": 1,
+      "player_id": "26615371",
+      "position": "CF",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Dahl",
+      "on_waivers": 1,
+      "player_id": "2001079",
+      "position": "LF",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Davalillo",
+      "on_waivers": 1,
+      "player_id": "29732674",
+      "position": "SP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Ellingson",
+      "on_waivers": 1,
+      "player_id": "27022044",
+      "position": "RP",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Festa",
+      "on_waivers": 1,
+      "player_id": "29075515",
+      "position": "SP",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Fletcher",
+      "on_waivers": 1,
+      "player_id": "2211771",
+      "position": "2B",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Freitas",
+      "on_waivers": 1,
+      "player_id": "1958609",
+      "position": "C",
+      "pro_team": "LAD"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Fry",
+      "on_waivers": 1,
+      "player_id": "2932748",
+      "position": "DH",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Garcia",
+      "on_waivers": 1,
+      "player_id": "2829024",
+      "position": "C",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Garner",
+      "on_waivers": 1,
+      "player_id": "2822912",
+      "position": "RP",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Gerber",
+      "on_waivers": 1,
+      "player_id": "2836910",
+      "position": "RP",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Gonzalez",
+      "on_waivers": 1,
+      "player_id": "1962834",
+      "position": "2B",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Griffin",
+      "on_waivers": 1,
+      "player_id": "29085281",
+      "position": "RP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Hagaman",
+      "on_waivers": 1,
+      "player_id": "29084204",
+      "position": "SP",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "3B",
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Hamilton",
+      "on_waivers": 1,
+      "player_id": "3158363",
+      "position": "2B",
+      "pro_team": "MIL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Harris",
+      "on_waivers": 1,
+      "player_id": "2171865",
+      "position": "LF",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Hensley",
+      "on_waivers": 1,
+      "player_id": "27022635",
+      "position": "RF",
+      "pro_team": "DET"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Holman",
+      "on_waivers": 1,
+      "player_id": "2823433",
+      "position": "RP",
+      "pro_team": "COL"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Hurlbut",
+      "on_waivers": 1,
+      "player_id": "2823475",
+      "position": "SP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Kubiak",
+      "on_waivers": 1,
+      "player_id": "2823741",
+      "position": "SP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Leal",
+      "on_waivers": 1,
+      "player_id": "29680253",
+      "position": "RP",
+      "pro_team": "ATH"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Ledbetter",
+      "on_waivers": 1,
+      "player_id": "2823819",
+      "position": "RP",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Leon",
+      "on_waivers": 1,
+      "player_id": "50044616",
+      "position": "C",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Lyon",
+      "on_waivers": 1,
+      "player_id": "2170028",
+      "position": "C",
+      "pro_team": "TEX"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Martin",
+      "on_waivers": 1,
+      "player_id": "29348839",
+      "position": "C",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Masters",
+      "on_waivers": 1,
+      "player_id": "2121211",
+      "position": "SS",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David McCabe",
+      "on_waivers": 1,
+      "player_id": "29075516",
+      "position": "3B",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Mershon",
+      "on_waivers": 1,
+      "player_id": "29674788",
+      "position": "SS",
+      "pro_team": "LAA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Morgan",
+      "on_waivers": 1,
+      "player_id": "29662263",
+      "position": "RP",
+      "pro_team": "SD"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Olmedo-Barrera",
+      "on_waivers": 1,
+      "player_id": "2803302",
+      "position": "LF",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Parkinson",
+      "on_waivers": 1,
+      "player_id": "2837323",
+      "position": "SP",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Peralta",
+      "on_waivers": 1,
+      "player_id": "2119697",
+      "position": "RF",
+      "pro_team": "SD"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Peterson",
+      "on_waivers": 1,
+      "player_id": "2226124",
+      "position": "RP",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "SP",
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Peterson",
+      "on_waivers": 1,
+      "player_id": "2835074",
+      "position": "SP",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Robertson",
+      "on_waivers": 1,
+      "player_id": "1622557",
+      "position": "RP",
+      "pro_team": "PHI"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Rohm",
+      "on_waivers": 1,
+      "player_id": "1804765",
+      "position": "RF",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Roseboom",
+      "on_waivers": 1,
+      "player_id": "2599642",
+      "position": "RP",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Sandlin",
+      "on_waivers": 1,
+      "player_id": "29295959",
+      "position": "RP",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Sheaffer",
+      "on_waivers": 1,
+      "player_id": "28843225",
+      "position": "C",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "David Shields",
+      "on_waivers": 1,
+      "player_id": "29644494",
+      "position": "SP",
+      "pro_team": "KC"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Sosebee",
+      "on_waivers": 1,
+      "player_id": "3096404",
+      "position": "RP",
+      "pro_team": "NYY"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "David Speer",
+      "on_waivers": 1,
+      "player_id": "2804681",
+      "position": "RP",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Thompson",
+      "on_waivers": 1,
+      "player_id": "2766204",
+      "position": "3B",
+      "pro_team": "NYM"
+    },
+    {
+      "eligible_positions": [
+        "1B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Villar",
+      "on_waivers": 1,
+      "player_id": "2933177",
+      "position": "1B",
+      "pro_team": "SF"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "David Walker",
+      "on_waivers": 1,
+      "player_id": "2226324",
+      "position": "RF",
+      "pro_team": "CHW"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Davidjohn Herz",
+      "on_waivers": 1,
+      "player_id": "26615416",
+      "position": "SP",
+      "pro_team": "WAS"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Davidxon Lara",
+      "on_waivers": 1,
+      "player_id": "50052395",
+      "position": "P",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Davis Bradshaw",
+      "on_waivers": 1,
+      "player_id": "2836635",
+      "position": "LF",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Davis Daniel",
+      "on_waivers": 1,
+      "player_id": "2932675",
+      "position": "SP",
+      "pro_team": "CIN"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Davis Diaz",
+      "on_waivers": 1,
+      "player_id": "29692638",
+      "position": "C",
+      "pro_team": "ATH"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Davis Schneider",
+      "on_waivers": 1,
+      "player_id": "2837479",
+      "position": "LF",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Davis Sharpe",
+      "on_waivers": 1,
+      "player_id": "29084418",
+      "position": "RP",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Davis Wendzel",
+      "on_waivers": 1,
+      "player_id": "3117942",
+      "position": "3B",
+      "pro_team": "PIT"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dawel Joseph",
+      "on_waivers": 1,
+      "player_id": "29339052",
+      "position": "SS",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dawson Netz",
+      "on_waivers": 1,
+      "player_id": "50044201",
+      "position": "RP",
+      "pro_team": "CHC"
+    },
+    {
+      "eligible_positions": [
+        "SP",
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dax Fulton",
+      "on_waivers": 1,
+      "player_id": "26660164",
+      "position": "SP",
+      "pro_team": "MIA"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dax Kilby",
+      "on_waivers": 1,
+      "player_id": "50009369",
+      "position": "SS",
+      "pro_team": "NYY"
+    },
+    {
+      "eligible_positions": [
+        "3B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dayan Frias",
+      "on_waivers": 1,
+      "player_id": "28840641",
+      "position": "3B",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Dayeison Arias",
+      "on_waivers": 1,
+      "player_id": "2829300",
+      "position": "RP",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "2B",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dayner Moreira",
+      "on_waivers": 1,
+      "player_id": "2226791",
+      "position": "2B",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dayron Varona",
+      "on_waivers": 1,
+      "player_id": "2216811",
+      "position": "CF",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Daysbel Hernandez",
+      "on_waivers": 1,
+      "player_id": "26615454",
+      "position": "RP",
+      "pro_team": "ATL"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Daz Cameron",
+      "on_waivers": 1,
+      "player_id": "2211205",
+      "position": "RF",
+      "pro_team": "TOR"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Deacon Liput",
+      "on_waivers": 1,
+      "player_id": "2837134",
+      "position": "SS",
+      "pro_team": "LAD"
+    },
+    {
+      "eligible_positions": [
+        "SS",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dean Curley",
+      "on_waivers": 1,
+      "player_id": "50041098",
+      "position": "SS",
+      "pro_team": "CLE"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dean Kremer",
+      "on_waivers": 1,
+      "player_id": "3077699",
+      "position": "SP",
+      "pro_team": "MIN"
+    },
+    {
+      "eligible_positions": [
+        "SP"
+      ],
+      "free_agent": 1,
+      "name": "Dean Livingston",
+      "on_waivers": 1,
+      "player_id": "50041074",
+      "position": "SP",
+      "pro_team": "ARI"
+    },
+    {
+      "eligible_positions": [
+        "OF",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dean Moss",
+      "on_waivers": 1,
+      "player_id": "50041352",
+      "position": "CF",
+      "pro_team": "TB"
+    },
+    {
+      "eligible_positions": [
+        "C",
+        "U"
+      ],
+      "free_agent": 1,
+      "name": "Dean Nevarez",
+      "on_waivers": 1,
+      "player_id": "3083968",
+      "position": "C",
+      "pro_team": "SEA"
+    },
+    {
+      "eligible_positions": [
+        "RP"
+      ],
+      "free_agent": 1,
+      "name": "Declan Cronin",
+      "on_waivers": 1,
+      "player_id": "29078827",
+      "position": "RP",
+      "pro_team": "TEX"
+    }
+  ],
+  "schema": "gbo.available.v1",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16"
+}

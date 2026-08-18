@@ -1,0 +1,16 @@
+{
+  "data": {
+    "data_present": false,
+    "header_state": {
+      "fab_remaining": 845,
+      "found": true,
+      "waiver_position": 6,
+      "waiver_position_denominator": 10
+    },
+    "ok": true,
+    "path": "/transactions/waivers-report",
+    "tables": []
+  },
+  "schema": "gbo.reference.v1",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16"
+}

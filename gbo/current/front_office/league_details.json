@@ -1,0 +1,517 @@
+{
+  "data": {
+    "data_present": true,
+    "header_state": {
+      "fab_remaining": 845,
+      "found": true,
+      "waiver_position": 6,
+      "waiver_position_denominator": 10
+    },
+    "ok": true,
+    "path": "/rules",
+    "tables": [
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "League Name",
+            "Human Growth Hormone"
+          ],
+          [
+            "League URL",
+            "https://fbhgh.baseball.cbssports.com"
+          ],
+          [
+            "Teams",
+            "10"
+          ],
+          [
+            "Divisions",
+            "2"
+          ],
+          [
+            "League Entry Fee",
+            "$115"
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Status",
+          "Min",
+          "Max",
+          ""
+        ],
+        "rows": [
+          [
+            "Active Players",
+            "16",
+            "16",
+            ""
+          ],
+          [
+            "Reserve Players",
+            "0",
+            "7",
+            ""
+          ],
+          [
+            "Injured Players",
+            "0",
+            "5",
+            ""
+          ],
+          [
+            "Minors Players",
+            "0",
+            "3",
+            ""
+          ],
+          [
+            "Total Players",
+            "16",
+            "31",
+            ""
+          ],
+          [
+            "Position",
+            "Active Min",
+            "Active Max",
+            "Roster Total"
+          ],
+          [
+            "C",
+            "1",
+            "1",
+            "No Limit"
+          ],
+          [
+            "1B",
+            "1",
+            "1",
+            "No Limit"
+          ],
+          [
+            "2B",
+            "1",
+            "1",
+            "No Limit"
+          ],
+          [
+            "3B",
+            "1",
+            "1",
+            "No Limit"
+          ],
+          [
+            "SS",
+            "1",
+            "1",
+            "No Limit"
+          ],
+          [
+            "OF",
+            "3",
+            "3",
+            "No Limit"
+          ],
+          [
+            "U",
+            "1",
+            "1",
+            "No Limit"
+          ],
+          [
+            "SP",
+            "1",
+            "6",
+            "No Limit"
+          ],
+          [
+            "RP",
+            "1",
+            "6",
+            "No Limit"
+          ],
+          [
+            "Extra Roster Settings"
+          ],
+          [
+            "Illegal rosters score zero points in standings."
+          ],
+          [
+            "Injured players do not count against positional roster limits."
+          ],
+          [
+            "Minor league players do not count against positional roster limits."
+          ],
+          [
+            "Enforce strict roster limits during Add/Drops."
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "Lineup Policy",
+            "Managers may set lineups and change players' positions from a list of their eligible positions."
+          ],
+          [
+            "Lineup Deadline",
+            "Lineups are set for each period. Deadline for each player is 5 minutes before gametime on the first game of the period for that player."
+          ],
+          [
+            "IL Options",
+            "Only players who are on the injured list may be placed into Injured status."
+          ],
+          [
+            "ML Options",
+            "All players are eligible."
+          ],
+          [
+            "Enforce Lineup Policy",
+            "Enforce Lineup Policy when players come off the IL or get called up from the Minors."
+          ],
+          [
+            "Add/Drop Policy",
+            "Add/Drops are handled by a waivers process."
+          ],
+          [
+            "Waivers Run",
+            "The waiver process runs on Sunday, Monday, Tuesday, Wednesday, Thursday, Friday and Saturday night."
+          ],
+          [
+            "Waiver Reset",
+            "The waiver order resets after each weeks' games."
+          ],
+          [
+            "Waiver Period",
+            "Dropped players remain on waivers for at least 1 day(s)."
+          ],
+          [
+            "FAB Budget",
+            "Each team will have a starting budget of $1000."
+          ],
+          [
+            "Winning Offers",
+            "Save Winning $Bids_text as Salary"
+          ],
+          [
+            "Zero Offers",
+            "Zero offers are not allowed."
+          ],
+          [
+            "Trade Policy",
+            "Trades will process immediately."
+          ],
+          [
+            "Trade Deadline",
+            "No trades can be made after the trade deadline of 11:59 pm et 9/15/26."
+          ],
+          [
+            "Offseason Trades",
+            "Managers may make trades during the offseason."
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "Player Eligibility",
+            "Players are eligible at their primary position, plus positions they've played 5 games last year or 5 games this year."
+          ],
+          [
+            "SP Pitcher Eligibility",
+            "Pitchers gain eligibility at Starting Pitcher with 5 starts last year or 5 starts this year."
+          ],
+          [
+            "RP Pitcher Eligibility",
+            "Pitchers gain eligibility at Relief Pitcher with 5 relief appearances last year or 5 relief appearances this year."
+          ],
+          [
+            "Player Pool",
+            "AL and NL Players."
+          ],
+          [
+            "Keeper Policy",
+            "Commissioner is responsible for setting all teams' Keepers"
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "League Entry Fee",
+            "115"
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "Draft Format",
+            "Live Salary Cap Draft"
+          ],
+          [
+            "Draft Order Type",
+            "Snake"
+          ],
+          [
+            "Draft Date/Time",
+            "3/24/26 09:00 pm ET"
+          ],
+          [
+            "Salary cap",
+            "260 per team."
+          ],
+          [
+            "Nomination time limit",
+            "20 seconds, limit of 35 seconds between offers."
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Batting",
+          "Name",
+          "Settings"
+        ],
+        "rows": [
+          [
+            "1B",
+            "Singles",
+            "1 point"
+          ],
+          [
+            "2B",
+            "Doubles",
+            "2 points"
+          ],
+          [
+            "3B",
+            "Triples",
+            "3 points"
+          ],
+          [
+            "BB",
+            "Walks (Batters)",
+            "1 point"
+          ],
+          [
+            "HP",
+            "Hit by Pitch",
+            "1 point"
+          ],
+          [
+            "HR",
+            "Home Runs",
+            "4 points"
+          ],
+          [
+            "R",
+            "Runs",
+            "1 point"
+          ],
+          [
+            "RBI",
+            "Runs Batted In",
+            "1 point"
+          ],
+          [
+            "SB",
+            "Stolen Bases",
+            "2 points"
+          ],
+          [
+            "Pitching",
+            "Name",
+            "Settings"
+          ],
+          [
+            "B",
+            "Balks",
+            "-1 point"
+          ],
+          [
+            "BBI",
+            "Walks Issued (Pitchers)",
+            "-0.5 points"
+          ],
+          [
+            "CG",
+            "Complete Games",
+            "5 points"
+          ],
+          [
+            "ER",
+            "Earned Runs",
+            "-1 point"
+          ],
+          [
+            "HA",
+            "Hits Allowed",
+            "-0.5 points"
+          ],
+          [
+            "INN",
+            "Innings",
+            "2 points"
+          ],
+          [
+            "K",
+            "Strikeouts (Pitcher)",
+            "1 point"
+          ],
+          [
+            "NH",
+            "No-Hitters",
+            "20 points"
+          ],
+          [
+            "S",
+            "Saves",
+            "8 points"
+          ],
+          [
+            "SO",
+            "Shutouts",
+            "5 points"
+          ],
+          [
+            "W",
+            "Wins",
+            "10 points"
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "Scoring System",
+            "Head-to-Head, Points"
+          ],
+          [
+            "Scoring per Period",
+            "Scoring based on total stats each period."
+          ],
+          [
+            "Matchup Tiebreaker",
+            "Ties go to the team with better R."
+          ]
+        ]
+      },
+      {
+        "headers": [
+          "Description",
+          "Setting"
+        ],
+        "rows": [
+          [
+            "Period Length",
+            "Weekly scoring periods, starting on Mondays"
+          ],
+          [
+            "Periods Start",
+            "Monday"
+          ],
+          [
+            "Season Starts",
+            "Wed, Mar 25, 2026"
+          ],
+          [
+            "Matchups Per Period",
+            "2"
+          ],
+          [
+            "Playoffs Start",
+            "Period 23"
+          ],
+          [
+            "Playoffs Last",
+            "2 Periods"
+          ],
+          [
+            "Restrict Add/Drops During Playoffs",
+            "Yes"
+          ],
+          [
+            "Automatic Playoffs",
+            "Yes"
+          ],
+          [
+            "Number of Playoff Teams",
+            "4"
+          ],
+          [
+            "Reseed Teams after each round",
+            "No"
+          ],
+          [
+            "Hold a third place game",
+            "No"
+          ],
+          [
+            "Run Consolation Playoffs",
+            "No"
+          ],
+          [
+            "Archive Standings",
+            "Yes"
+          ],
+          [
+            "Combine All-Star Period with Following Period",
+            "No"
+          ],
+          [
+            "Standings Tiebreaker",
+            "Ties in the standings are resolved in this order: Winning Percentage, Head to Head Record, Division Record, Total Points, Points Against (Ascending)."
+          ],
+          [
+            "Division Winner Tiebreaker",
+            "Ties for division winner are resolved using standings tiebreakers"
+          ],
+          [
+            "Playoffs Matchup Tiebreaker",
+            "Playoff ties go to the team with better R."
+          ]
+        ]
+      },
+      {
+        "headers": [],
+        "rows": [
+          [
+            "Constitution"
+          ],
+          [
+            "It seems as if the votes are in, as this poll has been up for almost a week now. Starting Friday Morning you can add Mnor league players to your roster. Here are the rules. (Teams can only add one minor league player to thier roster each day, meaning the minor league free agent period will start on Friday Morning --no particular order--and continue unitl Tuesday. Of course after Tuesday you are free to do whatever transaction you want with your minors. 1. A Minor leaguer is 450 AB or 150 innnings pitched 2. Players Eligibilty to be a \"Minor\" will be viewed during the offseason. Meaning if you have \"minor\" on your team he can go over our qualification #'s for being a minor during THAT year but by the time keepers are announced you will need to make a decison on whether to keep him or cut them. 3.If you \"bring up\" a minor league player to your main roster he can no longer be a minor league player for you that year. (If you trade him and a team has space and the player is still under the requirements to be a minor than the team he is traded to can place him on \"minors\" since he was never on thier roster. The Caviot being--since we did not have minor league roster this year we will employ the \"Matt Kemp\" (if a player was on your major league roster) rule for this year ONLY. 4. You can begin to pick up minor league players Friday morning (only 1 per day). The offset to the \"Matt Kemp\" rule-- if you want to put a player on your minor league roster from your major league roster this year, you must do this first ( On Friday, and if you have more than one you can still only do this once per day), once you pick up a free agent minor leaguer no else from your major league roster can be added to your minor league roster. Once again this is only for this year. Remember you can have up to 5 minor league players. Once again all teams may not want to participate right away but they will see the advantages soon enough. GOOD LUCK!!"
+          ]
+        ]
+      }
+    ]
+  },
+  "schema": "gbo.reference.v1",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16"
+}
