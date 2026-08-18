@@ -1,10 +1,10 @@
 {
   "collector": "GBO-CBS-1.2.1",
   "core_status": "GREEN",
-  "ingested_at": "2026-08-18T16:06:03Z",
+  "ingested_at": "2026-08-18T16:13:07Z",
   "schema": "gbo.ingest.v1",
-  "snapshot_generated_at": "2026-08-18T16:05:37.399Z",
-  "snapshot_hash": "85777b68e06b0c9176c65bbe4580c1bd524a2d664cdb06dcde9d3cf32f857279",
+  "snapshot_generated_at": "2026-08-18T16:12:42.176Z",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16",
   "transaction_rows": 537,
   "validation_issues": []
 }
