@@ -1,0 +1,79 @@
+name: GBO Snapshot Ingest
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - gbo/inbox/latest.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: read
+
+concurrency:
+  group: gbo-snapshot-ingest
+  cancel-in-progress: true
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate and reconcile snapshot
+        id: ingest
+        shell: bash
+        run: |
+          set +e
+          PREVIOUS_ARG=""
+          if [ -f gbo/current/latest_snapshot.json ]; then
+            PREVIOUS_ARG="--previous gbo/current/latest_snapshot.json"
+          fi
+          python gbo/ingest.py \
+            --inbox gbo/inbox/latest.json \
+            $PREVIOUS_ARG \
+            --output-dir gbo_ingest
+          CODE=$?
+          echo "code=$CODE" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Record attempt and promote only GREEN
+        shell: bash
+        run: |
+          mkdir -p gbo/status
+          cp gbo_ingest/latest_manifest.json gbo/status/latest_manifest.json
+          cp gbo_ingest/reconciliation.json gbo/status/latest_reconciliation.json
+
+          if [ "${{ steps.ingest.outputs.code }}" = "0" ]; then
+            mkdir -p gbo/current
+            cp gbo_ingest/latest_snapshot.json gbo/current/latest_snapshot.json
+            cp gbo_ingest/latest_manifest.json gbo/current/latest_manifest.json
+            cp gbo_ingest/reconciliation.json gbo/current/latest_reconciliation.json
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add gbo/status gbo/current || true
+          if git diff --cached --quiet; then
+            echo "No canonical/status changes to commit."
+          else
+            git commit -m "Record GBO snapshot reconciliation"
+            git push
+          fi
+
+      - name: Upload reconciliation evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gbo-snapshot-ingest
+          path: gbo_ingest/
+          if-no-files-found: error
+          retention-days: 30
+
+      - name: Enforce GREEN
+        if: steps.ingest.outputs.code != '0'
+        run: exit 2
