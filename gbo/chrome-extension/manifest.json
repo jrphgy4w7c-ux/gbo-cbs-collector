@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Grant GBO Refresh Bridge",
+  "version": "0.1.0",
+  "description": "Securely publishes sanitized GBO Refresh snapshots to the canonical GitHub repository.",
+  "permissions": ["storage", "tabs"],
+  "host_permissions": [
+    "https://github.com/*",
+    "https://api.github.com/*",
+    "https://*.baseball.cbssports.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.baseball.cbssports.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
