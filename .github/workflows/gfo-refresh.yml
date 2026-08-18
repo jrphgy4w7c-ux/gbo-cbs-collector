@@ -9,7 +9,6 @@ on:
       - main
     paths:
       - gfo/collector.py
-      - gfo/faab_lineage.py
       - gfo/transaction_lineage.py
       - .github/workflows/gfo-refresh.yml
 
@@ -31,7 +30,6 @@ jobs:
       - name: Regression tests
         run: |
           python gfo/collector.py --self-test
-          python gfo/faab_lineage.py --self-test
           python gfo/transaction_lineage.py --self-test
 
       - name: Restore prior GFO snapshot
@@ -66,16 +64,7 @@ jobs:
             --require-provenance \
             $PRIOR_ARG
 
-      - name: Reconcile FAAB lineage
-        shell: bash
-        run: |
-          python gfo/faab_lineage.py \
-            --snapshot gfo_refresh/latest_snapshot.json \
-            --transactions gfo_refresh/latest_transactions.json \
-            --output gfo_refresh/latest_faab_lineage.json \
-            --require-green
-
-      - name: Build human-readable transaction lineage
+      - name: Build and validate transaction lineage
         shell: bash
         run: |
           python gfo/transaction_lineage.py \
@@ -83,20 +72,6 @@ jobs:
             --transactions gfo_refresh/latest_transactions.json \
             --output gfo_refresh/latest_transaction_lineage.json \
             --require-green
-
-      - name: No-regression lineage parity
-        shell: bash
-        run: |
-          python - <<'PY'
-          import json
-          a=json.load(open('gfo_refresh/latest_faab_lineage.json'))
-          b=json.load(open('gfo_refresh/latest_transaction_lineage.json'))
-          assert a['status']=='GREEN' and b['status']=='GREEN'
-          assert a['claim_spend']==b['paid_claim_spend']
-          assert a['sleeper_faab_used']==b['sleeper_faab_used']
-          assert a['sleeper_faab_remaining']==b['sleeper_faab_remaining']
-          print('PASS lineage parity')
-          PY
 
       - name: Upload canonical GFO Refresh
         if: always()
@@ -117,7 +92,6 @@ jobs:
           cp gfo_refresh/latest_transactions.json gfo/current/
           cp gfo_refresh/latest_diff.json gfo/current/
           cp gfo_refresh/latest_manifest.json gfo/current/
-          cp gfo_refresh/latest_faab_lineage.json gfo/current/
           cp gfo_refresh/latest_transaction_lineage.json gfo/current/
           git config user.name "GFO Refresh"
           git config user.email "actions@users.noreply.github.com"
