@@ -57,3 +57,4 @@ def main():
     print(json.dumps({"schema": core["schema"], "available": len(available), "owned": len(ownership), "shards": len(shards), "snapshot_hash": manifest.get("snapshot_hash")}, indent=2))
 
 if __name__ == "__main__": main()
+# v2 sharded projection production trigger
