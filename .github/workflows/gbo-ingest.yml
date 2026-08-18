@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - gbo/inbox/latest.json
+      - gbo/front_office.py
+      - .github/workflows/gbo-ingest.yml
   workflow_dispatch:
 
 permissions:
@@ -41,6 +43,14 @@ jobs:
           echo "code=$CODE" >> "$GITHUB_OUTPUT"
           exit 0
 
+      - name: Build front-office projection for GREEN snapshot
+        if: steps.ingest.outputs.code == '0'
+        run: |
+          python gbo/front_office.py \
+            --snapshot gbo_ingest/latest_snapshot.json \
+            --manifest gbo_ingest/latest_manifest.json \
+            --output gbo_ingest/front_office_state.json
+
       - name: Record attempt and promote only GREEN
         shell: bash
         run: |
@@ -53,6 +63,7 @@ jobs:
             cp gbo_ingest/latest_snapshot.json gbo/current/latest_snapshot.json
             cp gbo_ingest/latest_manifest.json gbo/current/latest_manifest.json
             cp gbo_ingest/reconciliation.json gbo/current/latest_reconciliation.json
+            cp gbo_ingest/front_office_state.json gbo/current/front_office_state.json
           fi
 
           git config user.name "github-actions[bot]"
