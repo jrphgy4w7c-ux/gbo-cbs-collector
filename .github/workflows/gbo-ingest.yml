@@ -32,13 +32,8 @@ jobs:
         run: |
           set +e
           PREVIOUS_ARG=""
-          if [ -f gbo/current/latest_snapshot.json ]; then
-            PREVIOUS_ARG="--previous gbo/current/latest_snapshot.json"
-          fi
-          python gbo/ingest.py \
-            --inbox gbo/inbox/latest.json \
-            $PREVIOUS_ARG \
-            --output-dir gbo_ingest
+          if [ -f gbo/current/latest_snapshot.json ]; then PREVIOUS_ARG="--previous gbo/current/latest_snapshot.json"; fi
+          python gbo/ingest.py --inbox gbo/inbox/latest.json $PREVIOUS_ARG --output-dir gbo_ingest
           CODE=$?
           echo "code=$CODE" >> "$GITHUB_OUTPUT"
           exit 0
@@ -46,10 +41,7 @@ jobs:
       - name: Build front-office projection for GREEN snapshot
         if: steps.ingest.outputs.code == '0'
         run: |
-          python gbo/front_office.py \
-            --snapshot gbo_ingest/latest_snapshot.json \
-            --manifest gbo_ingest/latest_manifest.json \
-            --output gbo_ingest/front_office_state.json
+          python gbo/front_office.py --snapshot gbo_ingest/latest_snapshot.json --manifest gbo_ingest/latest_manifest.json --output-dir gbo_ingest/front_office
 
       - name: Record attempt and promote only GREEN
         shell: bash
@@ -57,24 +49,19 @@ jobs:
           mkdir -p gbo/status
           cp gbo_ingest/latest_manifest.json gbo/status/latest_manifest.json
           cp gbo_ingest/reconciliation.json gbo/status/latest_reconciliation.json
-
           if [ "${{ steps.ingest.outputs.code }}" = "0" ]; then
             mkdir -p gbo/current
             cp gbo_ingest/latest_snapshot.json gbo/current/latest_snapshot.json
             cp gbo_ingest/latest_manifest.json gbo/current/latest_manifest.json
             cp gbo_ingest/reconciliation.json gbo/current/latest_reconciliation.json
-            cp gbo_ingest/front_office_state.json gbo/current/front_office_state.json
+            rm -f gbo/current/front_office_state.json
+            rm -rf gbo/current/front_office
+            cp -R gbo_ingest/front_office gbo/current/front_office
           fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add gbo/status gbo/current || true
-          if git diff --cached --quiet; then
-            echo "No canonical/status changes to commit."
-          else
-            git commit -m "Record GBO snapshot reconciliation"
-            git push
-          fi
+          git add -A gbo/status gbo/current || true
+          if git diff --cached --quiet; then echo "No canonical/status changes to commit."; else git commit -m "Record GBO snapshot reconciliation" && git push; fi
 
       - name: Upload reconciliation evidence
         if: always()
