@@ -10,6 +10,7 @@ Shared private-use acquisition and control infrastructure for Grant Baseball Ope
 - `gbo-launcher.js` — stable GBO browser-loader layer, intentionally kept at a fixed root path because the permanent browser bookmarklet resolves it through immutable repository ID `1337389940`.
 - `bookmarklet.txt` — permanent GBO Refresh bookmarklet.
 - `manifest.json` — GBO launcher/collector contract and migration state.
+- `ARTIFACT_REGISTRY.md` — mandatory supersession/quarantine registry for durable Front Office artifacts.
 
 ## GBO
 
@@ -41,6 +42,12 @@ Interpret every stateful/historical claim as: **fact + provenance/authority + ef
 
 This rule is shared across sports. In GFO, a player added later in the day cannot prove he was already rostered earlier. In GBO, a later add/drop/IL/activation cannot be used to rewrite the roster state that existed before that transaction. Direct corrections must be attached to the historical claim they actually correct.
 
+## Artifact supersession contract
+
+`ARTIFACT_REGISTRY.md` must be checked before a versioned durable workbook/control artifact is used as institutional evidence. A later version explicitly supersedes an earlier version for current doctrine and corrections. Superseded artifacts remain historical records only and cannot reintroduce a quarantined error merely because file search retrieves them.
+
+Known critical quarantine: `Grant_Front_Office_OS_v1_2.xlsx` and `GFO_Control_Center_2026-08-18_v1_2.xlsx` contain the erroneous interpretation that Grant misremembered the Hibner history. That interpretation is false and permanently superseded. The corrected chronology in v1.3+ and the GFO README controls.
+
 ## Architecture contracts
 
 - Protect requirements, not implementations.
@@ -48,6 +55,7 @@ This rule is shared across sports. In GFO, a player added later in the day canno
 - Prefer consolidation over accretion.
 - Treat live authoritative platform evidence as current-state authority; durable databases are organizational history.
 - Consume compact published canonical state for routine reconciliation; use raw snapshots/workflow diagnostics only when deeper evidence or failure diagnosis is needed.
+- Check artifact supersession/quarantine before using durable institutional files.
 - A replacement must meet or exceed the known-good system for correctness, completeness, provenance, continuity, reliability and recoverability before promotion.
 - Keep rollback paths during migration, then retire them after successful validation rather than retaining permanent duplicate implementations.
 - After a material refactor reaches GREEN, prefer stability and normal-run evidence over further churn.
