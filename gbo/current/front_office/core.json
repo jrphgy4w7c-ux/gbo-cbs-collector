@@ -3356,11 +3356,11 @@
       }
     ]
   },
-  "projection_hash": "19341a4e85b336246874076ca9a32e7c5f8fe8ddb8105b5b8c24139ce5b60338",
+  "projection_hash": "1173ae72be33d27af22ae26a2490124056a850a1a05fedf852ba4d08de762d68",
   "provenance": {
     "collector": "GBO-CBS-1.2.1",
     "core_status": "GREEN",
-    "ingested_at": "2026-08-18T16:33:18Z",
+    "ingested_at": "2026-08-18T16:33:51Z",
     "snapshot_generated_at": "2026-08-18T16:12:42.176Z",
     "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16",
     "transaction_rows": 537,
