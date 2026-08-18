@@ -1,10 +1,27 @@
 {
-  "baseline": true,
+  "baseline": false,
   "grant": {
-    "changed": false
+    "active_roster_salary": {
+      "from": 168,
+      "to": 168
+    },
+    "changed": false,
+    "fab_remaining": {
+      "from": 845,
+      "to": 845
+    },
+    "player_changes": [],
+    "total_roster_salary": {
+      "from": 256,
+      "to": 256
+    },
+    "waiver_position": {
+      "from": 6,
+      "to": 6
+    }
   },
   "ownership_changes": [],
-  "snapshot_hash": "c8b453e135ef6ed0f73950d968e7c60d22b0e6f978599436412a4e4f44d99624",
+  "snapshot_hash": "85777b68e06b0c9176c65bbe4580c1bd524a2d664cdb06dcde9d3cf32f857279",
   "status": "GREEN",
   "transactions_added": []
 }
