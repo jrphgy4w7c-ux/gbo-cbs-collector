@@ -5,7 +5,7 @@ import argparse, copy, hashlib, json, time, urllib.error, urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
 
-VERSION = "2.0.0"
+VERSION = "2.0.1"
 LEAGUE_ID = "1315882920837128192"
 GRANT_USER_ID = "340645503257550848"
 BASE = "https://api.sleeper.app/v1"
@@ -98,12 +98,16 @@ def diff(prev, cur):
     return {"baseline": False, "rosters": out, "picks": pd}
 
 
+def transaction_effective_time(t):
+    return int(t.get("status_updated") or t.get("created") or 0)
+
+
 def provenance(delta, txs, prior_time):
     if delta.get("baseline"): return []
     cutoff = int(datetime.fromisoformat(prior_time.replace("Z", "+00:00")).timestamp()*1000) if prior_time else 0
     adds, drops, faab, picks = set(), set(), set(), set()
     for t in txs:
-        if t.get("status") != "complete" or int(t.get("created") or 0) < cutoff: continue
+        if t.get("status") != "complete" or transaction_effective_time(t) < cutoff: continue
         adds |= {(str(p), int(r)) for p, r in (t.get("adds") or {}).items()}
         drops |= {(str(p), int(r)) for p, r in (t.get("drops") or {}).items()}
         if (t.get("settings") or {}).get("waiver_bid") is not None: faab |= {int(r) for r in (t.get("roster_ids") or [])}
@@ -195,6 +199,12 @@ def self_test():
         return provenance(d,tx,prev["collected_at"])
     check("unexplained_provenance", lambda: (_ for _ in ()).throw(AssertionError()) if not prov_case(False) else None)
     check("explained_provenance", lambda: (_ for _ in ()).throw(AssertionError()) if prov_case(True) else None)
+    def delayed_waiver_case():
+        r,p=base(); prev={"collected_at":"2026-08-17T12:00:00Z","rosters":r,"future_picks":p}; b=copy.deepcopy(raw); b[0]["players"].append("D"); cur={"rosters":normalize_rosters(b,200),"future_picks":p}; d=diff(prev,cur)
+        cutoff=int(datetime.fromisoformat(prev["collected_at"].replace("Z","+00:00")).timestamp()*1000)
+        tx=[{"transaction_id":"w","status":"complete","created":cutoff-3600000,"status_updated":cutoff+3600000,"adds":{"D":1},"roster_ids":[1],"settings":{"waiver_bid":0}}]
+        assert not provenance(d,tx,prev["collected_at"])
+    check("delayed_waiver_status_updated", delayed_waiver_case)
     for n,ok,e in results: print(("PASS" if ok else "FAIL"), n, e)
     print(f"REGRESSION TESTS: {sum(ok for _,ok,_ in results)}/{len(results)} passed")
     return 0 if all(ok for _,ok,_ in results) else 1
