@@ -48,7 +48,15 @@ Front Office reconciliation must never infer a transaction's player identity fro
 
 ## Authority-conflict invariant
 
-Authority is domain-specific, not a single universal ranking. For facts recorded by Sleeper — ownership, roster placement, completed transactions, FAAB and pick movement — the newest successful authoritative platform-derived evidence controls. Grant's direct statements are authoritative for intent, strategy, preferences, rationale and context not encoded by the platform, and they always outrank assistant prose. When Grant's recollection conflicts with platform evidence about a platform-recorded fact, surface and reconcile the conflict rather than silently overwriting either source. Prior assistant prose is never evidence.
+Authority is domain-specific, not a single universal ranking. For facts recorded by Sleeper — ownership, roster placement, completed transactions, FAAB and pick movement — the newest successful authoritative platform-derived evidence controls for the time period it actually describes. Grant's direct statements are authoritative for intent, strategy, preferences, rationale and context not encoded by the platform, and they always outrank assistant prose. Prior assistant prose is never evidence.
+
+When a Grant statement appears to conflict with platform evidence, first align temporal and semantic scope: determine what point in time and what historical claim each statement actually refers to. A later transaction cannot retroactively make an earlier ownership claim true, and a correction to an invented earlier history must not be reinterpreted as denying a later real transaction. Only after temporal/context alignment should a true source conflict be classified and reconciled.
+
+## Temporal-scope invariant
+
+Every stateful or historical claim must be interpreted as a tuple of: fact + provenance/authority + effective timestamp or interval + semantic context. Reconciliation must not compare claims from different effective times as if they were contradictory.
+
+Canonical Hibner example: before Grant's 2026-08-15 acquisition, Big Nasty had never rostered Matt Hibner. The assistant hallucinated a preexisting Hibner/Ertz transaction history; Grant correctly rejected that invented history. Later that same day, Grant actually added Hibner for the first time and dropped Mac Jones. The later real transaction does not validate the earlier hallucination or make Grant's earlier correction mistaken.
 
 ## Design rule
 
