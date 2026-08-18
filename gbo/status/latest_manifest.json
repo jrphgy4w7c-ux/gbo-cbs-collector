@@ -1,0 +1,10 @@
+{
+  "collector": "GBO-CBS-1.2.1",
+  "core_status": "GREEN",
+  "ingested_at": "2026-08-18T16:05:00Z",
+  "schema": "gbo.ingest.v1",
+  "snapshot_generated_at": "2026-08-18T16:04:11.403Z",
+  "snapshot_hash": "c8b453e135ef6ed0f73950d968e7c60d22b0e6f978599436412a4e4f44d99624",
+  "transaction_rows": 537,
+  "validation_issues": []
+}
