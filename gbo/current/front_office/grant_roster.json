@@ -1,0 +1,200 @@
+{
+  "schema": "gbo.grant_roster.v1",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16",
+  "team": {
+    "abbr": "BNHD",
+    "active_roster_salary": 168,
+    "long_abbr": "vilLAins",
+    "players": [
+      {
+        "name": "Cal Raleigh",
+        "player_id": "2933037",
+        "position": "C",
+        "roster_status": "A"
+      },
+      {
+        "name": "Pete Alonso",
+        "player_id": "2447476",
+        "position": "1B",
+        "roster_status": "A"
+      },
+      {
+        "name": "Ozzie Albies",
+        "player_id": "2167464",
+        "position": "2B",
+        "roster_status": "A"
+      },
+      {
+        "name": "Bryson Stott",
+        "player_id": "3117910",
+        "position": "2B",
+        "roster_status": "A"
+      },
+      {
+        "name": "Zachary Neto",
+        "player_id": "28920016",
+        "position": "SS",
+        "roster_status": "A"
+      },
+      {
+        "name": "Jac Caglianone",
+        "player_id": "29426035",
+        "position": "RF",
+        "roster_status": "A"
+      },
+      {
+        "name": "Sam Antonacci",
+        "player_id": "29644412",
+        "position": "2B",
+        "roster_status": "A"
+      },
+      {
+        "name": "Esmerlyn Valdez",
+        "player_id": "29676977",
+        "position": "RF",
+        "roster_status": "A"
+      },
+      {
+        "name": "Munetaka Murakami",
+        "player_id": "50040107",
+        "position": "1B",
+        "roster_status": "A"
+      },
+      {
+        "name": "Framber Valdez",
+        "player_id": "2739968",
+        "position": "SP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Jesus Luzardo",
+        "player_id": "2910624",
+        "position": "SP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Kyle Bradish",
+        "player_id": "2932284",
+        "position": "SP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Bryan Woo",
+        "player_id": "29075489",
+        "position": "SP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Jacob Misiorowski",
+        "player_id": "29075709",
+        "position": "SP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Yoshinobu Yamamoto",
+        "player_id": "29313209",
+        "position": "SP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Mason Miller",
+        "player_id": "26911802",
+        "position": "RP",
+        "roster_status": "A"
+      },
+      {
+        "name": "Austin Riley",
+        "player_id": "2211186",
+        "position": "3B",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Maikel Garcia",
+        "player_id": "2829027",
+        "position": "3B",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Mookie Betts",
+        "player_id": "2106654",
+        "position": "SS",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Jared Jones",
+        "player_id": "26615394",
+        "position": "SP",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Jackson Jobe",
+        "player_id": "26719550",
+        "position": "SP",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Gage Jump",
+        "player_id": "29632442",
+        "position": "SP",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Edwin Diaz",
+        "player_id": "2117203",
+        "position": "RP",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Justin Martinez",
+        "player_id": "26615409",
+        "position": "RP",
+        "roster_status": "RS"
+      },
+      {
+        "name": "Samuel Basallo",
+        "player_id": "26912463",
+        "position": "C",
+        "roster_status": "I"
+      },
+      {
+        "name": "Tyler Soderstrom",
+        "player_id": "3166655",
+        "position": "LF",
+        "roster_status": "I"
+      },
+      {
+        "name": "Corbin Burnes",
+        "player_id": "2849889",
+        "position": "SP",
+        "roster_status": "I"
+      },
+      {
+        "name": "Devin Williams",
+        "player_id": "2066820",
+        "position": "RP",
+        "roster_status": "I"
+      },
+      {
+        "name": "Max Clark",
+        "player_id": "29153542",
+        "position": "CF",
+        "roster_status": "ML"
+      },
+      {
+        "name": "Mike Sirota",
+        "player_id": "29662202",
+        "position": "CF",
+        "roster_status": "ML"
+      },
+      {
+        "name": "Christian Zazueta",
+        "player_id": "50042262",
+        "position": "SP",
+        "roster_status": "ML"
+      }
+    ],
+    "short_name": "vilLAi",
+    "team_id": "3",
+    "total_roster_salary": 256
+  }
+}

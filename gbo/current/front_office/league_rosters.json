@@ -1,0 +1,1846 @@
+{
+  "schema": "gbo.league_rosters.v1",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16",
+  "teams": [
+    {
+      "abbr": "3TL",
+      "active_roster_salary": 154,
+      "long_abbr": "3X",
+      "players": [
+        {
+          "name": "Ryan Jeffers",
+          "player_id": "2931974",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "player_id": "2221784",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jackson Holliday",
+          "player_id": "28920005",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jazz Chisholm Jr.",
+          "player_id": "2507358",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Corey Seager",
+          "player_id": "2041873",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jackson Chourio",
+          "player_id": "26643926",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jackson Merrill",
+          "player_id": "26719676",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "player_id": "27023012",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Mike Trout",
+          "player_id": "1739608",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Matthew Boyd",
+          "player_id": "2173411",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Tyler Mahle",
+          "player_id": "2211216",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "MacKenzie Gore",
+          "player_id": "2835055",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Landen Roupp",
+          "player_id": "29075725",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Shota Imanaga",
+          "player_id": "29326548",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kenley Jansen",
+          "player_id": "1208718",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Josh Hader",
+          "player_id": "2044482",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Marcelo Mayer",
+          "player_id": "26719555",
+          "position": "3B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Willy Adames",
+          "player_id": "2165933",
+          "position": "SS",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Dylan Crews",
+          "player_id": "29155725",
+          "position": "RF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Robbie Ray",
+          "player_id": "1947846",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Edward Cabrera",
+          "player_id": "2821757",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Kyle Harrison",
+          "player_id": "26615400",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Tatsuya Imai",
+          "player_id": "50040436",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Shea Langeliers",
+          "player_id": "3117480",
+          "position": "C",
+          "roster_status": "I"
+        },
+        {
+          "name": "Nathan Eovaldi",
+          "player_id": "1803864",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Max Meyer",
+          "player_id": "2837228",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Abner Uribe",
+          "player_id": "26912489",
+          "position": "RP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Bryce Eldridge",
+          "player_id": "29153551",
+          "position": "DH",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Travis Sykora",
+          "player_id": "29295943",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "3X the",
+      "team_id": "1",
+      "total_roster_salary": 239
+    },
+    {
+      "abbr": "BS",
+      "active_roster_salary": 170,
+      "long_abbr": "BloSox",
+      "players": [
+        {
+          "name": "Hunter Goodman",
+          "player_id": "26911639",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Rafael Devers",
+          "player_id": "2165929",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Fernando Tatis Jr.",
+          "player_id": "2507363",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Manny Machado",
+          "player_id": "1765812",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Colson Montgomery",
+          "player_id": "26719651",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "George Springer",
+          "player_id": "1894629",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jo Adell",
+          "player_id": "2835062",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Daylen Lile",
+          "player_id": "26911693",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Christian Walker",
+          "player_id": "2044379",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jacob deGrom",
+          "player_id": "2044508",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "George Kirby",
+          "player_id": "3117917",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Tarik Skubal",
+          "player_id": "3126008",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bryce Elder",
+          "player_id": "26615410",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Andrew Painter",
+          "player_id": "26719591",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Parker Messick",
+          "player_id": "29075750",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Aroldis Chapman",
+          "player_id": "1717646",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Franklin Arias",
+          "player_id": "29321884",
+          "position": "SS",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Braden Montgomery",
+          "player_id": "29426041",
+          "position": "CF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jose Soriano",
+          "player_id": "2826021",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Rhett Lowder",
+          "player_id": "29153545",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Louie Varland",
+          "player_id": "26911730",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Aaron Judge",
+          "player_id": "2071264",
+          "position": "RF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Garrett Crochet",
+          "player_id": "2836763",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Robby Snelling",
+          "player_id": "29075757",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Connelly Early",
+          "player_id": "29658250",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Sebastian Walcott",
+          "player_id": "29147384",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Thomas White",
+          "player_id": "29155733",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Bloody",
+      "team_id": "2",
+      "total_roster_salary": 240
+    },
+    {
+      "abbr": "GD",
+      "active_roster_salary": 88,
+      "long_abbr": "BanOhtani",
+      "players": [
+        {
+          "name": "Ivan Herrera",
+          "player_id": "2829355",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Willson Contreras",
+          "player_id": "2171084",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Travis Bazzana",
+          "player_id": "29426030",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Junior Caminero",
+          "player_id": "28839811",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jeremy Pena",
+          "player_id": "2932999",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jake McCarthy",
+          "player_id": "2931995",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Alec Burleson",
+          "player_id": "26615325",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jung Hoo Lee",
+          "player_id": "29295027",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bryce Harper",
+          "player_id": "1765813",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Foster Griffin",
+          "player_id": "2135259",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "J.T. Ginn",
+          "player_id": "2942993",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Andre Pallante",
+          "player_id": "26615439",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Sean Burke",
+          "player_id": "26911758",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Will Warren",
+          "player_id": "29075794",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Paul Skenes",
+          "player_id": "29153541",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Riley O'Brien",
+          "player_id": "2837304",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Riley Greene",
+          "player_id": "3117537",
+          "position": "LF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Reid Detmers",
+          "player_id": "2836804",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Shane Drohan",
+          "player_id": "2836825",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Javier Assad",
+          "player_id": "2910632",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Joe Ryan",
+          "player_id": "2933069",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Griffin Jax",
+          "player_id": "3157710",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Noah Schultz",
+          "player_id": "28920029",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Ryan O'Hearn",
+          "player_id": "2211177",
+          "position": "1B",
+          "roster_status": "I"
+        },
+        {
+          "name": "Juan Soto",
+          "player_id": "2507367",
+          "position": "RF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Tyler Glasnow",
+          "player_id": "2068548",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Jack Flaherty",
+          "player_id": "2135266",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Spencer Schwellenbach",
+          "player_id": "26911687",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "George Lombard Jr.",
+          "player_id": "29153558",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Kade Anderson",
+          "player_id": "50002597",
+          "position": "SP",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Jamie Arnold",
+          "player_id": "50009342",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Gold D",
+      "team_id": "7",
+      "total_roster_salary": 197
+    },
+    {
+      "abbr": "KOK",
+      "active_roster_salary": 187,
+      "long_abbr": "KOK",
+      "players": [
+        {
+          "name": "Dillon Dingler",
+          "player_id": "3165152",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Freddie Freeman",
+          "player_id": "1630079",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Ketel Marte",
+          "player_id": "1963334",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Miguel Vargas",
+          "player_id": "3152039",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "C.J. Abrams",
+          "player_id": "3117475",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kyle Schwarber",
+          "player_id": "2135243",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Andy Pages",
+          "player_id": "3152041",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Zack Gelof",
+          "player_id": "26911678",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Shohei Ohtani",
+          "player_id": "2901324",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kevin Gausman",
+          "player_id": "2000033",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Max Fried",
+          "player_id": "2001078",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Blake Snell",
+          "player_id": "2006996",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Eduardo Rodriguez",
+          "player_id": "2042426",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Braxton Ashcraft",
+          "player_id": "2931893",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kyle Leahy",
+          "player_id": "2932872",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bryan Baker",
+          "player_id": "3157614",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jake Bauers",
+          "player_id": "2165918",
+          "position": "1B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Bryan Reynolds",
+          "player_id": "2449444",
+          "position": "RF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Freddy Peralta",
+          "player_id": "2900486",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Logan Webb",
+          "player_id": "3055542",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Troy Melton",
+          "player_id": "29075780",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Justin Wrobleski",
+          "player_id": "29295964",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Cade Smith",
+          "player_id": "2837519",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jesus Made",
+          "player_id": "29632938",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Eli Willits",
+          "player_id": "50002606",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Josue De Paula",
+          "player_id": "29077648",
+          "position": "LF",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Kings ",
+      "team_id": "9",
+      "total_roster_salary": 253
+    },
+    {
+      "abbr": "LH",
+      "active_roster_salary": 177,
+      "long_abbr": "UT_Sucks",
+      "players": [
+        {
+          "name": "Gabriel Moreno",
+          "player_id": "2829082",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Matt Olson",
+          "player_id": "2044509",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Brice Turang",
+          "player_id": "2942981",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Max Muncy",
+          "player_id": "2106304",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Trea Turner",
+          "player_id": "2135249",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Ronald Acuna Jr.",
+          "player_id": "2211777",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Randy Arozarena",
+          "player_id": "2914723",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Pete Crow-Armstrong",
+          "player_id": "26615365",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Yandy Diaz",
+          "player_id": "2121030",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Zack Wheeler",
+          "player_id": "1744777",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Shane Baz",
+          "player_id": "2835064",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Drew Rasmussen",
+          "player_id": "2837374",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Shane McClanahan",
+          "player_id": "2931996",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Noah Cameron",
+          "player_id": "29075748",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Chase Burns",
+          "player_id": "29426031",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Andres Munoz",
+          "player_id": "2910638",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Adley Rutschman",
+          "player_id": "3117469",
+          "position": "C",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Ernie Clement",
+          "player_id": "2836722",
+          "position": "3B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Kyle Tucker",
+          "player_id": "2184352",
+          "position": "RF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Gerrit Cole",
+          "player_id": "1893753",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Shane Bieber",
+          "player_id": "2507333",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Trevor Rogers",
+          "player_id": "2835065",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Logan Gilbert",
+          "player_id": "2942974",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Walbert Urena",
+          "player_id": "29077682",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Colt Emerson",
+          "player_id": "29153555",
+          "position": "SS",
+          "roster_status": "I"
+        },
+        {
+          "name": "Spencer Arrighetti",
+          "player_id": "29075773",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Daniel Palencia",
+          "player_id": "28837106",
+          "position": "RP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Carson Benge",
+          "player_id": "29426048",
+          "position": "CF",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Merrill Kelly",
+          "player_id": "2050483",
+          "position": "SP",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Seth Lugo",
+          "player_id": "2210221",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Longho",
+      "team_id": "4",
+      "total_roster_salary": 245
+    },
+    {
+      "abbr": "LH",
+      "active_roster_salary": 141,
+      "long_abbr": "MR",
+      "players": [
+        {
+          "name": "Drake Baldwin",
+          "player_id": "29075524",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Andruw Monasterio",
+          "player_id": "3095050",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Nico Hoerner",
+          "player_id": "2942984",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kevin McGonigle",
+          "player_id": "29155734",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bobby Witt",
+          "player_id": "3117472",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Yordan Alvarez",
+          "player_id": "2507341",
+          "position": "DH",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jordan Walker",
+          "player_id": "3166486",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Wyatt Langford",
+          "player_id": "29153543",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Elly De La Cruz",
+          "player_id": "26912505",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Chris Sale",
+          "player_id": "1762602",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Gavin Williams",
+          "player_id": "2837689",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Hunter Brown",
+          "player_id": "26615407",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Eury Perez",
+          "player_id": "26912478",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Logan Henderson",
+          "player_id": "29075729",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Nolan McLean",
+          "player_id": "29295981",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "David Bednar",
+          "player_id": "2821492",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "William Contreras",
+          "player_id": "2822087",
+          "position": "C",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jose Ramirez",
+          "player_id": "2044495",
+          "position": "3B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Michael Harris II",
+          "player_id": "3167984",
+          "position": "CF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jacob Lopez",
+          "player_id": "26912475",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jake Bennett",
+          "player_id": "29075710",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Payton Tolle",
+          "player_id": "29644503",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Grant Taylor",
+          "player_id": "29295953",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Kyle Stowers",
+          "player_id": "3152105",
+          "position": "LF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Nick Kurtz",
+          "player_id": "29426033",
+          "position": "1B",
+          "roster_status": "I"
+        },
+        {
+          "name": "James Wood",
+          "player_id": "26911704",
+          "position": "LF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Nick Pivetta",
+          "player_id": "2167338",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Zyhir Hope",
+          "player_id": "29321951",
+          "position": "RF",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Bubba Chandler",
+          "player_id": "26912443",
+          "position": "SP",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Liam Doyle",
+          "player_id": "50002601",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Murder",
+      "team_id": "6",
+      "total_roster_salary": 232
+    },
+    {
+      "abbr": "OR",
+      "active_roster_salary": 123,
+      "long_abbr": "OR",
+      "players": [
+        {
+          "name": "Liam Hicks",
+          "player_id": "29329516",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Josh Naylor",
+          "player_id": "2184448",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Brandon Lowe",
+          "player_id": "2910604",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Sal Stewart",
+          "player_id": "29075767",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Francisco Lindor",
+          "player_id": "1894627",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Trent Grisham",
+          "player_id": "2184451",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Taylor Ward",
+          "player_id": "2184470",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jakob Marsee",
+          "player_id": "29085946",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Geraldo Perdomo",
+          "player_id": "2829102",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Michael Wacha",
+          "player_id": "2001081",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Peter Lambert",
+          "player_id": "2211236",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Eric Lauer",
+          "player_id": "2250610",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Dustin May",
+          "player_id": "2507335",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Davis Martin",
+          "player_id": "2932915",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Michael McGreevy",
+          "player_id": "26719613",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jacob Latz",
+          "player_id": "2837111",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Alex Bregman",
+          "player_id": "2184351",
+          "position": "3B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Xavier Edwards",
+          "player_id": "2931936",
+          "position": "2B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Brooks Lee",
+          "player_id": "28920011",
+          "position": "SS",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Byron Buxton",
+          "player_id": "2000026",
+          "position": "CF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Nick Martinez",
+          "player_id": "2119647",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Mike Soroka",
+          "player_id": "2207809",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Brandon Young",
+          "player_id": "29631474",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Carlos Rodon",
+          "player_id": "2138665",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Stephen Kolek",
+          "player_id": "2932858",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Ben Brown",
+          "player_id": "29033787",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Carson Williams",
+          "player_id": "26719681",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Spencer Jones",
+          "player_id": "28920028",
+          "position": "CF",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Walker Jenkins",
+          "player_id": "29157418",
+          "position": "CF",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Octobe",
+      "team_id": "10",
+      "total_roster_salary": 209
+    },
+    {
+      "abbr": "RTC",
+      "active_roster_salary": 113,
+      "long_abbr": "Phoenix",
+      "players": [
+        {
+          "name": "Carter Jensen",
+          "player_id": "26911662",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jonathan Aranda",
+          "player_id": "2821278",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Luis Garcia",
+          "player_id": "2768551",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Royce Lewis",
+          "player_id": "2835053",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bo Bichette",
+          "player_id": "2447495",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Brandon Nimmo",
+          "player_id": "1894663",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Julio Rodriguez",
+          "player_id": "2825528",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Ceddanne Rafaela",
+          "player_id": "2931004",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jarren Duran",
+          "player_id": "2932710",
+          "position": "LF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Sonny Gray",
+          "player_id": "1894635",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Emerson Hancock",
+          "player_id": "2836958",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Michael King",
+          "player_id": "2918658",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Ryan Weathers",
+          "player_id": "2942967",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Cristopher Sanchez",
+          "player_id": "3151554",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Ian Seymour",
+          "player_id": "26615397",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Brandon Pfaadt",
+          "player_id": "26747035",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Dansby Swanson",
+          "player_id": "2184343",
+          "position": "SS",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Chase DeLauter",
+          "player_id": "28920019",
+          "position": "RF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Ranger Suarez",
+          "player_id": "2898212",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Taj Bradley",
+          "player_id": "2932285",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Casey Mize",
+          "player_id": "2942958",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Raisel Iglesias",
+          "player_id": "2135575",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Kyle Teel",
+          "player_id": "29155728",
+          "position": "C",
+          "roster_status": "I"
+        },
+        {
+          "name": "Roman Anthony",
+          "player_id": "29075759",
+          "position": "RF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Cole Ragans",
+          "player_id": "2250615",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Konnor Griffin",
+          "player_id": "29426038",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Joshua Baez",
+          "player_id": "26911705",
+          "position": "RF",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Rising",
+      "team_id": "8",
+      "total_roster_salary": 168
+    },
+    {
+      "abbr": "BNHD",
+      "active_roster_salary": 168,
+      "long_abbr": "vilLAins",
+      "players": [
+        {
+          "name": "Cal Raleigh",
+          "player_id": "2933037",
+          "position": "C",
+          "roster_status": "A"
+        },
+        {
+          "name": "Pete Alonso",
+          "player_id": "2447476",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Ozzie Albies",
+          "player_id": "2167464",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bryson Stott",
+          "player_id": "3117910",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Zachary Neto",
+          "player_id": "28920016",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jac Caglianone",
+          "player_id": "29426035",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Sam Antonacci",
+          "player_id": "29644412",
+          "position": "2B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Esmerlyn Valdez",
+          "player_id": "29676977",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Munetaka Murakami",
+          "player_id": "50040107",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Framber Valdez",
+          "player_id": "2739968",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jesus Luzardo",
+          "player_id": "2910624",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kyle Bradish",
+          "player_id": "2932284",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bryan Woo",
+          "player_id": "29075489",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jacob Misiorowski",
+          "player_id": "29075709",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Yoshinobu Yamamoto",
+          "player_id": "29313209",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Mason Miller",
+          "player_id": "26911802",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Austin Riley",
+          "player_id": "2211186",
+          "position": "3B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Maikel Garcia",
+          "player_id": "2829027",
+          "position": "3B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Mookie Betts",
+          "player_id": "2106654",
+          "position": "SS",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jared Jones",
+          "player_id": "26615394",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Jackson Jobe",
+          "player_id": "26719550",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Gage Jump",
+          "player_id": "29632442",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Edwin Diaz",
+          "player_id": "2117203",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Justin Martinez",
+          "player_id": "26615409",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Samuel Basallo",
+          "player_id": "26912463",
+          "position": "C",
+          "roster_status": "I"
+        },
+        {
+          "name": "Tyler Soderstrom",
+          "player_id": "3166655",
+          "position": "LF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Corbin Burnes",
+          "player_id": "2849889",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Devin Williams",
+          "player_id": "2066820",
+          "position": "RP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Max Clark",
+          "player_id": "29153542",
+          "position": "CF",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Mike Sirota",
+          "player_id": "29662202",
+          "position": "CF",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Christian Zazueta",
+          "player_id": "50042262",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "vilLAi",
+      "team_id": "3",
+      "total_roster_salary": 256
+    },
+    {
+      "abbr": "YB",
+      "active_roster_salary": 130,
+      "long_abbr": "WBI",
+      "players": [
+        {
+          "name": "Ben Rice",
+          "player_id": "29086560",
+          "position": "1B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Isaac Paredes",
+          "player_id": "2910610",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Otto Lopez",
+          "player_id": "2847307",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Kazuma Okamoto",
+          "player_id": "29686840",
+          "position": "3B",
+          "roster_status": "A"
+        },
+        {
+          "name": "Gunnar Henderson",
+          "player_id": "3152104",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Oneil Cruz",
+          "player_id": "2822182",
+          "position": "CF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Corbin Carroll",
+          "player_id": "3117913",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "Wilyer Abreu",
+          "player_id": "28838043",
+          "position": "RF",
+          "roster_status": "A"
+        },
+        {
+          "name": "JJ Wetherholt",
+          "player_id": "29426036",
+          "position": "SS",
+          "roster_status": "A"
+        },
+        {
+          "name": "Dylan Cease",
+          "player_id": "2211754",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Sandy Alcantara",
+          "player_id": "2211794",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Andrew Abbott",
+          "player_id": "2836515",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Cade Cavalli",
+          "player_id": "2836707",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Bryce Miller",
+          "player_id": "26911810",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Cam Schlittler",
+          "player_id": "29087628",
+          "position": "SP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Jhoan Duran",
+          "player_id": "2911279",
+          "position": "RP",
+          "roster_status": "A"
+        },
+        {
+          "name": "Michael Busch",
+          "player_id": "3117931",
+          "position": "1B",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Teoscar Hernandez",
+          "player_id": "2119659",
+          "position": "RF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "J.J. Bleday",
+          "player_id": "3117536",
+          "position": "CF",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Aaron Nola",
+          "player_id": "2133925",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Tanner Bibee",
+          "player_id": "28926327",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Roki Sasaki",
+          "player_id": "29662256",
+          "position": "SP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Trevor Megill",
+          "player_id": "2919567",
+          "position": "RP",
+          "roster_status": "RS"
+        },
+        {
+          "name": "Cody Bellinger",
+          "player_id": "2165919",
+          "position": "LF",
+          "roster_status": "I"
+        },
+        {
+          "name": "Justin Steele",
+          "player_id": "2211224",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Cade Horton",
+          "player_id": "28920010",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Trey Yesavage",
+          "player_id": "29426049",
+          "position": "SP",
+          "roster_status": "I"
+        },
+        {
+          "name": "Leo De Vries",
+          "player_id": "29339043",
+          "position": "SS",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Ryan Sloan",
+          "player_id": "29644495",
+          "position": "SP",
+          "roster_status": "ML"
+        },
+        {
+          "name": "Seth Hernandez",
+          "player_id": "50002603",
+          "position": "SP",
+          "roster_status": "ML"
+        }
+      ],
+      "short_name": "Wrigle",
+      "team_id": "5",
+      "total_roster_salary": 256
+    }
+  ]
+}

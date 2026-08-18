@@ -1,0 +1,1456 @@
+{
+  "ownership": {
+    "1208718": {
+      "name": "Kenley Jansen",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "1630079": {
+      "name": "Freddie Freeman",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "1717646": {
+      "name": "Aroldis Chapman",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "1739608": {
+      "name": "Mike Trout",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "1744777": {
+      "name": "Zack Wheeler",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "1762602": {
+      "name": "Chris Sale",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "1765812": {
+      "name": "Manny Machado",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "1765813": {
+      "name": "Bryce Harper",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "1803864": {
+      "name": "Nathan Eovaldi",
+      "roster_status": "I",
+      "team_id": "1"
+    },
+    "1893753": {
+      "name": "Gerrit Cole",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "1894627": {
+      "name": "Francisco Lindor",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "1894629": {
+      "name": "George Springer",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "1894635": {
+      "name": "Sonny Gray",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "1894663": {
+      "name": "Brandon Nimmo",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "1947846": {
+      "name": "Robbie Ray",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "1963334": {
+      "name": "Ketel Marte",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2000026": {
+      "name": "Byron Buxton",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "2000033": {
+      "name": "Kevin Gausman",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2001078": {
+      "name": "Max Fried",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2001081": {
+      "name": "Michael Wacha",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2006996": {
+      "name": "Blake Snell",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2041873": {
+      "name": "Corey Seager",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2042426": {
+      "name": "Eduardo Rodriguez",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2044379": {
+      "name": "Christian Walker",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "2044482": {
+      "name": "Josh Hader",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2044495": {
+      "name": "Jose Ramirez",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "2044508": {
+      "name": "Jacob deGrom",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "2044509": {
+      "name": "Matt Olson",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2050483": {
+      "name": "Merrill Kelly",
+      "roster_status": "ML",
+      "team_id": "4"
+    },
+    "2066820": {
+      "name": "Devin Williams",
+      "roster_status": "I",
+      "team_id": "3"
+    },
+    "2068548": {
+      "name": "Tyler Glasnow",
+      "roster_status": "I",
+      "team_id": "7"
+    },
+    "2071264": {
+      "name": "Aaron Judge",
+      "roster_status": "I",
+      "team_id": "2"
+    },
+    "2106304": {
+      "name": "Max Muncy",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2106654": {
+      "name": "Mookie Betts",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "2117203": {
+      "name": "Edwin Diaz",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "2119647": {
+      "name": "Nick Martinez",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "2119659": {
+      "name": "Teoscar Hernandez",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "2121030": {
+      "name": "Yandy Diaz",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2133925": {
+      "name": "Aaron Nola",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "2135243": {
+      "name": "Kyle Schwarber",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2135249": {
+      "name": "Trea Turner",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2135259": {
+      "name": "Foster Griffin",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "2135266": {
+      "name": "Jack Flaherty",
+      "roster_status": "I",
+      "team_id": "7"
+    },
+    "2135575": {
+      "name": "Raisel Iglesias",
+      "roster_status": "RS",
+      "team_id": "8"
+    },
+    "2138665": {
+      "name": "Carlos Rodon",
+      "roster_status": "I",
+      "team_id": "10"
+    },
+    "2165918": {
+      "name": "Jake Bauers",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "2165919": {
+      "name": "Cody Bellinger",
+      "roster_status": "I",
+      "team_id": "5"
+    },
+    "2165929": {
+      "name": "Rafael Devers",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "2165933": {
+      "name": "Willy Adames",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "2167338": {
+      "name": "Nick Pivetta",
+      "roster_status": "I",
+      "team_id": "6"
+    },
+    "2167464": {
+      "name": "Ozzie Albies",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2171084": {
+      "name": "Willson Contreras",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "2173411": {
+      "name": "Matthew Boyd",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2184343": {
+      "name": "Dansby Swanson",
+      "roster_status": "RS",
+      "team_id": "8"
+    },
+    "2184351": {
+      "name": "Alex Bregman",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "2184352": {
+      "name": "Kyle Tucker",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "2184448": {
+      "name": "Josh Naylor",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2184451": {
+      "name": "Trent Grisham",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2184470": {
+      "name": "Taylor Ward",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2207809": {
+      "name": "Mike Soroka",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "2210221": {
+      "name": "Seth Lugo",
+      "roster_status": "ML",
+      "team_id": "4"
+    },
+    "2211177": {
+      "name": "Ryan O'Hearn",
+      "roster_status": "I",
+      "team_id": "7"
+    },
+    "2211186": {
+      "name": "Austin Riley",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "2211216": {
+      "name": "Tyler Mahle",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2211224": {
+      "name": "Justin Steele",
+      "roster_status": "I",
+      "team_id": "5"
+    },
+    "2211236": {
+      "name": "Peter Lambert",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2211754": {
+      "name": "Dylan Cease",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2211777": {
+      "name": "Ronald Acuna Jr.",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2211794": {
+      "name": "Sandy Alcantara",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2221784": {
+      "name": "Vladimir Guerrero Jr.",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2250610": {
+      "name": "Eric Lauer",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2250615": {
+      "name": "Cole Ragans",
+      "roster_status": "I",
+      "team_id": "8"
+    },
+    "2447476": {
+      "name": "Pete Alonso",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2447495": {
+      "name": "Bo Bichette",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2449444": {
+      "name": "Bryan Reynolds",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "2507333": {
+      "name": "Shane Bieber",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "2507335": {
+      "name": "Dustin May",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2507341": {
+      "name": "Yordan Alvarez",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "2507358": {
+      "name": "Jazz Chisholm Jr.",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2507363": {
+      "name": "Fernando Tatis Jr.",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "2507367": {
+      "name": "Juan Soto",
+      "roster_status": "I",
+      "team_id": "7"
+    },
+    "26615325": {
+      "name": "Alec Burleson",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "26615365": {
+      "name": "Pete Crow-Armstrong",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "26615394": {
+      "name": "Jared Jones",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "26615397": {
+      "name": "Ian Seymour",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "26615400": {
+      "name": "Kyle Harrison",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "26615407": {
+      "name": "Hunter Brown",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "26615409": {
+      "name": "Justin Martinez",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "26615410": {
+      "name": "Bryce Elder",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "26615439": {
+      "name": "Andre Pallante",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "26643926": {
+      "name": "Jackson Chourio",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "26719550": {
+      "name": "Jackson Jobe",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "26719555": {
+      "name": "Marcelo Mayer",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "26719591": {
+      "name": "Andrew Painter",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "26719613": {
+      "name": "Michael McGreevy",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "26719651": {
+      "name": "Colson Montgomery",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "26719676": {
+      "name": "Jackson Merrill",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "26719681": {
+      "name": "Carson Williams",
+      "roster_status": "ML",
+      "team_id": "10"
+    },
+    "26747035": {
+      "name": "Brandon Pfaadt",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "26911639": {
+      "name": "Hunter Goodman",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "26911662": {
+      "name": "Carter Jensen",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "26911678": {
+      "name": "Zack Gelof",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "26911687": {
+      "name": "Spencer Schwellenbach",
+      "roster_status": "I",
+      "team_id": "7"
+    },
+    "26911693": {
+      "name": "Daylen Lile",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "26911704": {
+      "name": "James Wood",
+      "roster_status": "I",
+      "team_id": "6"
+    },
+    "26911705": {
+      "name": "Joshua Baez",
+      "roster_status": "ML",
+      "team_id": "8"
+    },
+    "26911730": {
+      "name": "Louie Varland",
+      "roster_status": "RS",
+      "team_id": "2"
+    },
+    "26911758": {
+      "name": "Sean Burke",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "26911802": {
+      "name": "Mason Miller",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "26911810": {
+      "name": "Bryce Miller",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "26912443": {
+      "name": "Bubba Chandler",
+      "roster_status": "ML",
+      "team_id": "6"
+    },
+    "26912463": {
+      "name": "Samuel Basallo",
+      "roster_status": "I",
+      "team_id": "3"
+    },
+    "26912475": {
+      "name": "Jacob Lopez",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "26912478": {
+      "name": "Eury Perez",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "26912489": {
+      "name": "Abner Uribe",
+      "roster_status": "I",
+      "team_id": "1"
+    },
+    "26912505": {
+      "name": "Elly De La Cruz",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "27023012": {
+      "name": "Seiya Suzuki",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2739968": {
+      "name": "Framber Valdez",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2768551": {
+      "name": "Luis Garcia",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2821278": {
+      "name": "Jonathan Aranda",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2821492": {
+      "name": "David Bednar",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "2821757": {
+      "name": "Edward Cabrera",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "2822087": {
+      "name": "William Contreras",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "2822182": {
+      "name": "Oneil Cruz",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2825528": {
+      "name": "Julio Rodriguez",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2826021": {
+      "name": "Jose Soriano",
+      "roster_status": "RS",
+      "team_id": "2"
+    },
+    "2829027": {
+      "name": "Maikel Garcia",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "2829082": {
+      "name": "Gabriel Moreno",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2829102": {
+      "name": "Geraldo Perdomo",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2829355": {
+      "name": "Ivan Herrera",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "2835053": {
+      "name": "Royce Lewis",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2835055": {
+      "name": "MacKenzie Gore",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2835062": {
+      "name": "Jo Adell",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "2835064": {
+      "name": "Shane Baz",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2835065": {
+      "name": "Trevor Rogers",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "2836515": {
+      "name": "Andrew Abbott",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2836707": {
+      "name": "Cade Cavalli",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2836722": {
+      "name": "Ernie Clement",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "2836763": {
+      "name": "Garrett Crochet",
+      "roster_status": "I",
+      "team_id": "2"
+    },
+    "2836804": {
+      "name": "Reid Detmers",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "2836825": {
+      "name": "Shane Drohan",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "2836958": {
+      "name": "Emerson Hancock",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2837111": {
+      "name": "Jacob Latz",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2837228": {
+      "name": "Max Meyer",
+      "roster_status": "I",
+      "team_id": "1"
+    },
+    "2837304": {
+      "name": "Riley O'Brien",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "2837374": {
+      "name": "Drew Rasmussen",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2837519": {
+      "name": "Cade Smith",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "2837689": {
+      "name": "Gavin Williams",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "2847307": {
+      "name": "Otto Lopez",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2849889": {
+      "name": "Corbin Burnes",
+      "roster_status": "I",
+      "team_id": "3"
+    },
+    "28837106": {
+      "name": "Daniel Palencia",
+      "roster_status": "I",
+      "team_id": "4"
+    },
+    "28838043": {
+      "name": "Wilyer Abreu",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "28839811": {
+      "name": "Junior Caminero",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "28920005": {
+      "name": "Jackson Holliday",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "28920010": {
+      "name": "Cade Horton",
+      "roster_status": "I",
+      "team_id": "5"
+    },
+    "28920011": {
+      "name": "Brooks Lee",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "28920016": {
+      "name": "Zachary Neto",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "28920019": {
+      "name": "Chase DeLauter",
+      "roster_status": "RS",
+      "team_id": "8"
+    },
+    "28920028": {
+      "name": "Spencer Jones",
+      "roster_status": "ML",
+      "team_id": "10"
+    },
+    "28920029": {
+      "name": "Noah Schultz",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "28926327": {
+      "name": "Tanner Bibee",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "2898212": {
+      "name": "Ranger Suarez",
+      "roster_status": "RS",
+      "team_id": "8"
+    },
+    "2900486": {
+      "name": "Freddy Peralta",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "2901324": {
+      "name": "Shohei Ohtani",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "29033787": {
+      "name": "Ben Brown",
+      "roster_status": "I",
+      "team_id": "10"
+    },
+    "29075489": {
+      "name": "Bryan Woo",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "29075524": {
+      "name": "Drake Baldwin",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "29075709": {
+      "name": "Jacob Misiorowski",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "29075710": {
+      "name": "Jake Bennett",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "29075725": {
+      "name": "Landen Roupp",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "29075729": {
+      "name": "Logan Henderson",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "29075748": {
+      "name": "Noah Cameron",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "29075750": {
+      "name": "Parker Messick",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "29075757": {
+      "name": "Robby Snelling",
+      "roster_status": "I",
+      "team_id": "2"
+    },
+    "29075759": {
+      "name": "Roman Anthony",
+      "roster_status": "I",
+      "team_id": "8"
+    },
+    "29075767": {
+      "name": "Sal Stewart",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "29075773": {
+      "name": "Spencer Arrighetti",
+      "roster_status": "I",
+      "team_id": "4"
+    },
+    "29075780": {
+      "name": "Troy Melton",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "29075794": {
+      "name": "Will Warren",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "29077648": {
+      "name": "Josue De Paula",
+      "roster_status": "ML",
+      "team_id": "9"
+    },
+    "29077682": {
+      "name": "Walbert Urena",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "29085946": {
+      "name": "Jakob Marsee",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "29086560": {
+      "name": "Ben Rice",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "29087628": {
+      "name": "Cam Schlittler",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2910604": {
+      "name": "Brandon Lowe",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2910610": {
+      "name": "Isaac Paredes",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2910624": {
+      "name": "Jesus Luzardo",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2910632": {
+      "name": "Javier Assad",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "2910638": {
+      "name": "Andres Munoz",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2911279": {
+      "name": "Jhoan Duran",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "2914723": {
+      "name": "Randy Arozarena",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "29147384": {
+      "name": "Sebastian Walcott",
+      "roster_status": "ML",
+      "team_id": "2"
+    },
+    "29153541": {
+      "name": "Paul Skenes",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "29153542": {
+      "name": "Max Clark",
+      "roster_status": "ML",
+      "team_id": "3"
+    },
+    "29153543": {
+      "name": "Wyatt Langford",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "29153545": {
+      "name": "Rhett Lowder",
+      "roster_status": "RS",
+      "team_id": "2"
+    },
+    "29153551": {
+      "name": "Bryce Eldridge",
+      "roster_status": "ML",
+      "team_id": "1"
+    },
+    "29153555": {
+      "name": "Colt Emerson",
+      "roster_status": "I",
+      "team_id": "4"
+    },
+    "29153558": {
+      "name": "George Lombard Jr.",
+      "roster_status": "ML",
+      "team_id": "7"
+    },
+    "29155725": {
+      "name": "Dylan Crews",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "29155728": {
+      "name": "Kyle Teel",
+      "roster_status": "I",
+      "team_id": "8"
+    },
+    "29155733": {
+      "name": "Thomas White",
+      "roster_status": "ML",
+      "team_id": "2"
+    },
+    "29155734": {
+      "name": "Kevin McGonigle",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "29157418": {
+      "name": "Walker Jenkins",
+      "roster_status": "ML",
+      "team_id": "10"
+    },
+    "2918658": {
+      "name": "Michael King",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2919567": {
+      "name": "Trevor Megill",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "29295027": {
+      "name": "Jung Hoo Lee",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "29295943": {
+      "name": "Travis Sykora",
+      "roster_status": "ML",
+      "team_id": "1"
+    },
+    "29295953": {
+      "name": "Grant Taylor",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "29295964": {
+      "name": "Justin Wrobleski",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "29295981": {
+      "name": "Nolan McLean",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "2931004": {
+      "name": "Ceddanne Rafaela",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "29313209": {
+      "name": "Yoshinobu Yamamoto",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2931893": {
+      "name": "Braxton Ashcraft",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2931936": {
+      "name": "Xavier Edwards",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "2931974": {
+      "name": "Ryan Jeffers",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2931995": {
+      "name": "Jake McCarthy",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "2931996": {
+      "name": "Shane McClanahan",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "29321884": {
+      "name": "Franklin Arias",
+      "roster_status": "RS",
+      "team_id": "2"
+    },
+    "29321951": {
+      "name": "Zyhir Hope",
+      "roster_status": "ML",
+      "team_id": "6"
+    },
+    "2932284": {
+      "name": "Kyle Bradish",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2932285": {
+      "name": "Taj Bradley",
+      "roster_status": "RS",
+      "team_id": "8"
+    },
+    "29326548": {
+      "name": "Shota Imanaga",
+      "roster_status": "A",
+      "team_id": "1"
+    },
+    "2932710": {
+      "name": "Jarren Duran",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2932858": {
+      "name": "Stephen Kolek",
+      "roster_status": "I",
+      "team_id": "10"
+    },
+    "2932872": {
+      "name": "Kyle Leahy",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "2932915": {
+      "name": "Davis Martin",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "29329516": {
+      "name": "Liam Hicks",
+      "roster_status": "A",
+      "team_id": "10"
+    },
+    "2932999": {
+      "name": "Jeremy Pena",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "2933037": {
+      "name": "Cal Raleigh",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "2933069": {
+      "name": "Joe Ryan",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "29339043": {
+      "name": "Leo De Vries",
+      "roster_status": "ML",
+      "team_id": "5"
+    },
+    "29426030": {
+      "name": "Travis Bazzana",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "29426031": {
+      "name": "Chase Burns",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "29426033": {
+      "name": "Nick Kurtz",
+      "roster_status": "I",
+      "team_id": "6"
+    },
+    "29426035": {
+      "name": "Jac Caglianone",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "29426036": {
+      "name": "JJ Wetherholt",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "29426038": {
+      "name": "Konnor Griffin",
+      "roster_status": "ML",
+      "team_id": "8"
+    },
+    "29426041": {
+      "name": "Braden Montgomery",
+      "roster_status": "RS",
+      "team_id": "2"
+    },
+    "29426048": {
+      "name": "Carson Benge",
+      "roster_status": "ML",
+      "team_id": "4"
+    },
+    "29426049": {
+      "name": "Trey Yesavage",
+      "roster_status": "I",
+      "team_id": "5"
+    },
+    "2942958": {
+      "name": "Casey Mize",
+      "roster_status": "RS",
+      "team_id": "8"
+    },
+    "2942967": {
+      "name": "Ryan Weathers",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "2942974": {
+      "name": "Logan Gilbert",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "2942981": {
+      "name": "Brice Turang",
+      "roster_status": "A",
+      "team_id": "4"
+    },
+    "2942984": {
+      "name": "Nico Hoerner",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "2942993": {
+      "name": "J.T. Ginn",
+      "roster_status": "A",
+      "team_id": "7"
+    },
+    "29631474": {
+      "name": "Brandon Young",
+      "roster_status": "RS",
+      "team_id": "10"
+    },
+    "29632442": {
+      "name": "Gage Jump",
+      "roster_status": "RS",
+      "team_id": "3"
+    },
+    "29632938": {
+      "name": "Jesus Made",
+      "roster_status": "ML",
+      "team_id": "9"
+    },
+    "29644412": {
+      "name": "Sam Antonacci",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "29644495": {
+      "name": "Ryan Sloan",
+      "roster_status": "ML",
+      "team_id": "5"
+    },
+    "29644503": {
+      "name": "Payton Tolle",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "29658250": {
+      "name": "Connelly Early",
+      "roster_status": "I",
+      "team_id": "2"
+    },
+    "29662202": {
+      "name": "Mike Sirota",
+      "roster_status": "ML",
+      "team_id": "3"
+    },
+    "29662256": {
+      "name": "Roki Sasaki",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "29676977": {
+      "name": "Esmerlyn Valdez",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "29686840": {
+      "name": "Kazuma Okamoto",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "3055542": {
+      "name": "Logan Webb",
+      "roster_status": "RS",
+      "team_id": "9"
+    },
+    "3095050": {
+      "name": "Andruw Monasterio",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "3117469": {
+      "name": "Adley Rutschman",
+      "roster_status": "RS",
+      "team_id": "4"
+    },
+    "3117472": {
+      "name": "Bobby Witt",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "3117475": {
+      "name": "C.J. Abrams",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "3117480": {
+      "name": "Shea Langeliers",
+      "roster_status": "I",
+      "team_id": "1"
+    },
+    "3117536": {
+      "name": "J.J. Bleday",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "3117537": {
+      "name": "Riley Greene",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "3117910": {
+      "name": "Bryson Stott",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "3117913": {
+      "name": "Corbin Carroll",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "3117917": {
+      "name": "George Kirby",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "3117931": {
+      "name": "Michael Busch",
+      "roster_status": "RS",
+      "team_id": "5"
+    },
+    "3126008": {
+      "name": "Tarik Skubal",
+      "roster_status": "A",
+      "team_id": "2"
+    },
+    "3151554": {
+      "name": "Cristopher Sanchez",
+      "roster_status": "A",
+      "team_id": "8"
+    },
+    "3152039": {
+      "name": "Miguel Vargas",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "3152041": {
+      "name": "Andy Pages",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "3152104": {
+      "name": "Gunnar Henderson",
+      "roster_status": "A",
+      "team_id": "5"
+    },
+    "3152105": {
+      "name": "Kyle Stowers",
+      "roster_status": "I",
+      "team_id": "6"
+    },
+    "3157614": {
+      "name": "Bryan Baker",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "3157710": {
+      "name": "Griffin Jax",
+      "roster_status": "RS",
+      "team_id": "7"
+    },
+    "3165152": {
+      "name": "Dillon Dingler",
+      "roster_status": "A",
+      "team_id": "9"
+    },
+    "3166486": {
+      "name": "Jordan Walker",
+      "roster_status": "A",
+      "team_id": "6"
+    },
+    "3166655": {
+      "name": "Tyler Soderstrom",
+      "roster_status": "I",
+      "team_id": "3"
+    },
+    "3167984": {
+      "name": "Michael Harris II",
+      "roster_status": "RS",
+      "team_id": "6"
+    },
+    "50002597": {
+      "name": "Kade Anderson",
+      "roster_status": "ML",
+      "team_id": "7"
+    },
+    "50002601": {
+      "name": "Liam Doyle",
+      "roster_status": "ML",
+      "team_id": "6"
+    },
+    "50002603": {
+      "name": "Seth Hernandez",
+      "roster_status": "ML",
+      "team_id": "5"
+    },
+    "50002606": {
+      "name": "Eli Willits",
+      "roster_status": "ML",
+      "team_id": "9"
+    },
+    "50009342": {
+      "name": "Jamie Arnold",
+      "roster_status": "ML",
+      "team_id": "7"
+    },
+    "50040107": {
+      "name": "Munetaka Murakami",
+      "roster_status": "A",
+      "team_id": "3"
+    },
+    "50040436": {
+      "name": "Tatsuya Imai",
+      "roster_status": "RS",
+      "team_id": "1"
+    },
+    "50042262": {
+      "name": "Christian Zazueta",
+      "roster_status": "ML",
+      "team_id": "3"
+    }
+  },
+  "schema": "gbo.ownership.v1",
+  "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16"
+}

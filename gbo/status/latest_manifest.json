@@ -1,7 +1,7 @@
 {
   "collector": "GBO-CBS-1.2.1",
   "core_status": "GREEN",
-  "ingested_at": "2026-08-18T16:33:51Z",
+  "ingested_at": "2026-08-18T16:34:48Z",
   "schema": "gbo.ingest.v1",
   "snapshot_generated_at": "2026-08-18T16:12:42.176Z",
   "snapshot_hash": "e875e6590dfc2dad9757f9225d206d97ad1cd66be09e8a255027437be051ec16",
