@@ -46,6 +46,15 @@ def main() -> int:
         if spec.get("doctrine_version") != version or spec.get("status") != "GREEN":
             issues.append(f"{name} sync-manifest entry is not aligned and GREEN")
 
+    for name, projection in (manifest.get("workbook_projection") or {}).items():
+        if projection.get("doctrine_version") != version or projection.get("status") != "GREEN":
+            issues.append(f"{name} workbook projection is not aligned and GREEN")
+
+    runtime = manifest.get("runtime_controls") or {}
+    for name in ("skill", "architecture_audit", "pull_request_gate"):
+        if (runtime.get(name) or {}).get("status") != "GREEN":
+            issues.append(f"runtime control {name} is not GREEN")
+
     events = [json.loads(line) for line in (ROOT / "change_log.jsonl").read_text(encoding="utf-8").splitlines() if line.strip()]
     if not events or events[-1].get("doctrine_version") != version:
         issues.append("change log does not end on the current doctrine version")
@@ -56,7 +65,7 @@ def main() -> int:
             print(f"- {issue}")
         return 1
 
-    print(f"Front Office OS: GREEN — doctrine {version}; {len(control_ids)} shared controls; GBO/GFO aligned")
+    print(f"Front Office OS: GREEN — doctrine {version}; {len(control_ids)} shared controls; GBO/GFO/workbooks/runtime aligned")
     return 0
 
 

@@ -20,8 +20,39 @@
     }
   },
   "workbook_projection": {
-    "GBO_Master_Database_v2_0.xlsx": "1.0.0",
-    "Okie_DieNasty_League_Intelligence_2026.xlsx": "1.0.0"
+    "GBO_Master_Database_v2_0.xlsx": {
+      "library_path": "/Grant Baseball Operations/GBO_Master_Database_v2_0.xlsx",
+      "library_version": 3,
+      "doctrine_version": "1.0.0",
+      "status": "GREEN"
+    },
+    "Okie_DieNasty_League_Intelligence_2026.xlsx": {
+      "library_path": "/Okie_DieNasty_League_Intelligence_2026.xlsx",
+      "library_version": 3,
+      "doctrine_version": "1.0.0",
+      "status": "GREEN"
+    }
+  },
+  "runtime_controls": {
+    "skill": {
+      "name": "grant-front-office",
+      "status": "GREEN"
+    },
+    "architecture_audit": {
+      "name": "Front Office Architecture Audit",
+      "mode": "daily backstop",
+      "status": "GREEN"
+    },
+    "pull_request_gate": {
+      "name": "Front Office OS Gate",
+      "mode": "event-driven",
+      "status": "GREEN"
+    },
+    "reconciliation": {
+      "name": "Front Office Reconciliation",
+      "mode": "manual or future resumption",
+      "status": "PAUSED"
+    }
   },
   "gate": "A shared doctrine change is not GREEN unless core, both adapters, sync manifest and both workbook doctrine projections carry the same doctrine version."
 }
