@@ -11,6 +11,12 @@ Shared private-use acquisition and control infrastructure for Grant Baseball Ope
 - `bookmarklet.txt` — permanent GBO Refresh bookmarklet.
 - `manifest.json` — GBO launcher/collector contract and migration state.
 
+## Operator phrases
+
+- **GBO Refresh** — process the newest authenticated CBS browser capture and reconcile GBO. If no sufficiently fresh capture exists for the decision at hand, say so rather than pretending CBS was refreshed.
+- **GFO Refresh** — collect and reconcile current Sleeper state through the canonical GFO pipeline.
+- **Front Office Full Check** — refresh both sports as far as current platform access allows, reconcile both, then audit the shared architecture and report material state changes, risks or improvements. It must preserve the distinction between a fresh platform capture and reconciliation against the newest previously validated state.
+
 ## GBO
 
 `gbo/collector.js` is the canonical CBS collector. It runs only inside Grant's already-authenticated CBS Fantasy Baseball browser session and downloads a sanitized JSON snapshot locally. The permanent bookmarklet resolves the root launcher by immutable repository ID, so repository renames do not require replacing the browser button. The launcher provides visible progress feedback, prevents duplicate simultaneous runs and warns when transaction history is incomplete.
