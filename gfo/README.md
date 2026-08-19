@@ -23,41 +23,31 @@ A production GFO Refresh is fully GREEN only when:
 5. validation issues are empty;
 6. provenance exceptions are empty;
 7. transaction lineage resolves all involved Grant player IDs to authoritative Sleeper identities;
-8. transaction-derived FAAB (claims plus transfers) reconciles exactly to Sleeper's current FAAB state.
-
-The collector currently sweeps Sleeper transaction rounds 0–18 and uses the prior successful canonical snapshot when available. A GREEN run publishes `latest_transaction_lineage.json` so settled transaction history is directly retrievable with player names, raw IDs, roster identities, adds/drops, trades/picks, FAAB spend/transfers, and running balance.
+8. transaction-derived FAAB reconciles exactly to Sleeper's current FAAB state.
 
 ## Published-state retrieval
 
-Successful production runs publish the newest canonical GREEN state to branch `gfo-green`. Routine reconciliation should read that branch directly rather than depending on workflow-run discovery:
+Successful production runs publish the newest canonical GREEN state to branch `gfo-green`. Routine reconciliation should read:
 
-1. `gfo/current/latest_manifest.json` — collection timestamp, core/provenance status and source health.
-2. `gfo/current/latest_diff.json` — changes since the prior successful canonical snapshot.
-3. `gfo/current/latest_snapshot.json` — current roster ownership, reserve/taxi, FAAB/waiver state, league settings and future-pick ledger.
-4. `gfo/current/latest_transaction_lineage.json` — human-readable settled Grant transaction history with authoritative player identities.
+1. `gfo/current/latest_manifest.json`
+2. `gfo/current/latest_diff.json`
+3. `gfo/current/latest_snapshot.json`
+4. `gfo/current/latest_transaction_lineage.json`
 
-Workflow-run inspection is diagnostic: use it when the published state is stale, missing, PARTIAL or unexpectedly fails to advance. A retrievable published GREEN state is the normal state-consumption interface.
+Workflow-run inspection is diagnostic when published state is stale, missing or PARTIAL.
 
-## State-lineage invariant
+## Authority and temporal-scope invariant
 
-Current state and its settled provenance are different responsibilities and both must survive reconciliation. Superseded values remain historical evidence but must not re-enter the active issue list unless newer authoritative evidence contradicts the settled state. Deterministic counters such as FAAB must be reconstructable from a compact event ledger and checked against current platform state on every production refresh.
+- Platform evidence controls platform-recorded facts for the effective time it actually describes.
+- Grant's direct statements control intent, strategy, preferences, rationale and non-platform context, and always outrank assistant prose.
+- Prior assistant prose is never transaction/ownership evidence by itself.
+- Before treating two claims as contradictory, align their time period and semantic target. A later transaction cannot retroactively make an earlier ownership claim true.
+- Current roster state controls present ownership at its timestamp; transaction lineage explains historical changes at their effective times.
 
 ## Identity invariant
 
-Front Office reconciliation must never infer a transaction's player identity from memory or surrounding prose when the platform supplies an authoritative player ID. Raw Sleeper IDs remain provenance; the normalized ledger resolves them through Sleeper's player map before the transaction is treated as human-readable settled history.
-
-## Authority-conflict invariant
-
-Authority is domain-specific, not a single universal ranking. For facts recorded by Sleeper — ownership, roster placement, completed transactions, FAAB and pick movement — the newest successful authoritative platform-derived evidence controls for the time period it actually describes. Grant's direct statements are authoritative for intent, strategy, preferences, rationale and context not encoded by the platform, and they always outrank assistant prose. Prior assistant prose is never evidence.
-
-When a Grant statement appears to conflict with platform evidence, first align temporal and semantic scope: determine what point in time and what historical claim each statement actually refers to. A later transaction cannot retroactively make an earlier ownership claim true, and a correction to an invented earlier history must not be reinterpreted as denying a later real transaction. Only after temporal/context alignment should a true source conflict be classified and reconciled.
-
-## Temporal-scope invariant
-
-Every stateful or historical claim must be interpreted as a tuple of: fact + provenance/authority + effective timestamp or interval + semantic context. Reconciliation must not compare claims from different effective times as if they were contradictory.
-
-Canonical Hibner example: before Grant's 2026-08-15 acquisition, Big Nasty had never rostered Matt Hibner. The assistant hallucinated a preexisting Hibner/Ertz transaction history; Grant correctly rejected that invented history. Later that same day, Grant actually added Hibner for the first time and dropped Mac Jones. The later real transaction does not validate the earlier hallucination or make Grant's earlier correction mistaken.
+Front Office reconciliation must never infer a transaction's player identity from memory or surrounding prose when Sleeper supplies an authoritative player ID.
 
 ## Design rule
 
-Prefer consolidation over accretion. Put logic in executable code/tests when possible; keep workflow YAML thin; keep ChatGPT prompts focused on contracts and decisions rather than duplicating implementation details. The earlier standalone FAAB helper was retained only for shadow parity testing, then retired after the generalized transaction lineage matched it in production with no regression. Git history remains the rollback path.
+Prefer consolidation over accretion. Put logic in executable code/tests when possible; keep workflow YAML thin; keep prompts focused on contracts and decisions rather than duplicating implementation details. Git history is the rollback path.
