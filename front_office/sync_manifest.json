@@ -1,0 +1,27 @@
+{
+  "schema": "grant.front_office.sync.v1",
+  "organization": "Grant Front Office",
+  "status": "GREEN",
+  "doctrine_version": "1.0.0",
+  "synchronized_at": "2026-08-19",
+  "canonical_core": "front_office/core.json",
+  "adapters": {
+    "GBO": {
+      "path": "front_office/adapters/gbo.json",
+      "adapter_version": "1.0.0",
+      "doctrine_version": "1.0.0",
+      "status": "GREEN"
+    },
+    "GFO": {
+      "path": "front_office/adapters/gfo.json",
+      "adapter_version": "1.0.0",
+      "doctrine_version": "1.0.0",
+      "status": "GREEN"
+    }
+  },
+  "workbook_projection": {
+    "GBO_Master_Database_v2_0.xlsx": "1.0.0",
+    "Okie_DieNasty_League_Intelligence_2026.xlsx": "1.0.0"
+  },
+  "gate": "A shared doctrine change is not GREEN unless core, both adapters, sync manifest and both workbook doctrine projections carry the same doctrine version."
+}

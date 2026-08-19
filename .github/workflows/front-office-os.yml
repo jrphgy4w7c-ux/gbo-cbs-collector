@@ -1,0 +1,23 @@
+name: Front Office OS
+
+on:
+  push:
+    paths:
+      - "front_office/**"
+      - ".github/workflows/front-office-os.yml"
+  pull_request:
+    paths:
+      - "front_office/**"
+      - ".github/workflows/front-office-os.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate shared doctrine and sport adapters
+        run: python3 front_office/validate.py

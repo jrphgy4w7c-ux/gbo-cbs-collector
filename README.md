@@ -2,8 +2,21 @@
 
 Shared private-use acquisition and control infrastructure for Grant Baseball Operations (GBO) and Grant Football Operations (GFO).
 
+## Shared operating system
+
+The organizational doctrine now has one canonical home on `main`:
+
+- `front_office/core.json` — universal evidence, continuity, evaluation, writeback and architecture controls.
+- `front_office/adapters/gbo.json` and `front_office/adapters/gfo.json` — sport-specific translations with no cross-sport state.
+- `front_office/sync_manifest.json` — version alignment and GREEN/YELLOW/RED propagation status.
+- `front_office/change_log.jsonl` — append-only organizational refinement history.
+- `front_office/validate.py` — propagation gate requiring the core and both adapters to remain version-aligned and complete.
+
+Workbooks are human-readable projections of this shared doctrine plus sport-specific history. They are not independent doctrine sources and do not override newer valid platform state.
+
 ## Layout
 
+- `front_office/` — canonical shared Grant Front Office OS and sport adapters.
 - `gbo/` — canonical GBO/CBS acquisition, ingest, reconciliation and compact current-state projection code.
 - `gfo/` — canonical GFO/Sleeper acquisition, normalization, validation, provenance and transaction-lineage code.
 - `.github/workflows/` — thin orchestration only.

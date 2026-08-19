@@ -1,0 +1,36 @@
+{
+  "schema": "grant.front_office.adapter.v1",
+  "front_office": "GFO",
+  "sport": "football",
+  "platform": "Sleeper",
+  "doctrine_version": "1.0.0",
+  "adapter_version": "1.0.0",
+  "canonical_state": {
+    "branch": "gfo-green",
+    "manifest": "gfo/current/latest_manifest.json",
+    "diff": "gfo/current/latest_diff.json",
+    "snapshot": "gfo/current/latest_snapshot.json",
+    "transaction_lineage": "gfo/current/latest_transaction_lineage.json",
+    "health_contract": "GREEN core and provenance, empty validation and provenance exceptions, valid transaction lineage"
+  },
+  "workbook_role": "Durable history, context and human-readable reporting; never a substitute for newer valid Sleeper state.",
+  "translations": {
+    "continuous_operation": "Treat all GFO chats as one Big Nasty operation governed by shared doctrine, current Sleeper state and the GFO ledger.",
+    "semantic_authority": "Sleeper controls platform-recorded ownership, availability, roster placement, FAAB and picks at its timestamp; Grant controls intent and corrections.",
+    "temporal_alignment": "Current roster state controls present ownership at its timestamp while transaction lineage explains historical changes at their effective times.",
+    "retrieval_vs_uncertainty": "Retain the newest successful GREEN Sleeper state when retrieval fails; label freshness limits without reopening settled facts.",
+    "canonical_state_first": "Read the GFO manifest, diff, snapshot and transaction lineage from gfo-green before workflow diagnostics or ad hoc reconstruction.",
+    "state_evaluation_separation": "Resolve ownership, active, taxi, reserve, FAAB, picks and source health before evaluating football talent or move quality.",
+    "availability_proof": "A player is available only when absent from every current Sleeper roster, taxi and reserve list; otherwise name the owner or mark availability unconfirmed.",
+    "layered_evaluation": "Translate production, role, health, talent and market value through superflex full-PPR scoring, age, depth chart, draft capital, FAAB, taxi and reserve rules.",
+    "discovery_vs_urgency": "Balance early asymmetric-upside signals against active, taxi and reserve pressure, defense streaming, exact drop and FAAB cost.",
+    "executable_recommendations": "Include exact drop, FAAB range and active, taxi, reserve or IR mechanism, plus any draft-pick or defense-slot effect.",
+    "state_lineage_identity": "Resolve transaction players from authoritative Sleeper IDs, preserve transaction lineage and validate deterministic FAAB history against current state.",
+    "roster_optionality": "Keep worthwhile reserve, IR and taxi optionality filled while integrating weekly defense-streaming constraints.",
+    "post_move_writeback": "Update the GFO ledger, confirmed overrides, roster overlay, FAAB, slots and Sleeper reconciliation after each confirmed move.",
+    "actionable_monitoring": "Prioritize Big Nasty players, verified available adds, handcuff or role effects and realistic trade targets.",
+    "cross_sport_propagation": "Apply shared organizational lessons through football rules, data, schedules, market and roster mechanics; never import baseball state.",
+    "lean_architecture": "Keep Sleeper collection, validation, lineage projection and interpretation as separate single-owner responsibilities with thin orchestration.",
+    "durability_versioning": "Use the latest valid Sleeper canonical state and latest shared doctrine; retain older workbooks and snapshots as historical evidence only."
+  }
+}

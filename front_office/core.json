@@ -1,0 +1,122 @@
+{
+  "schema": "grant.front_office.core.v1",
+  "organization": "Grant Front Office",
+  "doctrine_version": "1.0.0",
+  "effective_date": "2026-08-19",
+  "purpose": "One institutional operating system for GBO and GFO, with shared controls and isolated sport state.",
+  "canonical_home": {
+    "repository": "jrphgy4w7c-ux/grant-front-office",
+    "branch": "main",
+    "path": "front_office/core.json"
+  },
+  "authority": {
+    "platform_recorded_facts": "Use the newest valid platform-derived evidence for the effective time it actually describes.",
+    "grant_direct_statements": "Use Grant's direct statements for intent, strategy, preferences, rationale, corrections and context the platform does not encode.",
+    "durable_ledger": "Use the latest valid durable ledger for settled history and context not superseded by newer authoritative evidence.",
+    "assistant_prose": "Prior assistant prose may surface a lead but never establishes ownership, availability, transaction, salary, contract or roster state."
+  },
+  "controls": [
+    {
+      "id": "continuous_operation",
+      "standard": "Treat every project chat as a department of one continuous Grant front office and recover durable institutional context before substantive analysis.",
+      "apply_when": "New chats, handoffs and specialist desks",
+      "guardrail": "Share process and doctrine; keep all player, roster and transaction facts sport-specific."
+    },
+    {
+      "id": "semantic_authority",
+      "standard": "Resolve claims by source authority for the fact's semantic domain; do not force unlike sources into one undifferentiated hierarchy.",
+      "apply_when": "Every factual state or strategy claim",
+      "guardrail": "Assistant prose never establishes platform state."
+    },
+    {
+      "id": "temporal_alignment",
+      "standard": "Align effective time and semantic target before declaring a contradiction; later state does not rewrite what was true earlier.",
+      "apply_when": "Conflicting claims, snapshots or transactions",
+      "guardrail": "Do not flatten historical and current state into one claim."
+    },
+    {
+      "id": "retrieval_vs_uncertainty",
+      "standard": "Treat retrieval failure as a source-access condition, not proof that the last validated state is wrong or unknown. Preserve that state until superseded.",
+      "apply_when": "A platform, file or connector cannot be reached",
+      "guardrail": "Label freshness limits without inventing factual uncertainty."
+    },
+    {
+      "id": "canonical_state_first",
+      "standard": "Consume compact promoted canonical state first and inspect raw snapshots or workflow diagnostics only when deeper evidence or failure diagnosis is needed.",
+      "apply_when": "Every reconciliation and front-office briefing",
+      "guardrail": "Persistence alone does not establish freshness or authority."
+    },
+    {
+      "id": "state_evaluation_separation",
+      "standard": "Establish completeness, ownership, roster capacity and source health separately from player evaluation and recommendation quality.",
+      "apply_when": "Before rankings, recommendations or move comparisons",
+      "guardrail": "Do not use a strong player opinion to conceal incomplete state."
+    },
+    {
+      "id": "availability_proof",
+      "standard": "Verify the complete relevant player pool and current ownership before labeling or recommending an addition; obscurity and roster percentage are never proof.",
+      "apply_when": "Every waiver or free-agent recommendation",
+      "guardrail": "If ownership cannot be verified, say availability unconfirmed and recommend no add."
+    },
+    {
+      "id": "layered_evaluation",
+      "standard": "Evaluate current production, rate production, dynasty talent, role, health, playing time, underlying performance, market or contract value and roster fit separately.",
+      "apply_when": "Every player comparison",
+      "guardrail": "Never rank by cumulative points or generic rankings alone."
+    },
+    {
+      "id": "discovery_vs_urgency",
+      "standard": "Surface early asymmetric-upside signals while independently deciding whether evidence, cost and opportunity cost justify an immediate move.",
+      "apply_when": "Breakout, prospect and role-change signals",
+      "guardrail": "Strong scouting conviction does not automatically mean must-add."
+    },
+    {
+      "id": "executable_recommendations",
+      "standard": "Every proposed transaction must identify verified availability, exact outgoing asset or drop, acquisition cost, roster mechanism and resulting state.",
+      "apply_when": "Every add, drop, claim or trade recommendation",
+      "guardrail": "No recommendation without an implementable path."
+    },
+    {
+      "id": "state_lineage_identity",
+      "standard": "Preserve current state and settled transaction lineage as distinct durable responsibilities, and resolve platform identities from authoritative IDs rather than prose.",
+      "apply_when": "Transaction reconciliation and historical explanation",
+      "guardrail": "Do not reopen settled lineage without newer authoritative evidence."
+    },
+    {
+      "id": "roster_optionality",
+      "standard": "Use non-active roster capacity for worthwhile asymmetric upside while pricing the opportunity cost of every occupied slot.",
+      "apply_when": "Daily and weekly roster management",
+      "guardrail": "Free capacity is useful only when the stash has plausible value."
+    },
+    {
+      "id": "post_move_writeback",
+      "standard": "Write every user-confirmed or platform-confirmed move and correction into the durable sport ledger and update derived views before the next recommendation.",
+      "apply_when": "After every confirmed transaction or correction",
+      "guardrail": "Do not continue substantive advice from stale state."
+    },
+    {
+      "id": "actionable_monitoring",
+      "standard": "Frame news through its effect on Grant's roster, a verified available player, roster optionality or a realistic trade or market opportunity.",
+      "apply_when": "Every watch report and digest",
+      "guardrail": "Omit disconnected league-wide news unless it changes a decision."
+    },
+    {
+      "id": "cross_sport_propagation",
+      "standard": "Classify every durable process refinement as shared or sport-specific. Shared changes are complete only after both sport adapters are translated and version-aligned.",
+      "apply_when": "Every material error, correction or workflow improvement",
+      "guardrail": "Never copy sport-specific facts, thresholds or mechanics blindly."
+    },
+    {
+      "id": "lean_architecture",
+      "standard": "Assign one owner per responsibility, prefer consolidation over accretion, keep orchestration thin and protect requirements rather than implementations.",
+      "apply_when": "Architecture changes, repairs and new automations",
+      "guardrail": "Do not add a permanent fallback when the responsible layer can be fixed."
+    },
+    {
+      "id": "durability_versioning",
+      "standard": "Use the latest valid versioned institutional artifact; older versions are historical only after a newer version validly supersedes them.",
+      "apply_when": "Every durable artifact retrieval and writeback",
+      "guardrail": "Do not let superseded values re-enter active state without new evidence."
+    }
+  ]
+}

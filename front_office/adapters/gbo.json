@@ -1,0 +1,36 @@
+{
+  "schema": "grant.front_office.adapter.v1",
+  "front_office": "GBO",
+  "sport": "baseball",
+  "platform": "CBS",
+  "doctrine_version": "1.0.0",
+  "adapter_version": "1.0.0",
+  "canonical_state": {
+    "branch": "main",
+    "manifest": "gbo/current/latest_manifest.json",
+    "reconciliation": "gbo/current/latest_reconciliation.json",
+    "core": "gbo/current/front_office/core.json",
+    "full_snapshot": "gbo/current/latest_snapshot.json",
+    "health_contract": "GREEN validation with complete transaction history"
+  },
+  "workbook_role": "Durable history, context and human-readable reporting; never a substitute for newer valid CBS state.",
+  "translations": {
+    "continuous_operation": "Treat all GBO chats as one baseball operation governed by shared doctrine, current CBS state and the GBO ledger.",
+    "semantic_authority": "CBS controls platform-recorded ownership, availability, salary, cap, standings, roster status and transactions at its timestamp; Grant controls intent and corrections.",
+    "temporal_alignment": "Compare CBS captures and transactions by their effective timestamps before treating ownership, salary or roster-status claims as inconsistent.",
+    "retrieval_vs_uncertainty": "Retain the newest successful GREEN CBS state when capture or retrieval fails; label freshness limits without inventing state uncertainty.",
+    "canonical_state_first": "Read the GBO manifest and compact front-office projections before loading the full CBS snapshot or workflow diagnostics.",
+    "state_evaluation_separation": "Resolve roster, salary, cap, IL, minors and pool completeness before evaluating baseball talent or move quality.",
+    "availability_proof": "Audit the complete current CBS available pool and verify every plausible should-not-be-available player before waiver advice.",
+    "layered_evaluation": "Translate production, rates, role, health and consensus through CBS scoring, eligibility, salary, annual $3 escalation, cap, IL and minors rules.",
+    "discovery_vs_urgency": "Balance prospect or role-change signals against keeper cost, cap, exact drop and IL or minors alternatives.",
+    "executable_recommendations": "Include exact drop, maximum bid, player salary, cap effect and active, reserve, IL or minors path.",
+    "state_lineage_identity": "Use CBS player IDs and the complete CBS transaction chain; keep present roster state distinct from the historical transaction record.",
+    "roster_optionality": "Optimize IL and minors capacity within eligibility and cap rules, without stashing merely for activity.",
+    "post_move_writeback": "Update the GBO ledger, confirmed overrides and roster or cap implications after each confirmed move before further advice.",
+    "actionable_monitoring": "Prioritize lineup, pitching, waiver, IL-stash, prospect, international and realistic trade implications.",
+    "cross_sport_propagation": "Apply shared organizational lessons through baseball rules, data, schedules, contracts and roster mechanics; never import football state.",
+    "lean_architecture": "Keep CBS collection, ingest, projection and interpretation as separate single-owner responsibilities with thin orchestration.",
+    "durability_versioning": "Use the latest valid CBS canonical state and latest shared doctrine; retain older workbooks and snapshots as historical evidence only."
+  }
+}
