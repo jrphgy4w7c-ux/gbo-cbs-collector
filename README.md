@@ -37,6 +37,7 @@ Validated snapshots are reconciled and promoted under `gbo/current/`; compact fr
 - Prior assistant prose is never transaction/ownership evidence by itself.
 - Apparent conflicts must be checked for temporal/contextual scope before being treated as real contradictions. A later transaction cannot rewrite what was true earlier.
 - Persistence, freshness and authority are separate properties.
+- An ad hoc web retrieval is not presumed fresher than a timestamped canonical snapshot unless its retrieval freshness is actually established; cached or transient platform responses do not override later validated state.
 
 ## Version rule
 
