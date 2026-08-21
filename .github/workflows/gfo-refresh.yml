@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - gfo/collector.py
+      - gfo/availability.py
       - gfo/transaction_lineage.py
       - .github/workflows/gfo-refresh.yml
 
@@ -30,6 +31,7 @@ jobs:
       - name: Regression tests
         run: |
           python gfo/collector.py --self-test
+          python gfo/availability.py --self-test
           python gfo/transaction_lineage.py --self-test
 
       - name: Restore prior GFO snapshot
@@ -64,6 +66,13 @@ jobs:
             --require-provenance \
             $PRIOR_ARG
 
+      - name: Build canonical ownership view
+        shell: bash
+        run: |
+          python gfo/availability.py \
+            --snapshot gfo_refresh/latest_snapshot.json \
+            --output gfo_refresh/latest_ownership.json
+
       - name: Build and validate transaction lineage
         shell: bash
         run: |
@@ -92,6 +101,7 @@ jobs:
           cp gfo_refresh/latest_transactions.json gfo/current/
           cp gfo_refresh/latest_diff.json gfo/current/
           cp gfo_refresh/latest_manifest.json gfo/current/
+          cp gfo_refresh/latest_ownership.json gfo/current/
           cp gfo_refresh/latest_transaction_lineage.json gfo/current/
           git config user.name "GFO Refresh"
           git config user.email "actions@users.noreply.github.com"
