@@ -4,10 +4,12 @@ on:
   push:
     paths:
       - "front_office/**"
+      - "gfo/availability.py"
       - ".github/workflows/front-office-os.yml"
   pull_request:
     paths:
       - "front_office/**"
+      - "gfo/availability.py"
       - ".github/workflows/front-office-os.yml"
   workflow_dispatch:
 
@@ -19,5 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Validate shared doctrine and sport adapters
-        run: python3 front_office/validate.py
+      - name: Validate shared doctrine, runtime contract and sport adapters
+        run: |
+          python3 front_office/validate.py
+          python3 gfo/availability.py --self-test
