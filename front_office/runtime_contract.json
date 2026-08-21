@@ -1,0 +1,58 @@
+{
+  "schema": "grant.front_office.runtime.v1",
+  "organization": "Grant Front Office",
+  "runtime_version": "1.0.0",
+  "effective_date": "2026-08-21",
+  "purpose": "Make continuous-operation doctrine executable at session/runtime boundaries so chat location does not determine institutional behavior.",
+  "chat_model": {
+    "role": "workstation",
+    "institutional_brain": "Grant Front Office OS + sport adapter + canonical platform state + durable institutional context",
+    "rule": "HQ and specialist chats are peer workspaces; no chat is the sole source of truth."
+  },
+  "bootstrap_sequence": [
+    "Load front_office/core.json.",
+    "Load the relevant sport adapter.",
+    "Load the newest valid canonical platform state required by the question.",
+    "Recover relevant durable institutional context and settled decisions.",
+    "Only then perform substantive analysis."
+  ],
+  "hard_gates": [
+    {
+      "id": "availability_before_acquisition_analysis",
+      "rule": "Do not frame a player as an add, stash or waiver target until current league ownership is resolved from authoritative state.",
+      "failure_output": "availability unconfirmed"
+    },
+    {
+      "id": "deterministic_state_not_memory",
+      "rule": "Ownership, availability, roster placement, FAAB, picks, salary/cap and other deterministic platform facts must come from canonical or fresher platform evidence, not conversational memory."
+    },
+    {
+      "id": "identity_internal_presentation_external",
+      "rule": "Use platform IDs internally for identity and provenance; default user-facing output to names and decision-useful status rather than IDs or API plumbing."
+    }
+  ],
+  "evolution_loop": {
+    "trigger": "A material error repeats, a correction reveals a durable process gap, or a better workflow is discovered.",
+    "steps": [
+      "Classify the lesson as shared or sport-specific.",
+      "Assign it to the existing responsible layer; do not create a parallel owner without need.",
+      "Encode the fix in code, contract or canonical derivation when deterministic.",
+      "Add or strengthen a regression check.",
+      "Propagate shared process changes through both sport adapters without copying sport-specific state.",
+      "Version/log the change and verify the relevant gate is GREEN."
+    ],
+    "rule": "A repeated operating failure is not considered fixed by memory alone."
+  },
+  "sport_requirements": {
+    "GFO": {
+      "ownership_view": "gfo/current/latest_ownership.json",
+      "status_labels": ["AVAILABLE", "ROSTERED"],
+      "availability_rule": "Resolved Sleeper player absent from the current ownership index is AVAILABLE; present is ROSTERED.",
+      "waiver_rule": "Waiver status affects acquisition timing, not availability; include clear time only when deterministically supported.",
+      "presentation": "Keep Sleeper IDs and verification mechanics internal unless Grant asks."
+    },
+    "GBO": {
+      "rule": "Apply the same bootstrap/evolution controls through CBS-specific ownership, availability, salary, cap, roster and transaction mechanics."
+    }
+  }
+}
