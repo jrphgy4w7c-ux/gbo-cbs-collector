@@ -1,0 +1,168 @@
+{
+  "collected_at": "2026-08-22T11:02:10Z",
+  "collector": "GFO Refresh",
+  "core_status": "GREEN",
+  "diff_hash": "00879ef4ecb0fff2dee39333a95fc6f3baaed8e685ee8c6d5d371ec0a29fc8cc",
+  "grant": {
+    "faab_remaining": 134,
+    "faab_used": 66,
+    "players": 26,
+    "reserve": 2,
+    "roster_id": 3,
+    "taxi": 4,
+    "waiver_position": 11
+  },
+  "provenance_exceptions": [],
+  "provenance_status": "GREEN",
+  "snapshot_hash": "dd96588e6836211d6d232172a113827679cb275468f419dc06d3c8a0b5787557",
+  "sources": {
+    "league": {
+      "attempts": 1,
+      "ok": true,
+      "status": 200,
+      "url": "https://api.sleeper.app/v1/league/1315882920837128192"
+    },
+    "rosters": {
+      "attempts": 1,
+      "ok": true,
+      "status": 200,
+      "url": "https://api.sleeper.app/v1/league/1315882920837128192/rosters"
+    },
+    "traded_picks": {
+      "attempts": 1,
+      "ok": true,
+      "status": 200,
+      "url": "https://api.sleeper.app/v1/league/1315882920837128192/traded_picks"
+    },
+    "users": {
+      "attempts": 1,
+      "ok": true,
+      "status": 200,
+      "url": "https://api.sleeper.app/v1/league/1315882920837128192/users"
+    }
+  },
+  "transaction_rounds": {
+    "failed": [],
+    "max": 18,
+    "min": 0,
+    "sources": {
+      "0": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/0"
+      },
+      "1": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/1"
+      },
+      "10": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/10"
+      },
+      "11": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/11"
+      },
+      "12": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/12"
+      },
+      "13": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/13"
+      },
+      "14": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/14"
+      },
+      "15": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/15"
+      },
+      "16": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/16"
+      },
+      "17": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/17"
+      },
+      "18": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/18"
+      },
+      "2": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/2"
+      },
+      "3": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/3"
+      },
+      "4": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/4"
+      },
+      "5": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/5"
+      },
+      "6": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/6"
+      },
+      "7": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/7"
+      },
+      "8": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/8"
+      },
+      "9": {
+        "attempts": 1,
+        "ok": true,
+        "status": 200,
+        "url": "https://api.sleeper.app/v1/league/1315882920837128192/transactions/9"
+      }
+    }
+  },
+  "unique_transactions": 113,
+  "validation_issues": [],
+  "version": "2.0.1"
+}

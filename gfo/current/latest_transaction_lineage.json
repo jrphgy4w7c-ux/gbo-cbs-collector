@@ -1,0 +1,787 @@
+{
+  "collected_at": "2026-08-22T11:02:10Z",
+  "faab_transfer_in": 0,
+  "faab_transfer_out": 0,
+  "grant_roster": {
+    "display_name": "GrantGlizzy",
+    "owner_id": "340645503257550848",
+    "roster_id": 3,
+    "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+  },
+  "issues": [],
+  "league_id": "1315882920837128192",
+  "paid_claim_spend": 66,
+  "paid_claims": [
+    {
+      "adds": [
+        {
+          "name": "Taylen Green",
+          "player_id": "13306",
+          "position": "QB",
+          "resolved": true,
+          "team": "CLE"
+        }
+      ],
+      "amount": 5,
+      "drops": [
+        {
+          "name": "Keaton Mitchell",
+          "player_id": "9511",
+          "position": "RB",
+          "resolved": true,
+          "team": "LAC"
+        }
+      ],
+      "effective_at_ms": 1783141570126,
+      "faab_balance_after": 195,
+      "transaction_id": "1378995519958835200"
+    },
+    {
+      "adds": [
+        {
+          "name": "MarShawn Lloyd",
+          "player_id": "11581",
+          "position": "RB",
+          "resolved": true,
+          "team": "GB"
+        }
+      ],
+      "amount": 44,
+      "drops": [
+        {
+          "name": "Cyrus Allen",
+          "player_id": "13413",
+          "position": "WR",
+          "resolved": true,
+          "team": "KC"
+        }
+      ],
+      "effective_at_ms": 1785467756367,
+      "faab_balance_after": 151,
+      "transaction_id": "1388681938520281088"
+    },
+    {
+      "adds": [
+        {
+          "name": "Adam Randall",
+          "player_id": "13302",
+          "position": "RB",
+          "resolved": true,
+          "team": "BAL"
+        }
+      ],
+      "amount": 17,
+      "drops": [
+        {
+          "name": "Bryce Lance",
+          "player_id": "13420",
+          "position": "WR",
+          "resolved": true,
+          "team": "NO"
+        }
+      ],
+      "effective_at_ms": 1785811001667,
+      "faab_balance_after": 134,
+      "transaction_id": "1390194984300335104"
+    }
+  ],
+  "schema": "gfo.transaction-lineage.v1",
+  "sleeper_faab_remaining": 134,
+  "sleeper_faab_used": 66,
+  "starting_faab": 200,
+  "status": "GREEN",
+  "transaction_count": 11,
+  "transactions": [
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1783137014855,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [],
+      "grant_drops": [
+        {
+          "name": "Jacksonville Jaguars",
+          "player_id": "JAX",
+          "position": "DEF",
+          "resolved": true,
+          "team": "JAX"
+        }
+      ],
+      "grant_faab_balance_after": 200,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "from",
+          "player": {
+            "name": "Jacksonville Jaguars",
+            "player_id": "JAX",
+            "position": "DEF",
+            "resolved": true,
+            "team": "JAX"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1378980223743193088",
+      "type": "free_agent"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1783141570126,
+      "faab_spend": 5,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Taylen Green",
+          "player_id": "13306",
+          "position": "QB",
+          "resolved": true,
+          "team": "CLE"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Keaton Mitchell",
+          "player_id": "9511",
+          "position": "RB",
+          "resolved": true,
+          "team": "LAC"
+        }
+      ],
+      "grant_faab_balance_after": 195,
+      "grant_faab_delta": -5,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Taylen Green",
+            "player_id": "13306",
+            "position": "QB",
+            "resolved": true,
+            "team": "CLE"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Keaton Mitchell",
+            "player_id": "9511",
+            "position": "RB",
+            "resolved": true,
+            "team": "LAC"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1378995519958835200",
+      "type": "waiver"
+    },
+    {
+      "draft_picks": [
+        {
+          "from_roster_id": 3,
+          "original_roster_id": 3,
+          "round": 3,
+          "season": "2029",
+          "to_roster_id": 1
+        }
+      ],
+      "effective_at_ms": 1783232016574,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Bryce Lance",
+          "player_id": "13420",
+          "position": "WR",
+          "resolved": true,
+          "team": "NO"
+        },
+        {
+          "name": "Trey Lance",
+          "player_id": "7610",
+          "position": "QB",
+          "resolved": true,
+          "team": "LAC"
+        }
+      ],
+      "grant_drops": [],
+      "grant_faab_balance_after": 195,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Bryce Lance",
+            "player_id": "13420",
+            "position": "WR",
+            "resolved": true,
+            "team": "NO"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "to",
+          "player": {
+            "name": "Trey Lance",
+            "player_id": "7610",
+            "position": "QB",
+            "resolved": true,
+            "team": "LAC"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Bryce Lance",
+            "player_id": "13420",
+            "position": "WR",
+            "resolved": true,
+            "team": "NO"
+          },
+          "roster_id": 1
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Trey Lance",
+            "player_id": "7610",
+            "position": "QB",
+            "resolved": true,
+            "team": "LAC"
+          },
+          "roster_id": 1
+        }
+      ],
+      "roster_ids": [
+        1,
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "gregoryCspencer",
+          "owner_id": "600518252157804544",
+          "roster_id": 1,
+          "team_name": "The Little Giants"
+        },
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1378812665211682816",
+      "type": "trade"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1785355745352,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [],
+      "grant_drops": [
+        {
+          "name": "Joe Mixon",
+          "player_id": "4018",
+          "position": "RB",
+          "resolved": true,
+          "team": null
+        }
+      ],
+      "grant_faab_balance_after": 195,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "from",
+          "player": {
+            "name": "Joe Mixon",
+            "player_id": "4018",
+            "position": "RB",
+            "resolved": true,
+            "team": null
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1388286253937487872",
+      "type": "free_agent"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1785438765703,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Caleb Douglas",
+          "player_id": "13296",
+          "position": "WR",
+          "resolved": true,
+          "team": "MIA"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Cole Payton",
+          "player_id": "13335",
+          "position": "QB",
+          "resolved": true,
+          "team": "PHI"
+        }
+      ],
+      "grant_faab_balance_after": 195,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Caleb Douglas",
+            "player_id": "13296",
+            "position": "WR",
+            "resolved": true,
+            "team": "MIA"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Cole Payton",
+            "player_id": "13335",
+            "position": "QB",
+            "resolved": true,
+            "team": "PHI"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1388634466531954688",
+      "type": "free_agent"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1785438954922,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Cyrus Allen",
+          "player_id": "13413",
+          "position": "WR",
+          "resolved": true,
+          "team": "KC"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Trey Lance",
+          "player_id": "7610",
+          "position": "QB",
+          "resolved": true,
+          "team": "LAC"
+        }
+      ],
+      "grant_faab_balance_after": 195,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Cyrus Allen",
+            "player_id": "13413",
+            "position": "WR",
+            "resolved": true,
+            "team": "KC"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Trey Lance",
+            "player_id": "7610",
+            "position": "QB",
+            "resolved": true,
+            "team": "LAC"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1388635260169748480",
+      "type": "free_agent"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1785467756367,
+      "faab_spend": 44,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "MarShawn Lloyd",
+          "player_id": "11581",
+          "position": "RB",
+          "resolved": true,
+          "team": "GB"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Cyrus Allen",
+          "player_id": "13413",
+          "position": "WR",
+          "resolved": true,
+          "team": "KC"
+        }
+      ],
+      "grant_faab_balance_after": 151,
+      "grant_faab_delta": -44,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "MarShawn Lloyd",
+            "player_id": "11581",
+            "position": "RB",
+            "resolved": true,
+            "team": "GB"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Cyrus Allen",
+            "player_id": "13413",
+            "position": "WR",
+            "resolved": true,
+            "team": "KC"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1388681938520281088",
+      "type": "waiver"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1785790895520,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "James Conner",
+          "player_id": "4137",
+          "position": "RB",
+          "resolved": true,
+          "team": "ARI"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Taylen Green",
+          "player_id": "13306",
+          "position": "QB",
+          "resolved": true,
+          "team": "CLE"
+        }
+      ],
+      "grant_faab_balance_after": 151,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "James Conner",
+            "player_id": "4137",
+            "position": "RB",
+            "resolved": true,
+            "team": "ARI"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Taylen Green",
+            "player_id": "13306",
+            "position": "QB",
+            "resolved": true,
+            "team": "CLE"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1390111406031908864",
+      "type": "free_agent"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1785811001667,
+      "faab_spend": 17,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Adam Randall",
+          "player_id": "13302",
+          "position": "RB",
+          "resolved": true,
+          "team": "BAL"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Bryce Lance",
+          "player_id": "13420",
+          "position": "WR",
+          "resolved": true,
+          "team": "NO"
+        }
+      ],
+      "grant_faab_balance_after": 134,
+      "grant_faab_delta": -17,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Adam Randall",
+            "player_id": "13302",
+            "position": "RB",
+            "resolved": true,
+            "team": "BAL"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Bryce Lance",
+            "player_id": "13420",
+            "position": "WR",
+            "resolved": true,
+            "team": "NO"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1390194984300335104",
+      "type": "waiver"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1786834654185,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Matt Hibner",
+          "player_id": "13324",
+          "position": "TE",
+          "resolved": true,
+          "team": "BAL"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "Mac Jones",
+          "player_id": "7527",
+          "position": "QB",
+          "resolved": true,
+          "team": "SF"
+        }
+      ],
+      "grant_faab_balance_after": 134,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Matt Hibner",
+            "player_id": "13324",
+            "position": "TE",
+            "resolved": true,
+            "team": "BAL"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "Mac Jones",
+            "player_id": "7527",
+            "position": "QB",
+            "resolved": true,
+            "team": "SF"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1394489247175557120",
+      "type": "free_agent"
+    },
+    {
+      "draft_picks": [],
+      "effective_at_ms": 1787055884444,
+      "faab_spend": 0,
+      "faab_transfers": [],
+      "grant_adds": [
+        {
+          "name": "Keenan Allen",
+          "player_id": "1479",
+          "position": "WR",
+          "resolved": true,
+          "team": "IND"
+        }
+      ],
+      "grant_drops": [
+        {
+          "name": "James Conner",
+          "player_id": "4137",
+          "position": "RB",
+          "resolved": true,
+          "team": "ARI"
+        }
+      ],
+      "grant_faab_balance_after": 134,
+      "grant_faab_delta": 0,
+      "player_moves": [
+        {
+          "direction": "to",
+          "player": {
+            "name": "Keenan Allen",
+            "player_id": "1479",
+            "position": "WR",
+            "resolved": true,
+            "team": "IND"
+          },
+          "roster_id": 3
+        },
+        {
+          "direction": "from",
+          "player": {
+            "name": "James Conner",
+            "player_id": "4137",
+            "position": "RB",
+            "resolved": true,
+            "team": "ARI"
+          },
+          "roster_id": 3
+        }
+      ],
+      "roster_ids": [
+        3
+      ],
+      "rosters": [
+        {
+          "display_name": "GrantGlizzy",
+          "owner_id": "340645503257550848",
+          "roster_id": 3,
+          "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+        }
+      ],
+      "transaction_id": "1395417154131615744",
+      "type": "free_agent"
+    }
+  ]
+}

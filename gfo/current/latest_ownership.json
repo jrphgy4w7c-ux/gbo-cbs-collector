@@ -1,0 +1,2382 @@
+{
+  "availability_rule": "resolved player absent from ownership_index => AVAILABLE; present => ROSTERED",
+  "collected_at": "2026-08-22T11:02:10Z",
+  "labels": [
+    "AVAILABLE",
+    "ROSTERED"
+  ],
+  "league_id": "1315882920837128192",
+  "owned_player_count": 296,
+  "ownership_index": {
+    "10213": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "10219": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "10222": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "10229": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "10232": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "10236": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "10859": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "11559": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "11560": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "11563": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "11564": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "11565": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "11566": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "11571": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "11575": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "11576": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "11581": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "11583": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "11584": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "11586": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "11589": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "TAXI",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "11597": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "TAXI",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "11603": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "11604": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "11610": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "11618": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "11620": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "11624": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "11625": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "TAXI",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "11626": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "11627": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "TAXI",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "11628": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "11631": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "11632": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "11635": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "11637": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "11638": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "RESERVE",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "11643": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "TAXI",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "11646": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "11647": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "11651": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "RESERVE",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "11655": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "1166": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "12457": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12467": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "TAXI",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "12469": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "TAXI",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "12470": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "12471": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "TAXI",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12474": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "TAXI",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "12476": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "TAXI",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "12481": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12483": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12484": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "RESERVE",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "12487": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "12489": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "12490": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "12492": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12493": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "12495": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "TAXI",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "12497": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "TAXI",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "12498": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "TAXI",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "12499": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "12500": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "TAXI",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "12501": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "TAXI",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "12502": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "12503": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "TAXI",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "12504": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12506": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12507": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "12508": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12509": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "TAXI",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "12510": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12511": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "TAXI",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "12512": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12514": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "12517": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "12518": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "12519": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12521": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "TAXI",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "12522": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12524": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "TAXI",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "12526": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "12527": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "12529": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "12530": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "12533": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "12534": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "12535": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "TAXI",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "12536": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "RESERVE",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "12545": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "12547": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "TAXI",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "13268": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "TAXI",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "13269": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "13272": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "TAXI",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "13274": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "13275": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "TAXI",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "13276": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "13278": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "13279": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "13281": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "13285": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "13286": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "13287": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13288": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "13289": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "TAXI",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "13293": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "TAXI",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "13294": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "13296": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "TAXI",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "13298": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "13301": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13302": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "TAXI",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "13303": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "TAXI",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "13305": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "TAXI",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "13311": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "RESERVE",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "13317": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "TAXI",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "13319": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "TAXI",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13320": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "TAXI",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "13324": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "TAXI",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "13330": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "13337": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "TAXI",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "13338": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "TAXI",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "13345": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "13346": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "13347": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "TAXI",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13348": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "13349": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "13353": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "RESERVE",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "13380": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "TAXI",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "13402": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "TAXI",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "13403": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "TAXI",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "13404": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "13405": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "TAXI",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "13413": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "TAXI",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13414": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "TAXI",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "13416": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "TAXI",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "13417": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13420": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "TAXI",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "13421": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "TAXI",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "13424": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "TAXI",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "1373": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "1466": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "1479": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "167": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "2133": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "2216": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "2306": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "2307": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "2449": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "3163": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "3198": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "3214": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "3257": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "3294": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "3321": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "4017": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "4033": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "4034": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "4035": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "4037": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "4039": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "4046": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "4066": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "4199": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "421": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "4217": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "RESERVE",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "4866": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "4881": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "4892": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "4943": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "4950": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "4981": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "4983": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "4984": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "5001": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "5012": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "5022": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "5045": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "5844": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "5846": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "5849": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "5850": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "5859": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "5870": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "5872": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "5892": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "5927": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "5947": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "5967": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "6768": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "6770": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "6783": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "6786": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "6790": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "6794": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "6797": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "6801": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "6803": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "RESERVE",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "6804": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "6806": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "6813": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "6819": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "6865": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "6904": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "7002": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "7021": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "7049": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "7090": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "7523": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "7525": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "7526": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "7527": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "7528": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "7543": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "7547": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "7553": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "7564": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "7567": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "7569": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "7588": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "7591": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "7594": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "7600": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "7611": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "8110": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "8111": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "8112": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "8121": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "8126": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "ROSTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "8127": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "8130": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "8131": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "8132": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "8134": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "8136": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "8137": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "8138": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "8142": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "8144": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "8146": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "STARTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "8148": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "8150": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "8151": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "8154": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "8155": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "8161": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "8167": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "8172": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "8180": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "8183": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "8205": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "8210": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "ROSTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "8228": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "8408": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "8676": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "ROSTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "8698": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "9221": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "9224": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "9225": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "9226": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "9228": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "9229": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "9479": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "ROSTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "9480": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "9484": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "9486": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "ROSTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "9487": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "9488": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "9493": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "9494": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "ROSTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "9500": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "9502": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "ROSTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "9504": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "9506": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "ROSTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "9508": {
+      "owner_id": "340645503257550848",
+      "owner_name": "GrantGlizzy",
+      "placement": "ROSTER",
+      "roster_id": 3,
+      "status": "ROSTERED",
+      "team_name": "B2Big Nasty \ud83c\udfc6\ud83c\udfc6 Hot Dogs"
+    },
+    "9509": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "9511": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "ROSTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "96": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "9753": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "RESERVE",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "9754": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "9756": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "9758": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "9997": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "BAL": {
+      "owner_id": "866525606655954944",
+      "owner_name": "SteelerWheel",
+      "placement": "STARTER",
+      "roster_id": 10,
+      "status": "ROSTERED",
+      "team_name": "J-Squad Jackwagons"
+    },
+    "BUF": {
+      "owner_id": "1030251084020838400",
+      "owner_name": "amwienck",
+      "placement": "STARTER",
+      "roster_id": 11,
+      "status": "ROSTERED",
+      "team_name": "HeisMendoza"
+    },
+    "CHI": {
+      "owner_id": "1130945736771796992",
+      "owner_name": "jeffvandolah",
+      "placement": "STARTER",
+      "roster_id": 12,
+      "status": "ROSTERED",
+      "team_name": "Thunder Up!!"
+    },
+    "DEN": {
+      "owner_id": "741043652889096192",
+      "owner_name": "DaneTheBronco",
+      "placement": "STARTER",
+      "roster_id": 2,
+      "status": "ROSTERED",
+      "team_name": "aBOve & Bijan"
+    },
+    "DET": {
+      "owner_id": "730961170256748544",
+      "owner_name": "OppyOppyOppy",
+      "placement": "STARTER",
+      "roster_id": 5,
+      "status": "ROSTERED",
+      "team_name": "Baby Billy\u2019s Repenters"
+    },
+    "HOU": {
+      "owner_id": "864258080744054784",
+      "owner_name": "byronlong",
+      "placement": "STARTER",
+      "roster_id": 7,
+      "status": "ROSTERED",
+      "team_name": "Fleecing Amigos"
+    },
+    "JAX": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "STARTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "KC": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "STARTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    },
+    "LAC": {
+      "owner_id": "726854031267393536",
+      "owner_name": "LHawkward",
+      "placement": "STARTER",
+      "roster_id": 9,
+      "status": "ROSTERED",
+      "team_name": "Jeremi(y)ah 4:4"
+    },
+    "LAR": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "PHI": {
+      "owner_id": "792236193055088640",
+      "owner_name": "cjack8859",
+      "placement": "ROSTER",
+      "roster_id": 6,
+      "status": "ROSTERED",
+      "team_name": "Sunday Shanahan-igans"
+    },
+    "PIT": {
+      "owner_id": "864282994419056640",
+      "owner_name": "ddrake3790",
+      "placement": "STARTER",
+      "roster_id": 8,
+      "status": "ROSTERED",
+      "team_name": "The Josh & Jayden Show"
+    },
+    "SEA": {
+      "owner_id": "600518252157804544",
+      "owner_name": "gregoryCspencer",
+      "placement": "STARTER",
+      "roster_id": 1,
+      "status": "ROSTERED",
+      "team_name": "The Little Giants"
+    },
+    "SF": {
+      "owner_id": "470733478288158720",
+      "owner_name": "Hilde4077",
+      "placement": "ROSTER",
+      "roster_id": 4,
+      "status": "ROSTERED",
+      "team_name": "Me and Mahomies"
+    }
+  },
+  "presentation_rule": "Keep Sleeper IDs and API mechanics internal unless Grant asks; default to AVAILABLE or ROSTERED, with owner/team and waiver-clear timing when useful.",
+  "schema": "gfo.ownership.v1"
+}

@@ -1,0 +1,1874 @@
+{
+  "collected_at": "2026-08-22T11:02:10Z",
+  "core_validation": {
+    "grant_roster_id": 3,
+    "issues": [],
+    "status": "GREEN"
+  },
+  "future_picks": [
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 1,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 1,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 11,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 1,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 8,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 2,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 1,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 1,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 3,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 1,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 4,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 5,
+      "season": "2027"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 1,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 1,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 2,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 3,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 4,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 5,
+      "season": "2028"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 1,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 2,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 1,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 3,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 4,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 1,
+      "owner_roster_id": 1,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 2,
+      "owner_roster_id": 2,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 3,
+      "owner_roster_id": 3,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 4,
+      "owner_roster_id": 4,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 5,
+      "owner_roster_id": 5,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 6,
+      "owner_roster_id": 6,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 7,
+      "owner_roster_id": 7,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 8,
+      "owner_roster_id": 8,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 9,
+      "owner_roster_id": 9,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 10,
+      "owner_roster_id": 10,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 11,
+      "owner_roster_id": 11,
+      "round": 5,
+      "season": "2029"
+    },
+    {
+      "original_roster_id": 12,
+      "owner_roster_id": 12,
+      "round": 5,
+      "season": "2029"
+    }
+  ],
+  "grant_roster_id": 3,
+  "league": {
+    "name": "The Okie DieNasty FFL ",
+    "roster_positions": [
+      "QB",
+      "RB",
+      "RB",
+      "WR",
+      "WR",
+      "TE",
+      "FLEX",
+      "FLEX",
+      "SUPER_FLEX",
+      "DEF",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN",
+      "BN"
+    ],
+    "scoring_settings": {
+      "blk_kick": 2.0,
+      "def_st_ff": 1.0,
+      "def_st_fum_rec": 1.0,
+      "def_st_td": 6.0,
+      "def_td": 6.0,
+      "ff": 1.0,
+      "fgm_0_19": 3.0,
+      "fgm_20_29": 3.0,
+      "fgm_30_39": 3.0,
+      "fgm_40_49": 4.0,
+      "fgm_50p": 5.0,
+      "fgmiss": -1.0,
+      "fum": -1.0,
+      "fum_lost": -2.0,
+      "fum_rec": 2.0,
+      "fum_rec_td": 6.0,
+      "int": 2.0,
+      "pass_2pt": 2.0,
+      "pass_int": -1.0,
+      "pass_td": 4.0,
+      "pass_yd": 0.04,
+      "pts_allow_0": 10.0,
+      "pts_allow_14_20": 1.0,
+      "pts_allow_1_6": 7.0,
+      "pts_allow_21_27": 0.0,
+      "pts_allow_28_34": -1.0,
+      "pts_allow_35p": -4.0,
+      "pts_allow_7_13": 4.0,
+      "rec": 1.0,
+      "rec_2pt": 2.0,
+      "rec_td": 6.0,
+      "rec_yd": 0.1,
+      "rush_2pt": 2.0,
+      "rush_td": 6.0,
+      "rush_yd": 0.1,
+      "sack": 1.0,
+      "safe": 2.0,
+      "st_ff": 1.0,
+      "st_fum_rec": 1.0,
+      "st_td": 6.0,
+      "xpm": 1.0,
+      "xpmiss": -1.0
+    },
+    "season": "2026",
+    "settings": {
+      "bench_lock": 0,
+      "best_ball": 0,
+      "capacity_override": 0,
+      "commissioner_direct_invite": 0,
+      "daily_waivers": 0,
+      "daily_waivers_days": 5461,
+      "daily_waivers_hour": 23,
+      "daily_waivers_last_ran": 3,
+      "disable_adds": 0,
+      "disable_trades": 0,
+      "draft_rounds": 5,
+      "faab_suggestions": 0,
+      "league_average_match": 1,
+      "leg": 1,
+      "max_keepers": 1,
+      "max_subs": 0,
+      "num_teams": 12,
+      "offseason_adds": 0,
+      "pick_trading": 1,
+      "playoff_round_type": 0,
+      "playoff_seed_type": 0,
+      "playoff_teams": 6,
+      "playoff_type": 0,
+      "playoff_week_start": 15,
+      "reserve_allow_cov": 1,
+      "reserve_allow_dnr": 1,
+      "reserve_allow_doubtful": 0,
+      "reserve_allow_na": 0,
+      "reserve_allow_out": 1,
+      "reserve_allow_sus": 0,
+      "reserve_slots": 2,
+      "start_week": 1,
+      "sub_lock_if_starter_active": 0,
+      "sub_start_time_eligibility": 0,
+      "taxi_allow_vets": 1,
+      "taxi_deadline": 0,
+      "taxi_slots": 4,
+      "taxi_years": 2,
+      "trade_deadline": 12,
+      "trade_review_days": 1,
+      "type": 2,
+      "veto_auto_poll": 1,
+      "veto_show_votes": 0,
+      "veto_votes_needed": 6,
+      "waiver_bid_min": 0,
+      "waiver_budget": 200,
+      "waiver_clear_days": 2,
+      "waiver_day_of_week": 2,
+      "waiver_type": 2
+    }
+  },
+  "league_id": "1315882920837128192",
+  "rosters": {
+    "1": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "600518252157804544",
+      "players": [
+        "10213",
+        "11603",
+        "11618",
+        "11620",
+        "11632",
+        "12471",
+        "12481",
+        "12483",
+        "12504",
+        "12508",
+        "12522",
+        "12533",
+        "13272",
+        "13276",
+        "13279",
+        "13289",
+        "13346",
+        "13414",
+        "4017",
+        "7611",
+        "8408",
+        "9484",
+        "9494",
+        "SEA"
+      ],
+      "reserve": [],
+      "roster_id": 1,
+      "starters": [
+        "11620",
+        "11632",
+        "12481",
+        "12508",
+        "12522",
+        "12533",
+        "13279",
+        "7611",
+        "9484",
+        "SEA"
+      ],
+      "taxi": [
+        "12471",
+        "13272",
+        "13289",
+        "13414"
+      ],
+      "total_moves": 0,
+      "waiver_position": 7
+    },
+    "10": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "866525606655954944",
+      "players": [
+        "10222",
+        "11655",
+        "12511",
+        "13274",
+        "13294",
+        "13303",
+        "13305",
+        "13348",
+        "13403",
+        "2306",
+        "4035",
+        "5850",
+        "5859",
+        "6804",
+        "7002",
+        "7567",
+        "7591",
+        "7600",
+        "8110",
+        "8137",
+        "8167",
+        "9479",
+        "96",
+        "BAL"
+      ],
+      "reserve": [],
+      "roster_id": 10,
+      "starters": [
+        "13294",
+        "5850",
+        "5859",
+        "6804",
+        "7002",
+        "7567",
+        "8137",
+        "8167",
+        "96",
+        "BAL"
+      ],
+      "taxi": [
+        "12511",
+        "13303",
+        "13305",
+        "13403"
+      ],
+      "total_moves": 0,
+      "waiver_position": 10
+    },
+    "11": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "1030251084020838400",
+      "players": [
+        "11560",
+        "11571",
+        "11626",
+        "12490",
+        "12499",
+        "12534",
+        "13268",
+        "13269",
+        "13320",
+        "13338",
+        "13345",
+        "13416",
+        "4033",
+        "4039",
+        "4066",
+        "4199",
+        "4950",
+        "6770",
+        "7528",
+        "7588",
+        "8121",
+        "8134",
+        "9486",
+        "BUF"
+      ],
+      "reserve": [],
+      "roster_id": 11,
+      "starters": [
+        "11560",
+        "12490",
+        "12534",
+        "4066",
+        "4199",
+        "6770",
+        "7588",
+        "8121",
+        "8134",
+        "BUF"
+      ],
+      "taxi": [
+        "13268",
+        "13320",
+        "13338",
+        "13416"
+      ],
+      "total_moves": 0,
+      "waiver_position": 8
+    },
+    "12": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "1130945736771796992",
+      "players": [
+        "11583",
+        "11647",
+        "12470",
+        "12476",
+        "12497",
+        "12524",
+        "12547",
+        "13281",
+        "13298",
+        "13404",
+        "4866",
+        "4981",
+        "5870",
+        "5927",
+        "6790",
+        "7090",
+        "7553",
+        "8142",
+        "8180",
+        "8210",
+        "9224",
+        "9756",
+        "9758",
+        "CHI"
+      ],
+      "reserve": [],
+      "roster_id": 12,
+      "starters": [
+        "13281",
+        "4866",
+        "5927",
+        "6790",
+        "7553",
+        "8142",
+        "9224",
+        "9756",
+        "9758",
+        "CHI"
+      ],
+      "taxi": [
+        "12476",
+        "12497",
+        "12524",
+        "12547"
+      ],
+      "total_moves": 0,
+      "waiver_position": 6
+    },
+    "2": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "741043652889096192",
+      "players": [
+        "10859",
+        "11563",
+        "11597",
+        "12489",
+        "12509",
+        "12514",
+        "12521",
+        "13278",
+        "13285",
+        "13288",
+        "13349",
+        "13402",
+        "3163",
+        "3257",
+        "5045",
+        "6813",
+        "6865",
+        "7021",
+        "7547",
+        "8132",
+        "8144",
+        "8676",
+        "9509",
+        "DEN"
+      ],
+      "reserve": [],
+      "roster_id": 2,
+      "starters": [
+        "10859",
+        "11563",
+        "12489",
+        "12514",
+        "6813",
+        "7021",
+        "7547",
+        "8144",
+        "9509",
+        "DEN"
+      ],
+      "taxi": [
+        "11597",
+        "12509",
+        "12521",
+        "13402"
+      ],
+      "total_moves": 0,
+      "waiver_position": 1
+    },
+    "3": {
+      "faab_remaining": 134,
+      "faab_used": 66,
+      "owner_id": "340645503257550848",
+      "players": [
+        "11581",
+        "11643",
+        "12487",
+        "12493",
+        "12502",
+        "13296",
+        "13302",
+        "13324",
+        "1479",
+        "2216",
+        "3198",
+        "4034",
+        "4217",
+        "4881",
+        "5947",
+        "6786",
+        "6803",
+        "6806",
+        "7523",
+        "7526",
+        "7564",
+        "8130",
+        "8146",
+        "8183",
+        "9228",
+        "9508"
+      ],
+      "reserve": [
+        "4217",
+        "6803"
+      ],
+      "roster_id": 3,
+      "starters": [
+        "0",
+        "3198",
+        "4034",
+        "4881",
+        "6786",
+        "7523",
+        "7526",
+        "7564",
+        "8130",
+        "8146"
+      ],
+      "taxi": [
+        "11643",
+        "13296",
+        "13302",
+        "13324"
+      ],
+      "total_moves": 0,
+      "waiver_position": 11
+    },
+    "4": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "470733478288158720",
+      "players": [
+        "10229",
+        "11559",
+        "11624",
+        "1166",
+        "12495",
+        "12498",
+        "12500",
+        "12507",
+        "13330",
+        "13380",
+        "2449",
+        "3214",
+        "4046",
+        "5001",
+        "5849",
+        "6801",
+        "7569",
+        "7594",
+        "8154",
+        "8228",
+        "9226",
+        "KC",
+        "SF"
+      ],
+      "reserve": [],
+      "roster_id": 4,
+      "starters": [
+        "10229",
+        "12507",
+        "3214",
+        "4046",
+        "5849",
+        "6801",
+        "7569",
+        "8228",
+        "9226",
+        "KC"
+      ],
+      "taxi": [
+        "12495",
+        "12498",
+        "12500",
+        "13380"
+      ],
+      "total_moves": 0,
+      "waiver_position": 4
+    },
+    "5": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "730961170256748544",
+      "players": [
+        "11564",
+        "11625",
+        "12501",
+        "12518",
+        "13275",
+        "13337",
+        "1373",
+        "1466",
+        "5846",
+        "6768",
+        "6794",
+        "8111",
+        "8112",
+        "8138",
+        "8148",
+        "8151",
+        "8205",
+        "8698",
+        "9221",
+        "9229",
+        "9487",
+        "9504",
+        "9506",
+        "DET"
+      ],
+      "reserve": [],
+      "roster_id": 5,
+      "starters": [
+        "11564",
+        "12518",
+        "6794",
+        "8112",
+        "8138",
+        "8148",
+        "8151",
+        "9221",
+        "9487",
+        "DET"
+      ],
+      "taxi": [
+        "11625",
+        "12501",
+        "13275",
+        "13337"
+      ],
+      "total_moves": 0,
+      "waiver_position": 2
+    },
+    "6": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "792236193055088640",
+      "players": [
+        "11576",
+        "11604",
+        "11610",
+        "11631",
+        "11637",
+        "12469",
+        "12503",
+        "12527",
+        "12535",
+        "12545",
+        "13286",
+        "13311",
+        "13405",
+        "4983",
+        "6797",
+        "6819",
+        "6904",
+        "7543",
+        "8131",
+        "8136",
+        "8172",
+        "9493",
+        "9753",
+        "JAX",
+        "LAR",
+        "PHI"
+      ],
+      "reserve": [
+        "13311",
+        "9753"
+      ],
+      "roster_id": 6,
+      "starters": [
+        "11604",
+        "11631",
+        "12527",
+        "13286",
+        "4983",
+        "6797",
+        "6904",
+        "7543",
+        "9493",
+        "JAX"
+      ],
+      "taxi": [
+        "12469",
+        "12503",
+        "12535",
+        "13405"
+      ],
+      "total_moves": 0,
+      "waiver_position": 5
+    },
+    "7": {
+      "faab_remaining": 200,
+      "faab_used": 0,
+      "owner_id": "864258080744054784",
+      "players": [
+        "10232",
+        "10236",
+        "11575",
+        "11584",
+        "11586",
+        "12536",
+        "13293",
+        "13317",
+        "13353",
+        "13421",
+        "13424",
+        "167",
+        "2133",
+        "3294",
+        "3321",
+        "4037",
+        "421",
+        "4892",
+        "5012",
+        "5967",
+        "6783",
+        "7049",
+        "8126",
+        "8150",
+        "9997",
+        "HOU"
+      ],
+      "reserve": [
+        "12536",
+        "13353"
+      ],
+      "roster_id": 7,
+      "starters": [
+        "10236",
+        "11584",
+        "11586",
+        "2133",
+        "3294",
+        "4892",
+        "5967",
+        "8150",
+        "9997",
+        "HOU"
+      ],
+      "taxi": [
+        "13293",
+        "13317",
+        "13421",
+        "13424"
+      ],
+      "total_moves": 0,
+      "waiver_position": 3
+    },
+    "8": {
+      "faab_remaining": 162,
+      "faab_used": 38,
+      "owner_id": "864282994419056640",
+      "players": [
+        "11566",
+        "11589",
+        "11627",
+        "11628",
+        "11635",
+        "11651",
+        "12467",
+        "12474",
+        "12484",
+        "12517",
+        "12526",
+        "12529",
+        "2307",
+        "4984",
+        "5022",
+        "5844",
+        "5872",
+        "5892",
+        "7525",
+        "7527",
+        "8155",
+        "9480",
+        "9488",
+        "9500",
+        "9502",
+        "PIT"
+      ],
+      "reserve": [
+        "11651",
+        "12484"
+      ],
+      "roster_id": 8,
+      "starters": [
+        "11566",
+        "11635",
+        "12517",
+        "12526",
+        "4984",
+        "5892",
+        "7525",
+        "8155",
+        "9488",
+        "PIT"
+      ],
+      "taxi": [
+        "11589",
+        "11627",
+        "12467",
+        "12474"
+      ],
+      "total_moves": 0,
+      "waiver_position": 12
+    },
+    "9": {
+      "faab_remaining": 187,
+      "faab_used": 13,
+      "owner_id": "726854031267393536",
+      "players": [
+        "10219",
+        "11565",
+        "11638",
+        "11646",
+        "12457",
+        "12492",
+        "12506",
+        "12510",
+        "12512",
+        "12519",
+        "12530",
+        "13287",
+        "13301",
+        "13319",
+        "13347",
+        "13413",
+        "13417",
+        "13420",
+        "4943",
+        "8127",
+        "8161",
+        "9225",
+        "9511",
+        "9754",
+        "LAC"
+      ],
+      "reserve": [
+        "11638"
+      ],
+      "roster_id": 9,
+      "starters": [
+        "11646",
+        "12506",
+        "12512",
+        "12519",
+        "13287",
+        "13417",
+        "4943",
+        "8161",
+        "9754",
+        "LAC"
+      ],
+      "taxi": [
+        "13319",
+        "13347",
+        "13413",
+        "13420"
+      ],
+      "total_moves": 0,
+      "waiver_position": 9
+    }
+  },
+  "schema": "gfo.snapshot.v2"
+}
